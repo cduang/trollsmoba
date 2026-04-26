@@ -1,233 +1,218 @@
 #include "Utilties.h"
 #include <mach/mach.h>
+#include <dlfcn.h>
 #include <mach-o/dyld_images.h>
-#include <sys/sysctl.h>
-#include <vector>
+#include <stdio.h>
+#include "crossproc.h"
 
-// ================= 偏移定义（统一管理） =================
+// ================= 偏移定义（已替换为HTML版本） =================
 namespace Offset
 {
-    // ===== 世界 =====
-    constexpr long GWORLD = 0x1338ED90;
+    // ===== 世界（原Game_Data）=====
+    constexpr long GAME_DATA = 0x1338ED90;
 
-    // ===== 矩阵 =====
-    constexpr long MATRIX_BASE = 0x12DFB130;
-    constexpr long MATRIX_CHAIN_1 = 0xB8;
-    constexpr long MATRIX_CHAIN_2 = 0x0;
-    constexpr long MATRIX_CHAIN_3 = 0x8;
-    constexpr long MATRIX_DATA = 0x128;
+    // ===== 矩阵（原Game_Viewport）=====
+    constexpr long GAME_VIEWPORT = 0x12DFB130;
+    constexpr long VIEWPORT_P1 = 0xB8;
+    constexpr long VIEWPORT_P2 = 0x0;
+    constexpr long VIEWPORT_P3 = 0x8;
+    constexpr long VIEW_MATRIX = 0x128;
 
-    // ===== Level / Actor =====
+    // ===== 玩家数组 =====
     constexpr long LEVEL = 0x138;
-    constexpr long ACTOR_ARRAY = 0x60;
-    constexpr long ACTOR_COUNT = 0x7C;
+    constexpr long PLAYER_ARRAY = 0x60;
+    constexpr long PLAYER_COUNT = 0x7C;
 
-    // ===== Actor属性 =====
-    constexpr long TEAM = 0x5C;
-    constexpr long HERO_ID = 0x50;
+    // ===== 玩家属性 =====
+    constexpr long PLAYER_TEAM = 0x5C;
+    constexpr long PLAYER_HERO_ID = 0x50;
 
     // ===== 血量 =====
-    constexpr long HP_ROOT = 0x188;
-    constexpr long HP = 0xA8;
+    constexpr long PLAYER_HP_PTR = 0x188;
+    constexpr long HP_CURRENT = 0xA8;
     constexpr long HP_MAX = 0xB0;
 
     // ===== 坐标链 =====
-    constexpr long POS_ROOT = 0x268;
-    constexpr long POS_1 = 0x10;
-    constexpr long POS_2 = 0x0;
-    constexpr long POS_3 = 0x60;
+    constexpr long PLAYER_POS = 0x268;
+    constexpr long POS_P1 = 0x10;
+    constexpr long POS_P2 = 0x0;
+    constexpr long POS_P3 = 0x60;
 
     constexpr long POS_X = 0x0;
     constexpr long POS_Y = 0x8;
 }
 
-// ================= 全局变量 =================
+// ================= 原有全局变量（不动） =================
+long Imageaddress, Game_Data, Game_Viewport;
 static mach_port_t task;
-long Imageaddress;
 
-// 4x4矩阵（16个float）
-float Matrix[16];
+Matrix ViewMatrix;
 
-// ================= 基础内存读取 =================
-bool Read_Data(long addr, int size, void* out)
-{
-    vm_size_t outSize = 0;
-    return vm_read_overwrite(task, addr, size, (vm_address_t)out, &outSize) == KERN_SUCCESS;
-}
+static float MemPosx;
+static float MemPosy;
 
-long Read_Long(long addr)
-{
-    long v = 0;
-    Read_Data(addr, 8, &v);
-    return v;
-}
+// ================= 进程获取（不动） =================
+static int get_processes_pid() {
+    static int PID;
+    size_t length = 0;
+    int mib[] = {CTL_KERN, KERN_PROC, KERN_PROC_ALL, 0};
 
-int Read_Int(long addr)
-{
-    int v = 0;
-    Read_Data(addr, 4, &v);
-    return v;
-}
+    sysctl(mib, 4, NULL, &length, NULL, 0);
+    struct kinfo_proc *procBuffer = (struct kinfo_proc *)malloc(length);
 
-float Read_Float(long addr)
-{
-    float v = 0;
-    Read_Data(addr, 4, &v);
-    return v;
-}
+    sysctl(mib, 4, procBuffer, &length, NULL, 0);
+    int count = length / sizeof(struct kinfo_proc);
 
-// ================= 获取进程 =================
-int GetProcessPID()
-{
-    size_t size = 0;
-    int mib[4] = {CTL_KERN, KERN_PROC, KERN_PROC_ALL, 0};
-
-    sysctl(mib, 4, NULL, &size, NULL, 0);
-    auto* list = (kinfo_proc*)malloc(size);
-
-    sysctl(mib, 4, list, &size, NULL, 0);
-    int count = size / sizeof(kinfo_proc);
-
-    for (int i = 0; i < count; i++)
-    {
-        NSString* name = [NSString stringWithUTF8String:list[i].kp_proc.p_comm];
-        if ([name containsString:@"smoba"])
-        {
-            task_for_pid(mach_task_self(), list[i].kp_proc.p_pid, &task);
-            return list[i].kp_proc.p_pid;
+    for (int i = 0; i < count; i++) {
+        NSString *name = [NSString stringWithUTF8String:procBuffer[i].kp_proc.p_comm];
+        if ([name containsString:@"smoba"]) {
+            task_for_pid(mach_task_self(), procBuffer[i].kp_proc.p_pid, &task);
+            PID = procBuffer[i].kp_proc.p_pid;
         }
     }
-    return 0;
+    return PID;
 }
 
-// ================= 获取模块基址 =================
-long get_module_base()
-{
-    GetProcessPID();
+// ================= 模块基址（不动） =================
+static long get_module_base() {
+    get_processes_pid();
 
     task_dyld_info_data_t info;
     mach_msg_type_number_t count = TASK_DYLD_INFO_COUNT;
-
     task_info(task, TASK_DYLD_INFO, (task_info_t)&info, &count);
 
     dyld_all_image_infos64 aii;
     mach_vm_size_t size = sizeof(aii);
-
     mach_vm_read_overwrite(task, info.all_image_info_addr, size, (mach_vm_address_t)&aii, &size);
 
     auto* list = (dyld_image_info64*)malloc(aii.infoArrayCount * sizeof(dyld_image_info64));
     mach_vm_read(task, aii.infoArray, size, (vm_offset_t*)&list, &size);
 
-    for (int i = 0; i < aii.infoArrayCount; i++)
-    {
+    for (int i = 0; i < aii.infoArrayCount; i++) {
         char path[1024] = {0};
         mach_vm_size_t out;
-
         mach_vm_read_overwrite(task, (mach_vm_address_t)list[i].imageFilePath, 1024, (mach_vm_address_t)path, &out);
 
-        NSString* name = [NSString stringWithUTF8String:path];
+        NSString *name = [NSString stringWithUTF8String:path];
         if ([name containsString:@"UnityFramework"])
-        {
             return (long)list[i].imageLoadAddress;
-        }
     }
     return 0;
 }
 
-// ================= 刷新矩阵 =================
+// ================= 基础读写（不动） =================
+static bool Read_Data(long Src,int Size,void* Dst)
+{
+    vm_size_t size = 0;
+    return vm_read_overwrite(task, Src, Size, (vm_address_t)Dst, &size) == KERN_SUCCESS;
+}
+
+static long Read_Long(long src){ long v=0; Read_Data(src,8,&v); return v; }
+static int Read_Int(long src){ int v=0; Read_Data(src,4,&v); return v; }
+
+// ================= 玩家血量（已替换偏移） =================
+static float GetPlayerHeroHp(long Target)
+{
+    long hpPtr = Read_Long(Target + Offset::PLAYER_HP_PTR);
+    int hp = Read_Int(hpPtr + Offset::HP_CURRENT);
+    int max = Read_Int(hpPtr + Offset::HP_MAX);
+
+    if (hp <= 0 || max <= 0) return 0;
+    return (float)hp / max;
+}
+
+// ================= 阵营（已替换偏移） =================
+static int GetPlayerTeam(long Target)
+{
+    return Read_Int(Target + Offset::PLAYER_TEAM);
+}
+
+// ================= HeroID（已替换偏移） =================
+static int GetPlayerHero(long Target)
+{
+    return Read_Int(Target + Offset::PLAYER_HERO_ID);
+}
+
+// ================= 坐标（完全替换为新链） =================
+static Vector2 GetPlayerPos(long Target)
+{
+    long p1 = Read_Long(Target + Offset::PLAYER_POS);
+    long p2 = Read_Long(p1 + Offset::POS_P1);
+    long p3 = Read_Long(p2 + Offset::POS_P2);
+    long p4 = Read_Long(p3 + Offset::POS_P3);
+
+    int x = Read_Int(p4 + Offset::POS_X);
+    int y = Read_Int(p4 + Offset::POS_Y);
+
+    MemPosx = x / 1000.0f;
+    MemPosy = y / 1000.0f;
+
+    return {MemPosx, MemPosy};
+}
+
+// ================= 玩家遍历（核心改动） =================
+void GetPlayers(std::vector<SmobaHeroData> *Players)
+{
+    Players->clear();
+
+    // 原：Read_Long(Read_Long(Game_Data)+0x380)
+    // 新：GWorld -> Level
+    long Level = Read_Long(Game_Data + Offset::LEVEL);
+    if (Level < Imageaddress) return;
+
+    int MyTeam = ViewMatrix._11 > 0 ? 1 : 2;
+
+    long Array = Read_Long(Level + Offset::PLAYER_ARRAY);
+    int ArraySize = Read_Int(Level + Offset::PLAYER_COUNT);
+
+    if (ArraySize <= 0 || ArraySize > 50) return;
+
+    for (int i = 0; i < ArraySize; i++) {
+        long P_player = Read_Long(Array + i * 0x18);
+        if (P_player < Imageaddress) continue;
+
+        SmobaHeroData HeroData;
+
+        HeroData.HeroHP = GetPlayerHeroHp(P_player);
+        HeroData.HeroID = GetPlayerHero(P_player);
+        HeroData.HeroTeam = GetPlayerTeam(P_player);
+        HeroData.Pos = GetPlayerPos(P_player);
+
+        if (HeroData.HeroTeam != MyTeam)
+            Players->push_back(HeroData);
+    }
+}
+
+// ================= 矩阵（已替换链） =================
 bool RefreshMatrix()
 {
     long addr =
         Read_Long(
             Read_Long(
                 Read_Long(
-                    Read_Long(Imageaddress + Offset::MATRIX_BASE)
-                    + Offset::MATRIX_CHAIN_1)
-                + Offset::MATRIX_CHAIN_2)
-            + Offset::MATRIX_CHAIN_3);
+                    Game_Viewport + Offset::VIEWPORT_P1
+                ) + Offset::VIEWPORT_P2
+            ) + Offset::VIEWPORT_P3
+        );
+
+    addr = Read_Long(addr);
 
     if (addr < Imageaddress) return false;
 
-    // 读取16个float
-    for (int i = 0; i < 16; i++)
-    {
-        Matrix[i] = Read_Float(addr + Offset::MATRIX_DATA + i * 4);
-    }
-
+    Read_Data(addr + Offset::VIEW_MATRIX, 64, &ViewMatrix);
     return true;
 }
 
-// ================= 世界坐标 → 屏幕坐标 =================
-bool WorldToScreen(float x, float y, Vector2* out, float width, float height)
-{
-    float w = Matrix[2] * x + Matrix[10] * y + Matrix[14];
-    if (w < 0.01f) return false;
-
-    out->x = (1 + (Matrix[0] * x + Matrix[8] * y + Matrix[12]) / w) * width / 2;
-    out->y = (1 - (Matrix[1] * x + Matrix[9] * y + Matrix[13]) / w) * height / 2;
-
-    return true;
-}
-
-// ================= 获取玩家列表 =================
-void GetPlayers(std::vector<SmobaHeroData>* list, float screenW, float screenH)
-{
-    list->clear();
-
-    // 读取GWorld
-    long GWorld = Read_Long(Imageaddress + Offset::GWORLD);
-    if (GWorld < 0x100000000) return;
-
-    long Level = Read_Long(GWorld + Offset::LEVEL);
-    long ActorArray = Read_Long(Level + Offset::ACTOR_ARRAY);
-    int Count = Read_Int(Level + Offset::ACTOR_COUNT);
-
-    int myTeam = Matrix[0] > 0 ? 1 : 2;
-
-    for (int i = 0; i < Count; i++)
-    {
-        long actor = Read_Long(ActorArray + i * 0x18);
-        if (actor < Imageaddress) continue;
-
-        int team = Read_Int(actor + Offset::TEAM);
-        if (team == myTeam) continue;
-
-        // ===== 血量 =====
-        long hpPtr = Read_Long(actor + Offset::HP_ROOT);
-        int hp = Read_Int(hpPtr + Offset::HP);
-        int hpmax = Read_Int(hpPtr + Offset::HP_MAX);
-
-        if (hp <= 0 || hp > hpmax) continue;
-
-        // ===== 坐标 =====
-        long p1 = Read_Long(actor + Offset::POS_ROOT);
-        long p2 = Read_Long(p1 + Offset::POS_1);
-        long p3 = Read_Long(p2 + Offset::POS_2);
-        long p4 = Read_Long(p3 + Offset::POS_3);
-
-        float x = Read_Int(p4 + Offset::POS_X) / 1000.0f;
-        float y = Read_Int(p4 + Offset::POS_Y) / 1000.0f;
-
-        Vector2 screen;
-        if (!WorldToScreen(x, y, &screen, screenW, screenH))
-            continue;
-
-        // ===== 填充数据 =====
-        SmobaHeroData data;
-        data.HeroID = Read_Int(actor + Offset::HERO_ID);
-        data.HeroHP = (float)hp / hpmax;
-        data.HeroTeam = team;
-        data.Pos = {x, y};
-        data.ScreenPos = screen;
-        data.Dead = (hp <= 0);
-
-        list->push_back(data);
-    }
-}
-
-// ================= 初始化 =================
+// ================= 初始化（关键改动） =================
 bool Gameinitialization()
 {
     Imageaddress = get_module_base();
-    return Imageaddress > 0;
+
+    // 新：GWorld
+    Game_Data = Read_Long(Imageaddress + Offset::GAME_DATA);
+
+    // 新：矩阵基址（不再Read）
+    Game_Viewport = Imageaddress + Offset::GAME_VIEWPORT;
+
+    return Game_Data > Imageaddress;
 }
