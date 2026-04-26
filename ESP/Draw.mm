@@ -43,7 +43,7 @@ static UILabel *gSMOBAOverlayLabel;
 static UIScrollView *gSMOBAOverlayScrollView;
 static UIView *gSMOBAOverlayContainer;
 
-static void SMOBAAppendDebugLog(NSString *message)
+void SMOBAAppendDebugLog(NSString *message)
 {
     if (!message.length) return;
     static dispatch_once_t onceToken;
@@ -66,7 +66,7 @@ static void SMOBAAppendDebugLog(NSString *message)
     });
 }
 
-static void SMOBAInstallDebugLogOverlay(UIView *hostView)
+void SMOBAInstallDebugLogOverlay(UIView *hostView)
 {
     if (!hostView || gSMOBAOverlayContainer) return;
 

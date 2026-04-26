@@ -3,6 +3,9 @@
 #include <dlfcn.h>
 #include <mach-o/dyld_images.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <sys/sysctl.h>
+#include <vector>
 #include "crossproc.h"
 
 // ================= 偏移定义（已替换为HTML版本） =================
@@ -77,26 +80,49 @@ static int get_processes_pid() {
 static long get_module_base() {
     get_processes_pid();
 
-    task_dyld_info_data_t info;
+    task_dyld_info_data_t info = {};
     mach_msg_type_number_t count = TASK_DYLD_INFO_COUNT;
-    task_info(task, TASK_DYLD_INFO, (task_info_t)&info, &count);
+    if (task_info(task, TASK_DYLD_INFO, (task_info_t)&info, &count) != KERN_SUCCESS) {
+        return 0;
+    }
 
-    dyld_all_image_infos64 aii;
+    dyld_all_image_infos aii = {};
     mach_vm_size_t size = sizeof(aii);
-    mach_vm_read_overwrite(task, info.all_image_info_addr, size, (mach_vm_address_t)&aii, &size);
+    if (mach_vm_read_overwrite(task, (mach_vm_address_t)info.all_image_info_addr, size, (mach_vm_address_t)&aii, &size) != KERN_SUCCESS) {
+        return 0;
+    }
 
-    auto* list = (dyld_image_info64*)malloc(aii.infoArrayCount * sizeof(dyld_image_info64));
-    mach_vm_read(task, aii.infoArray, size, (vm_offset_t*)&list, &size);
+    if (aii.infoArrayCount <= 0 || aii.infoArray == 0) {
+        return 0;
+    }
+
+    auto *list = (dyld_image_info *)calloc((size_t)aii.infoArrayCount, sizeof(dyld_image_info));
+    if (!list) {
+        return 0;
+    }
+
+    mach_vm_size_t arraySize = (mach_vm_size_t)(aii.infoArrayCount * sizeof(dyld_image_info));
+    if (mach_vm_read_overwrite(task, (mach_vm_address_t)aii.infoArray, arraySize, (mach_vm_address_t)list, &arraySize) != KERN_SUCCESS) {
+        free(list);
+        return 0;
+    }
 
     for (int i = 0; i < aii.infoArrayCount; i++) {
         char path[1024] = {0};
-        mach_vm_size_t out;
-        mach_vm_read_overwrite(task, (mach_vm_address_t)list[i].imageFilePath, 1024, (mach_vm_address_t)path, &out);
+        mach_vm_size_t out = 0;
+        if (list[i].imageFilePath) {
+            mach_vm_read_overwrite(task, (mach_vm_address_t)list[i].imageFilePath, sizeof(path) - 1, (mach_vm_address_t)path, &out);
+        }
 
         NSString *name = [NSString stringWithUTF8String:path];
-        if ([name containsString:@"UnityFramework"])
-            return (long)list[i].imageLoadAddress;
+        if ([name containsString:@"UnityFramework"]) {
+            long base = (long)list[i].imageLoadAddress;
+            free(list);
+            return base;
+        }
     }
+
+    free(list);
     return 0;
 }
 
