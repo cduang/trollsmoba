@@ -1,0 +1,873 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/InstallationBuildProductsLocation/Applications/Apibug-HUD.app/Apibug-HUD'
+relocations:
+  - { offsetInCU: 0x34, offset: 0xEEB52, size: 0x8, addend: 0x0, symName: _Apibug_HUDVersionString, symObjAddr: 0x0, symBinAddr: 0x10002A3D0, symSize: 0x0 }
+  - { offsetInCU: 0x6C, offset: 0xEEB8A, size: 0x8, addend: 0x0, symName: _Apibug_HUDVersionNumber, symObjAddr: 0x30, symBinAddr: 0x10002A400, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0xEEBC8, size: 0x8, addend: 0x0, symName: _IsHUDEnabled, symObjAddr: 0x0, symBinAddr: 0x100004000, symSize: 0x10C }
+  - { offsetInCU: 0x3A, offset: 0xEEBDB, size: 0x8, addend: 0x0, symName: _IsHUDEnabled, symObjAddr: 0x0, symBinAddr: 0x100004000, symSize: 0x10C }
+  - { offsetInCU: 0x60, offset: 0xEEC01, size: 0x8, addend: 0x0, symName: __ZZ12IsHUDEnabledE14executablePath, symObjAddr: 0x3278, symBinAddr: 0x10004B160, symSize: 0x0 }
+  - { offsetInCU: 0x19F, offset: 0xEED40, size: 0x8, addend: 0x0, symName: _SetHUDEnabled, symObjAddr: 0x10C, symBinAddr: 0x10000410C, symSize: 0x21C }
+  - { offsetInCU: 0x1CD, offset: 0xEED6E, size: 0x8, addend: 0x0, symName: __ZZ13SetHUDEnabledE14executablePath_0, symObjAddr: 0x3280, symBinAddr: 0x10004B168, symSize: 0x0 }
+  - { offsetInCU: 0x47A, offset: 0xEF01B, size: 0x8, addend: 0x0, symName: _GetStandardUserDefaults, symObjAddr: 0x328, symBinAddr: 0x100004328, symSize: 0x40 }
+  - { offsetInCU: 0x4A0, offset: 0xEF041, size: 0x8, addend: 0x0, symName: __ZZ23GetStandardUserDefaultsE13_userDefaults, symObjAddr: 0x3288, symBinAddr: 0x10004B170, symSize: 0x0 }
+  - { offsetInCU: 0x4B6, offset: 0xEF057, size: 0x8, addend: 0x0, symName: __ZZ23GetStandardUserDefaultsE9onceToken, symObjAddr: 0x3290, symBinAddr: 0x10004B178, symSize: 0x0 }
+  - { offsetInCU: 0x69D, offset: 0xEF23E, size: 0x8, addend: 0x0, symName: ___GetStandardUserDefaults_block_invoke, symObjAddr: 0x368, symBinAddr: 0x100004368, symSize: 0x1E0 }
+  - { offsetInCU: 0x27, offset: 0xEF38F, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView init]', symObjAddr: 0x0, symBinAddr: 0x100004548, symSize: 0x50 }
+  - { offsetInCU: 0xC0, offset: 0xEF428, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView init]', symObjAddr: 0x0, symBinAddr: 0x100004548, symSize: 0x50 }
+  - { offsetInCU: 0xF7, offset: 0xEF45F, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView initWithFrame:]', symObjAddr: 0x50, symBinAddr: 0x100004598, symSize: 0x50 }
+  - { offsetInCU: 0x13A, offset: 0xEF4A2, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView initWithCoder:]', symObjAddr: 0xA0, symBinAddr: 0x1000045E8, symSize: 0x50 }
+  - { offsetInCU: 0x181, offset: 0xEF4E9, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView layoutSubviews]', symObjAddr: 0xF0, symBinAddr: 0x100004638, symSize: 0xE0 }
+  - { offsetInCU: 0x1B4, offset: 0xEF51C, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView setupUI]', symObjAddr: 0x1D0, symBinAddr: 0x100004718, symSize: 0x10C }
+  - { offsetInCU: 0x1E7, offset: 0xEF54F, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView addSubview:]', symObjAddr: 0x2DC, symBinAddr: 0x100004824, symSize: 0xA4 }
+  - { offsetInCU: 0x22A, offset: 0xEF592, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView textField]', symObjAddr: 0x380, symBinAddr: 0x1000048C8, symSize: 0x58 }
+  - { offsetInCU: 0x261, offset: 0xEF5C9, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView clearView]', symObjAddr: 0x3D8, symBinAddr: 0x100004920, symSize: 0x4C }
+  - { offsetInCU: 0x298, offset: 0xEF600, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView setTextField:]', symObjAddr: 0x424, symBinAddr: 0x10000496C, symSize: 0x14 }
+  - { offsetInCU: 0x2D9, offset: 0xEF641, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView setClearView:]', symObjAddr: 0x438, symBinAddr: 0x100004980, symSize: 0x14 }
+  - { offsetInCU: 0x31A, offset: 0xEF682, size: 0x8, addend: 0x0, symName: '-[HeeeNoScreenShotView .cxx_destruct]', symObjAddr: 0x44C, symBinAddr: 0x100004994, symSize: 0x40 }
+  - { offsetInCU: 0x27, offset: 0xEF739, size: 0x8, addend: 0x0, symName: '+[HUDBackdropView layerClass]', symObjAddr: 0x0, symBinAddr: 0x1000049D4, symSize: 0x1C }
+  - { offsetInCU: 0x3A, offset: 0xEF74C, size: 0x8, addend: 0x0, symName: '+[HUDBackdropView layerClass]', symObjAddr: 0x0, symBinAddr: 0x1000049D4, symSize: 0x1C }
+  - { offsetInCU: 0x27, offset: 0xEF7E8, size: 0x8, addend: 0x0, symName: '-[MainButton setHighlighted:]', symObjAddr: 0x0, symBinAddr: 0x1000049F0, symSize: 0x104 }
+  - { offsetInCU: 0x46, offset: 0xEF807, size: 0x8, addend: 0x0, symName: '-[MainButton setHighlighted:]', symObjAddr: 0x0, symBinAddr: 0x1000049F0, symSize: 0x104 }
+  - { offsetInCU: 0x89, offset: 0xEF84A, size: 0x8, addend: 0x0, symName: '___29-[MainButton setHighlighted:]_block_invoke', symObjAddr: 0x104, symBinAddr: 0x100004AF4, symSize: 0x54 }
+  - { offsetInCU: 0xFC, offset: 0xEF8BD, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s, symObjAddr: 0x158, symBinAddr: 0x100004B48, symSize: 0x8 }
+  - { offsetInCU: 0x123, offset: 0xEF8E4, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s, symObjAddr: 0x160, symBinAddr: 0x100004B50, symSize: 0x8 }
+  - { offsetInCU: 0x142, offset: 0xEF903, size: 0x8, addend: 0x0, symName: '___29-[MainButton setHighlighted:]_block_invoke.44', symObjAddr: 0x168, symBinAddr: 0x100004B58, symSize: 0x3C }
+  - { offsetInCU: 0x27, offset: 0xEFA91, size: 0x8, addend: 0x0, symName: '+[BackgroundTimer load]', symObjAddr: 0x0, symBinAddr: 0x100004B94, symSize: 0xE4 }
+  - { offsetInCU: 0x41, offset: 0xEFAAB, size: 0x8, addend: 0x0, symName: '+[BackgroundTimer sharedBg]', symObjAddr: 0xE4, symBinAddr: 0x100004C78, symSize: 0x40 }
+  - { offsetInCU: 0x6B, offset: 0xEFAD5, size: 0x8, addend: 0x0, symName: _sharedBg.onceToken, symObjAddr: 0xACF0, symBinAddr: 0x10004B188, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0xEFAEB, size: 0x8, addend: 0x0, symName: _sharedBg.instance, symObjAddr: 0xACF8, symBinAddr: 0x10004B190, symSize: 0x0 }
+  - { offsetInCU: 0x188, offset: 0xEFBF2, size: 0x8, addend: 0x0, symName: _tt, symObjAddr: 0xACE8, symBinAddr: 0x10004B180, symSize: 0x0 }
+  - { offsetInCU: 0x1D1, offset: 0xEFC3B, size: 0x8, addend: 0x0, symName: '+[BackgroundTimer load]', symObjAddr: 0x0, symBinAddr: 0x100004B94, symSize: 0xE4 }
+  - { offsetInCU: 0x24B, offset: 0xEFCB5, size: 0x8, addend: 0x0, symName: '___27+[BackgroundTimer sharedBg]_block_invoke', symObjAddr: 0x124, symBinAddr: 0x100004CB8, symSize: 0x2C }
+  - { offsetInCU: 0x28C, offset: 0xEFCF6, size: 0x8, addend: 0x0, symName: '-[BackgroundTimer init]', symObjAddr: 0x150, symBinAddr: 0x100004CE4, symSize: 0xF8 }
+  - { offsetInCU: 0x2E3, offset: 0xEFD4D, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer 进入后台]", symObjAddr: 0x248, symBinAddr: 0x100004DDC, symSize: 0x88 }
+  - { offsetInCU: 0x373, offset: 0xEFDDD, size: 0x8, addend: 0x0, symName: "___31-[BackgroundTimer 进入后台]_block_invoke", symObjAddr: 0x2D0, symBinAddr: 0x100004E64, symSize: 0x9C }
+  - { offsetInCU: 0x427, offset: 0xEFE91, size: 0x8, addend: 0x0, symName: "___31-[BackgroundTimer 进入后台]_block_invoke_2", symObjAddr: 0x36C, symBinAddr: 0x100004F00, symSize: 0xC }
+  - { offsetInCU: 0x44E, offset: 0xEFEB8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x378, symBinAddr: 0x100004F0C, symSize: 0x8 }
+  - { offsetInCU: 0x475, offset: 0xEFEDF, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x380, symBinAddr: 0x100004F14, symSize: 0x8 }
+  - { offsetInCU: 0x494, offset: 0xEFEFE, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer 进入前台]", symObjAddr: 0x388, symBinAddr: 0x100004F1C, symSize: 0x88 }
+  - { offsetInCU: 0x4F8, offset: 0xEFF62, size: 0x8, addend: 0x0, symName: "___31-[BackgroundTimer 进入前台]_block_invoke", symObjAddr: 0x410, symBinAddr: 0x100004FA4, symSize: 0x30 }
+  - { offsetInCU: 0x537, offset: 0xEFFA1, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer 开始在后台运行]", symObjAddr: 0x440, symBinAddr: 0x100004FD4, symSize: 0x108 }
+  - { offsetInCU: 0x576, offset: 0xEFFE0, size: 0x8, addend: 0x0, symName: "___40-[BackgroundTimer 开始在后台运行]_block_invoke", symObjAddr: 0x548, symBinAddr: 0x1000050DC, symSize: 0x5C }
+  - { offsetInCU: 0x5DE, offset: 0xF0048, size: 0x8, addend: 0x0, symName: "___40-[BackgroundTimer 开始在后台运行]_block_invoke_2", symObjAddr: 0x5A4, symBinAddr: 0x100005138, symSize: 0x5C }
+  - { offsetInCU: 0x61D, offset: 0xF0087, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer 音频播放]", symObjAddr: 0x600, symBinAddr: 0x100005194, symSize: 0x108 }
+  - { offsetInCU: 0x65C, offset: 0xF00C6, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer 检测后台任务]", symObjAddr: 0x708, symBinAddr: 0x10000529C, symSize: 0x14C }
+  - { offsetInCU: 0x69F, offset: 0xF0109, size: 0x8, addend: 0x0, symName: "___37-[BackgroundTimer 检测后台任务]_block_invoke", symObjAddr: 0x854, symBinAddr: 0x1000053E8, symSize: 0x5C }
+  - { offsetInCU: 0x6F4, offset: 0xF015E, size: 0x8, addend: 0x0, symName: "___37-[BackgroundTimer 检测后台任务]_block_invoke_2", symObjAddr: 0x8B0, symBinAddr: 0x100005444, symSize: 0x5C }
+  - { offsetInCU: 0x733, offset: 0xF019D, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer 停止播放定时器]", symObjAddr: 0x90C, symBinAddr: 0x1000054A0, symSize: 0xB0 }
+  - { offsetInCU: 0x766, offset: 0xF01D0, size: 0x8, addend: 0x0, symName: '-[BackgroundTimer setUpAudioSession]', symObjAddr: 0x9BC, symBinAddr: 0x100005550, symSize: 0xC8 }
+  - { offsetInCU: 0x7C5, offset: 0xF022F, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer 判断后台]", symObjAddr: 0xA84, symBinAddr: 0x100005618, symSize: 0x8 }
+  - { offsetInCU: 0x7FC, offset: 0xF0266, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer 视图手势]", symObjAddr: 0xA8C, symBinAddr: 0x100005620, symSize: 0xB0 }
+  - { offsetInCU: 0x83F, offset: 0xF02A9, size: 0x8, addend: 0x0, symName: '-[BackgroundTimer isVoiceOrVideoCall]', symObjAddr: 0xB3C, symBinAddr: 0x1000056D0, symSize: 0x8 }
+  - { offsetInCU: 0x876, offset: 0xF02E0, size: 0x8, addend: 0x0, symName: '-[BackgroundTimer setIsVoiceOrVideoCall:]', symObjAddr: 0xB44, symBinAddr: 0x1000056D8, symSize: 0x8 }
+  - { offsetInCU: 0x8B1, offset: 0xF031B, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer 音乐播放器]", symObjAddr: 0xB4C, symBinAddr: 0x1000056E0, symSize: 0x8 }
+  - { offsetInCU: 0x8E8, offset: 0xF0352, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer set音乐播放器:]", symObjAddr: 0xB54, symBinAddr: 0x1000056E8, symSize: 0xC }
+  - { offsetInCU: 0x929, offset: 0xF0393, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer 音乐定时器]", symObjAddr: 0xB60, symBinAddr: 0x1000056F4, symSize: 0x8 }
+  - { offsetInCU: 0x960, offset: 0xF03CA, size: 0x8, addend: 0x0, symName: "-[BackgroundTimer set音乐定时器:]", symObjAddr: 0xB68, symBinAddr: 0x1000056FC, symSize: 0xC }
+  - { offsetInCU: 0x9A1, offset: 0xF040B, size: 0x8, addend: 0x0, symName: '-[BackgroundTimer .cxx_destruct]', symObjAddr: 0xB74, symBinAddr: 0x100005708, symSize: 0x48 }
+  - { offsetInCU: 0x27, offset: 0xF0855, size: 0x8, addend: 0x0, symName: '+[TSEventFetcher load]', symObjAddr: 0x0, symBinAddr: 0x100005750, symSize: 0x104 }
+  - { offsetInCU: 0x41, offset: 0xF086F, size: 0x8, addend: 0x0, symName: __ZL13_safeTouchAry, symObjAddr: 0x2D38, symBinAddr: 0x10004B198, symSize: 0x0 }
+  - { offsetInCU: 0x60, offset: 0xF088E, size: 0x8, addend: 0x0, symName: __ZL9_touchAry, symObjAddr: 0x2D40, symBinAddr: 0x10004B1A0, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0xF08AD, size: 0x8, addend: 0x0, symName: __ZL15_livingTouchAry, symObjAddr: 0x2D48, symBinAddr: 0x10004B1A8, symSize: 0x0 }
+  - { offsetInCU: 0x99, offset: 0xF08C7, size: 0x8, addend: 0x0, symName: __ZL8toRemove, symObjAddr: 0x2D50, symBinAddr: 0x10004B1B0, symSize: 0x0 }
+  - { offsetInCU: 0xB8, offset: 0xF08E6, size: 0x8, addend: 0x0, symName: __ZL14toStationarify, symObjAddr: 0x2D58, symBinAddr: 0x10004B1B8, symSize: 0x0 }
+  - { offsetInCU: 0xC6, offset: 0xF08F4, size: 0x8, addend: 0x0, symName: __ZL24__TSEventFetcherCallbackPv, symObjAddr: 0x104, symBinAddr: 0x100005854, symSize: 0x21C }
+  - { offsetInCU: 0xEC, offset: 0xF091A, size: 0x8, addend: 0x0, symName: __ZZL24__TSEventFetcherCallbackPvE3app, symObjAddr: 0x2D68, symBinAddr: 0x10004B1C8, symSize: 0x0 }
+  - { offsetInCU: 0x14B, offset: 0xF0979, size: 0x8, addend: 0x0, symName: __ZL7_source, symObjAddr: 0x2D60, symBinAddr: 0x10004B1C0, symSize: 0x0 }
+  - { offsetInCU: 0x17D, offset: 0xF09AB, size: 0x8, addend: 0x0, symName: '+[TSEventFetcher load]', symObjAddr: 0x0, symBinAddr: 0x100005750, symSize: 0x104 }
+  - { offsetInCU: 0x29D, offset: 0xF0ACB, size: 0x8, addend: 0x0, symName: '+[TSEventFetcher receiveAXEventID:atGlobalCoordinate:withTouchPhase:inWindow:onView:]', symObjAddr: 0x320, symBinAddr: 0x100005A70, symSize: 0x268 }
+  - { offsetInCU: 0x27, offset: 0xF0C32, size: 0x8, addend: 0x0, symName: '-[UITouch(KIFAdditions) initAtPoint:inWindow:onView:]', symObjAddr: 0x0, symBinAddr: 0x100005CD8, symSize: 0x1D0 }
+  - { offsetInCU: 0x74, offset: 0xF0C7F, size: 0x8, addend: 0x0, symName: '-[UITouch(KIFAdditions) initAtPoint:inWindow:onView:]', symObjAddr: 0x0, symBinAddr: 0x100005CD8, symSize: 0x1D0 }
+  - { offsetInCU: 0xE3, offset: 0xF0CEE, size: 0x8, addend: 0x0, symName: '-[UITouch(KIFAdditions) initTouch]', symObjAddr: 0x1D0, symBinAddr: 0x100005EA8, symSize: 0x250 }
+  - { offsetInCU: 0x16A, offset: 0xF0D75, size: 0x8, addend: 0x0, symName: '-[UITouch(KIFAdditions) setLocationInWindow:]', symObjAddr: 0x420, symBinAddr: 0x1000060F8, symSize: 0x68 }
+  - { offsetInCU: 0x1A9, offset: 0xF0DB4, size: 0x8, addend: 0x0, symName: '-[UITouch(KIFAdditions) setPhaseAndUpdateTimestamp:]', symObjAddr: 0x488, symBinAddr: 0x100006160, symSize: 0x5C }
+  - { offsetInCU: 0x1EC, offset: 0xF0DF7, size: 0x8, addend: 0x0, symName: '-[UITouch(KIFAdditions) kif_setHidEvent]', symObjAddr: 0x4E4, symBinAddr: 0x1000061BC, symSize: 0xA0 }
+  - { offsetInCU: 0x27, offset: 0xF0EEC, size: 0x8, addend: 0x0, symName: '-[HUDBackdropLabel initWithCoder:]', symObjAddr: 0x0, symBinAddr: 0x10000625C, symSize: 0x98 }
+  - { offsetInCU: 0x93, offset: 0xF0F58, size: 0x8, addend: 0x0, symName: '-[HUDBackdropLabel initWithCoder:]', symObjAddr: 0x0, symBinAddr: 0x10000625C, symSize: 0x98 }
+  - { offsetInCU: 0xDA, offset: 0xF0F9F, size: 0x8, addend: 0x0, symName: '-[HUDBackdropLabel initWithFrame:]', symObjAddr: 0x98, symBinAddr: 0x1000062F4, symSize: 0x6C }
+  - { offsetInCU: 0x11D, offset: 0xF0FE2, size: 0x8, addend: 0x0, symName: '-[HUDBackdropLabel setColorInvertEnabled:]', symObjAddr: 0x104, symBinAddr: 0x100006360, symSize: 0x10 }
+  - { offsetInCU: 0x15A, offset: 0xF101F, size: 0x8, addend: 0x0, symName: '-[HUDBackdropLabel setupAppearance]', symObjAddr: 0x114, symBinAddr: 0x100006370, symSize: 0x538 }
+  - { offsetInCU: 0x1E4, offset: 0xF10A9, size: 0x8, addend: 0x0, symName: '-[HUDBackdropLabel layoutSublayersOfLayer:]', symObjAddr: 0x64C, symBinAddr: 0x1000068A8, symSize: 0xB8 }
+  - { offsetInCU: 0x227, offset: 0xF10EC, size: 0x8, addend: 0x0, symName: '-[HUDBackdropLabel setAttributedText:]', symObjAddr: 0x704, symBinAddr: 0x100006960, symSize: 0x80 }
+  - { offsetInCU: 0x26A, offset: 0xF112F, size: 0x8, addend: 0x0, symName: '-[HUDBackdropLabel .cxx_destruct]', symObjAddr: 0x784, symBinAddr: 0x1000069E0, symSize: 0x40 }
+  - { offsetInCU: 0x27, offset: 0xF1224, size: 0x8, addend: 0x0, symName: "+[GCLocalNotification 设置通知内容]", symObjAddr: 0x0, symBinAddr: 0x100006A20, symSize: 0x140 }
+  - { offsetInCU: 0x74, offset: 0xF1271, size: 0x8, addend: 0x0, symName: "+[GCLocalNotification 设置通知内容]", symObjAddr: 0x0, symBinAddr: 0x100006A20, symSize: 0x140 }
+  - { offsetInCU: 0xB3, offset: 0xF12B0, size: 0x8, addend: 0x0, symName: "+[GCLocalNotification 注册通知]", symObjAddr: 0x140, symBinAddr: 0x100006B60, symSize: 0x19C }
+  - { offsetInCU: 0x27, offset: 0xF1389, size: 0x8, addend: 0x0, symName: '-[HUDMainApplication init]', symObjAddr: 0x0, symBinAddr: 0x100006CFC, symSize: 0x2F4 }
+  - { offsetInCU: 0x111, offset: 0xF1473, size: 0x8, addend: 0x0, symName: '-[HUDMainApplication init]', symObjAddr: 0x0, symBinAddr: 0x100006CFC, symSize: 0x2F4 }
+  - { offsetInCU: 0x4D3, offset: 0xF1835, size: 0x8, addend: 0x0, symName: '___26-[HUDMainApplication init]_block_invoke', symObjAddr: 0x2F4, symBinAddr: 0x100006FF0, symSize: 0xE4 }
+  - { offsetInCU: 0x54C, offset: 0xF18AE, size: 0x8, addend: 0x0, symName: '___26-[HUDMainApplication init]_block_invoke_2', symObjAddr: 0x3D8, symBinAddr: 0x1000070D4, symSize: 0x7C }
+  - { offsetInCU: 0x58B, offset: 0xF18ED, size: 0x8, addend: 0x0, symName: '___26-[HUDMainApplication init]_block_invoke.45', symObjAddr: 0x464, symBinAddr: 0x100007150, symSize: 0x8 }
+  - { offsetInCU: 0x27, offset: 0xF1AC2, size: 0x8, addend: 0x0, symName: '+[RootViewController setShouldToggleHUDAfterLaunch:]', symObjAddr: 0x0, symBinAddr: 0x100007158, symSize: 0xC }
+  - { offsetInCU: 0x7B, offset: 0xF1B16, size: 0x8, addend: 0x0, symName: _summaryLabels, symObjAddr: 0x1BD58, symBinAddr: 0x10004BCE0, symSize: 0x0 }
+  - { offsetInCU: 0xA4, offset: 0xF1B3F, size: 0x8, addend: 0x0, symName: "_方框开关", symObjAddr: 0x1BD81, symBinAddr: 0x10004BD09, symSize: 0x0 }
+  - { offsetInCU: 0xBA, offset: 0xF1B55, size: 0x8, addend: 0x0, symName: "_射线开关", symObjAddr: 0x1BD82, symBinAddr: 0x10004BD0A, symSize: 0x0 }
+  - { offsetInCU: 0xD0, offset: 0xF1B6B, size: 0x8, addend: 0x0, symName: "_头像开关", symObjAddr: 0x1BD83, symBinAddr: 0x10004BD0B, symSize: 0x0 }
+  - { offsetInCU: 0xE6, offset: 0xF1B81, size: 0x8, addend: 0x0, symName: "_技能开关", symObjAddr: 0x1BD84, symBinAddr: 0x10004BD0C, symSize: 0x0 }
+  - { offsetInCU: 0xFC, offset: 0xF1B97, size: 0x8, addend: 0x0, symName: "_野怪开关", symObjAddr: 0x1BD85, symBinAddr: 0x10004BD0D, symSize: 0x0 }
+  - { offsetInCU: 0x112, offset: 0xF1BAD, size: 0x8, addend: 0x0, symName: "_过直播开关", symObjAddr: 0x1BD86, symBinAddr: 0x10004BD0E, symSize: 0x0 }
+  - { offsetInCU: 0x128, offset: 0xF1BC3, size: 0x8, addend: 0x0, symName: "_地图位置", symObjAddr: 0x1BD88, symBinAddr: 0x10004BD10, symSize: 0x0 }
+  - { offsetInCU: 0x145, offset: 0xF1BE0, size: 0x8, addend: 0x0, symName: "_地图大小", symObjAddr: 0x1BD8C, symBinAddr: 0x10004BD14, symSize: 0x0 }
+  - { offsetInCU: 0x15B, offset: 0xF1BF6, size: 0x8, addend: 0x0, symName: '-[RootViewController reloadMainButtonState]', symObjAddr: 0x527C, symBinAddr: 0x10000C3C4, symSize: 0x12C }
+  - { offsetInCU: 0x183, offset: 0xF1C1E, size: 0x8, addend: 0x0, symName: '__ZZ43-[RootViewController reloadMainButtonState]E20hintAttributedString', symObjAddr: 0x1BD98, symBinAddr: 0x10004B1E0, symSize: 0x0 }
+  - { offsetInCU: 0x19A, offset: 0xF1C35, size: 0x8, addend: 0x0, symName: '__ZZ43-[RootViewController reloadMainButtonState]E23creditsAttributedString', symObjAddr: 0x1BDA0, symBinAddr: 0x10004B1E8, symSize: 0x0 }
+  - { offsetInCU: 0x1B1, offset: 0xF1C4C, size: 0x8, addend: 0x0, symName: '__ZZ43-[RootViewController reloadMainButtonState]E9onceToken', symObjAddr: 0x1BDA8, symBinAddr: 0x10004B1F0, symSize: 0x0 }
+  - { offsetInCU: 0x295, offset: 0xF1D30, size: 0x8, addend: 0x0, symName: __ZL28_gShouldToggleHUDAfterLaunch, symObjAddr: 0x1BD90, symBinAddr: 0x10004B1D8, symSize: 0x0 }
+  - { offsetInCU: 0xBDF, offset: 0xF267A, size: 0x8, addend: 0x0, symName: '+[RootViewController setShouldToggleHUDAfterLaunch:]', symObjAddr: 0x0, symBinAddr: 0x100007158, symSize: 0xC }
+  - { offsetInCU: 0xC1A, offset: 0xF26B5, size: 0x8, addend: 0x0, symName: '+[RootViewController shouldToggleHUDAfterLaunch]', symObjAddr: 0xC, symBinAddr: 0x100007164, symSize: 0xC }
+  - { offsetInCU: 0xC4D, offset: 0xF26E8, size: 0x8, addend: 0x0, symName: '-[RootViewController isHUDEnabled]', symObjAddr: 0x18, symBinAddr: 0x100007170, symSize: 0x4 }
+  - { offsetInCU: 0xC83, offset: 0xF271E, size: 0x8, addend: 0x0, symName: '-[RootViewController isHUDEnabled]', symObjAddr: 0x18, symBinAddr: 0x100007170, symSize: 0x4 }
+  - { offsetInCU: 0xC9A, offset: 0xF2735, size: 0x8, addend: 0x0, symName: '-[RootViewController setHUDEnabled:]', symObjAddr: 0x1C, symBinAddr: 0x100007174, symSize: 0x8 }
+  - { offsetInCU: 0xCFE, offset: 0xF2799, size: 0x8, addend: 0x0, symName: '-[RootViewController registerNotifications]', symObjAddr: 0x24, symBinAddr: 0x10000717C, symSize: 0xCC }
+  - { offsetInCU: 0xD8C, offset: 0xF2827, size: 0x8, addend: 0x0, symName: '___43-[RootViewController registerNotifications]_block_invoke', symObjAddr: 0xF0, symBinAddr: 0x100007248, symSize: 0xC }
+  - { offsetInCU: 0xDD7, offset: 0xF2872, size: 0x8, addend: 0x0, symName: '-[RootViewController loadView]', symObjAddr: 0x10C, symBinAddr: 0x100007254, symSize: 0x22C }
+  - { offsetInCU: 0xE1A, offset: 0xF28B5, size: 0x8, addend: 0x0, symName: '___30-[RootViewController loadView]_block_invoke', symObjAddr: 0x338, symBinAddr: 0x100007480, symSize: 0x24 }
+  - { offsetInCU: 0xE51, offset: 0xF28EC, size: 0x8, addend: 0x0, symName: '-[RootViewController EnterAPP]', symObjAddr: 0x35C, symBinAddr: 0x1000074A4, symSize: 0x26C8 }
+  - { offsetInCU: 0x1190, offset: 0xF2C2B, size: 0x8, addend: 0x0, symName: '___30-[RootViewController EnterAPP]_block_invoke', symObjAddr: 0x2A24, symBinAddr: 0x100009B6C, symSize: 0x3A8 }
+  - { offsetInCU: 0x124E, offset: 0xF2CE9, size: 0x8, addend: 0x0, symName: '-[RootViewController FGmapx:]', symObjAddr: 0x2DCC, symBinAddr: 0x100009F14, symSize: 0x1A0 }
+  - { offsetInCU: 0x12B1, offset: 0xF2D4C, size: 0x8, addend: 0x0, symName: '-[RootViewController FGmapy:]', symObjAddr: 0x2F6C, symBinAddr: 0x10000A0B4, symSize: 0x1A0 }
+  - { offsetInCU: 0x1314, offset: 0xF2DAF, size: 0x8, addend: 0x0, symName: '-[RootViewController openURL:]', symObjAddr: 0x310C, symBinAddr: 0x10000A254, symSize: 0xD0 }
+  - { offsetInCU: 0x1373, offset: 0xF2E0E, size: 0x8, addend: 0x0, symName: '-[RootViewController switchValueChanged:]', symObjAddr: 0x31DC, symBinAddr: 0x10000A324, symSize: 0x328 }
+  - { offsetInCU: 0x13C9, offset: 0xF2E64, size: 0x8, addend: 0x0, symName: '-[RootViewController LoadDraw]', symObjAddr: 0x3504, symBinAddr: 0x10000A64C, symSize: 0x270 }
+  - { offsetInCU: 0x1539, offset: 0xF2FD4, size: 0x8, addend: 0x0, symName: '___30-[RootViewController LoadDraw]_block_invoke', symObjAddr: 0x3774, symBinAddr: 0x10000A8BC, symSize: 0x6C }
+  - { offsetInCU: 0x1602, offset: 0xF309D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40w, symObjAddr: 0x37E0, symBinAddr: 0x10000A928, symSize: 0x30 }
+  - { offsetInCU: 0x162B, offset: 0xF30C6, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40w, symObjAddr: 0x3810, symBinAddr: 0x10000A958, symSize: 0x28 }
+  - { offsetInCU: 0x164A, offset: 0xF30E5, size: 0x8, addend: 0x0, symName: '___30-[RootViewController LoadDraw]_block_invoke.141', symObjAddr: 0x3838, symBinAddr: 0x10000A980, symSize: 0x8C }
+  - { offsetInCU: 0x1715, offset: 0xF31B0, size: 0x8, addend: 0x0, symName: '___30-[RootViewController LoadDraw]_block_invoke_2', symObjAddr: 0x38C4, symBinAddr: 0x10000AA0C, symSize: 0x58 }
+  - { offsetInCU: 0x1768, offset: 0xF3203, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s, symObjAddr: 0x391C, symBinAddr: 0x10000AA64, symSize: 0x28 }
+  - { offsetInCU: 0x1791, offset: 0xF322C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s, symObjAddr: 0x3944, symBinAddr: 0x10000AA8C, symSize: 0x28 }
+  - { offsetInCU: 0x17B0, offset: 0xF324B, size: 0x8, addend: 0x0, symName: '___30-[RootViewController LoadDraw]_block_invoke.142', symObjAddr: 0x396C, symBinAddr: 0x10000AAB4, symSize: 0x58 }
+  - { offsetInCU: 0x17F2, offset: 0xF328D, size: 0x8, addend: 0x0, symName: '-[RootViewController viewDidLayoutSubviews]', symObjAddr: 0x39C4, symBinAddr: 0x10000AB0C, symSize: 0xEC }
+  - { offsetInCU: 0x1846, offset: 0xF32E1, size: 0x8, addend: 0x0, symName: '-[RootViewController viewDidLoad]', symObjAddr: 0x3AB0, symBinAddr: 0x10000ABF8, symSize: 0x74 }
+  - { offsetInCU: 0x187A, offset: 0xF3315, size: 0x8, addend: 0x0, symName: '-[RootViewController viewDidAppear:]', symObjAddr: 0x3B24, symBinAddr: 0x10000AC6C, symSize: 0x48 }
+  - { offsetInCU: 0x18BF, offset: 0xF335A, size: 0x8, addend: 0x0, symName: '-[RootViewController toggleHUDNotificationReceived:]', symObjAddr: 0x3B6C, symBinAddr: 0x10000ACB4, symSize: 0xC8 }
+  - { offsetInCU: 0x1915, offset: 0xF33B0, size: 0x8, addend: 0x0, symName: '-[RootViewController toggleHUDAfterLaunch]', symObjAddr: 0x3C34, symBinAddr: 0x10000AD7C, symSize: 0xA0 }
+  - { offsetInCU: 0x1949, offset: 0xF33E4, size: 0x8, addend: 0x0, symName: '-[RootViewController toggleOnHUDAfterLaunch]', symObjAddr: 0x3CD4, symBinAddr: 0x10000AE1C, symSize: 0xB0 }
+  - { offsetInCU: 0x197D, offset: 0xF3418, size: 0x8, addend: 0x0, symName: '-[RootViewController toggleOffHUDAfterLaunch]', symObjAddr: 0x3D84, symBinAddr: 0x10000AECC, symSize: 0xB0 }
+  - { offsetInCU: 0x19B1, offset: 0xF344C, size: 0x8, addend: 0x0, symName: '-[RootViewController motionEnded:withEvent:]', symObjAddr: 0x3E34, symBinAddr: 0x10000AF7C, symSize: 0x2E0 }
+  - { offsetInCU: 0x1A1B, offset: 0xF34B6, size: 0x8, addend: 0x0, symName: '___44-[RootViewController motionEnded:withEvent:]_block_invoke', symObjAddr: 0x4114, symBinAddr: 0x10000B25C, symSize: 0x8 }
+  - { offsetInCU: 0x1A6A, offset: 0xF3505, size: 0x8, addend: 0x0, symName: '-[RootViewController resetUserDefaults]', symObjAddr: 0x411C, symBinAddr: 0x10000B264, symSize: 0x180 }
+  - { offsetInCU: 0x1AED, offset: 0xF3588, size: 0x8, addend: 0x0, symName: '-[RootViewController loadUserDefaults:]', symObjAddr: 0x429C, symBinAddr: 0x10000B3E4, symSize: 0x114 }
+  - { offsetInCU: 0x1B32, offset: 0xF35CD, size: 0x8, addend: 0x0, symName: '-[RootViewController saveUserDefaults]', symObjAddr: 0x43B0, symBinAddr: 0x10000B4F8, symSize: 0x78 }
+  - { offsetInCU: 0x1BA4, offset: 0xF363F, size: 0x8, addend: 0x0, symName: '-[RootViewController isLandscapeOrientation]', symObjAddr: 0x4428, symBinAddr: 0x10000B570, symSize: 0x12C }
+  - { offsetInCU: 0x1C54, offset: 0xF36EF, size: 0x8, addend: 0x0, symName: '-[RootViewController selectedModeKeyForCurrentOrientation]', symObjAddr: 0x4554, symBinAddr: 0x10000B69C, symSize: 0x2C }
+  - { offsetInCU: 0x1C8C, offset: 0xF3727, size: 0x8, addend: 0x0, symName: '-[RootViewController selectedModeForCurrentOrientation]', symObjAddr: 0x4580, symBinAddr: 0x10000B6C8, symSize: 0xB0 }
+  - { offsetInCU: 0x1CD5, offset: 0xF3770, size: 0x8, addend: 0x0, symName: '-[RootViewController setSelectedModeForCurrentOrientation:]', symObjAddr: 0x4630, symBinAddr: 0x10000B778, symSize: 0xE0 }
+  - { offsetInCU: 0x1D1A, offset: 0xF37B5, size: 0x8, addend: 0x0, symName: '-[RootViewController passthroughMode]', symObjAddr: 0x4710, symBinAddr: 0x10000B858, symSize: 0x80 }
+  - { offsetInCU: 0x1D63, offset: 0xF37FE, size: 0x8, addend: 0x0, symName: '-[RootViewController setPassthroughMode:]', symObjAddr: 0x4790, symBinAddr: 0x10000B8D8, symSize: 0x8C }
+  - { offsetInCU: 0x1DA8, offset: 0xF3843, size: 0x8, addend: 0x0, symName: '-[RootViewController singleLineMode]', symObjAddr: 0x481C, symBinAddr: 0x10000B964, symSize: 0x80 }
+  - { offsetInCU: 0x1DF1, offset: 0xF388C, size: 0x8, addend: 0x0, symName: '-[RootViewController setSingleLineMode:]', symObjAddr: 0x489C, symBinAddr: 0x10000B9E4, symSize: 0x8C }
+  - { offsetInCU: 0x1E36, offset: 0xF38D1, size: 0x8, addend: 0x0, symName: '-[RootViewController usesBitrate]', symObjAddr: 0x4928, symBinAddr: 0x10000BA70, symSize: 0x80 }
+  - { offsetInCU: 0x1E7F, offset: 0xF391A, size: 0x8, addend: 0x0, symName: '-[RootViewController setUsesBitrate:]', symObjAddr: 0x49A8, symBinAddr: 0x10000BAF0, symSize: 0x8C }
+  - { offsetInCU: 0x1EC4, offset: 0xF395F, size: 0x8, addend: 0x0, symName: '-[RootViewController usesArrowPrefixes]', symObjAddr: 0x4A34, symBinAddr: 0x10000BB7C, symSize: 0x80 }
+  - { offsetInCU: 0x1F0D, offset: 0xF39A8, size: 0x8, addend: 0x0, symName: '-[RootViewController setUsesArrowPrefixes:]', symObjAddr: 0x4AB4, symBinAddr: 0x10000BBFC, symSize: 0x8C }
+  - { offsetInCU: 0x1F52, offset: 0xF39ED, size: 0x8, addend: 0x0, symName: '-[RootViewController usesLargeFont]', symObjAddr: 0x4B40, symBinAddr: 0x10000BC88, symSize: 0x80 }
+  - { offsetInCU: 0x1F9B, offset: 0xF3A36, size: 0x8, addend: 0x0, symName: '-[RootViewController setUsesLargeFont:]', symObjAddr: 0x4BC0, symBinAddr: 0x10000BD08, symSize: 0x8C }
+  - { offsetInCU: 0x1FE0, offset: 0xF3A7B, size: 0x8, addend: 0x0, symName: '-[RootViewController usesRotation]', symObjAddr: 0x4C4C, symBinAddr: 0x10000BD94, symSize: 0x80 }
+  - { offsetInCU: 0x2029, offset: 0xF3AC4, size: 0x8, addend: 0x0, symName: '-[RootViewController setUsesRotation:]', symObjAddr: 0x4CCC, symBinAddr: 0x10000BE14, symSize: 0x8C }
+  - { offsetInCU: 0x206E, offset: 0xF3B09, size: 0x8, addend: 0x0, symName: '-[RootViewController usesInvertedColor]', symObjAddr: 0x4D58, symBinAddr: 0x10000BEA0, symSize: 0x80 }
+  - { offsetInCU: 0x20B7, offset: 0xF3B52, size: 0x8, addend: 0x0, symName: '-[RootViewController setUsesInvertedColor:]', symObjAddr: 0x4DD8, symBinAddr: 0x10000BF20, symSize: 0x8C }
+  - { offsetInCU: 0x20FC, offset: 0xF3B97, size: 0x8, addend: 0x0, symName: '-[RootViewController keepInPlace]', symObjAddr: 0x4E64, symBinAddr: 0x10000BFAC, symSize: 0x80 }
+  - { offsetInCU: 0x2145, offset: 0xF3BE0, size: 0x8, addend: 0x0, symName: '-[RootViewController setKeepInPlace:]', symObjAddr: 0x4EE4, symBinAddr: 0x10000C02C, symSize: 0x8C }
+  - { offsetInCU: 0x218A, offset: 0xF3C25, size: 0x8, addend: 0x0, symName: '-[RootViewController hideAtSnapshot]', symObjAddr: 0x4F70, symBinAddr: 0x10000C0B8, symSize: 0x80 }
+  - { offsetInCU: 0x21D3, offset: 0xF3C6E, size: 0x8, addend: 0x0, symName: '-[RootViewController setHideAtSnapshot:]', symObjAddr: 0x4FF0, symBinAddr: 0x10000C138, symSize: 0x8C }
+  - { offsetInCU: 0x2218, offset: 0xF3CB3, size: 0x8, addend: 0x0, symName: '-[RootViewController Line]', symObjAddr: 0x507C, symBinAddr: 0x10000C1C4, symSize: 0x80 }
+  - { offsetInCU: 0x2261, offset: 0xF3CFC, size: 0x8, addend: 0x0, symName: '-[RootViewController Bone]', symObjAddr: 0x50FC, symBinAddr: 0x10000C244, symSize: 0x80 }
+  - { offsetInCU: 0x22AA, offset: 0xF3D45, size: 0x8, addend: 0x0, symName: '-[RootViewController Info]', symObjAddr: 0x517C, symBinAddr: 0x10000C2C4, symSize: 0x80 }
+  - { offsetInCU: 0x22F3, offset: 0xF3D8E, size: 0x8, addend: 0x0, symName: '-[RootViewController HP]', symObjAddr: 0x51FC, symBinAddr: 0x10000C344, symSize: 0x80 }
+  - { offsetInCU: 0x237A, offset: 0xF3E15, size: 0x8, addend: 0x0, symName: '___43-[RootViewController reloadMainButtonState]_block_invoke', symObjAddr: 0x53A8, symBinAddr: 0x10000C4F0, symSize: 0x644 }
+  - { offsetInCU: 0x247F, offset: 0xF3F1A, size: 0x8, addend: 0x0, symName: '___43-[RootViewController reloadMainButtonState]_block_invoke_2', symObjAddr: 0x59EC, symBinAddr: 0x10000CB34, symSize: 0x8C }
+  - { offsetInCU: 0x24DD, offset: 0xF3F78, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32w, symObjAddr: 0x5A78, symBinAddr: 0x10000CBC0, symSize: 0xC }
+  - { offsetInCU: 0x2506, offset: 0xF3FA1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32w, symObjAddr: 0x5A84, symBinAddr: 0x10000CBCC, symSize: 0x8 }
+  - { offsetInCU: 0x2525, offset: 0xF3FC0, size: 0x8, addend: 0x0, symName: '-[RootViewController presentTopCenterMostHints]', symObjAddr: 0x5A8C, symBinAddr: 0x10000CBD4, symSize: 0xC4 }
+  - { offsetInCU: 0x2559, offset: 0xF3FF4, size: 0x8, addend: 0x0, symName: '-[RootViewController settingHighlightedWithKey:]', symObjAddr: 0x5B50, symBinAddr: 0x10000CC98, symSize: 0xB0 }
+  - { offsetInCU: 0x25B3, offset: 0xF404E, size: 0x8, addend: 0x0, symName: '-[RootViewController settingDidSelectWithKey:]', symObjAddr: 0x5C00, symBinAddr: 0x10000CD48, symSize: 0xB0 }
+  - { offsetInCU: 0x2609, offset: 0xF40A4, size: 0x8, addend: 0x0, symName: '-[RootViewController reloadModeButtonState]', symObjAddr: 0x5CB0, symBinAddr: 0x10000CDF8, symSize: 0xD8 }
+  - { offsetInCU: 0x267D, offset: 0xF4118, size: 0x8, addend: 0x0, symName: '-[RootViewController tapAuthorLabel:]', symObjAddr: 0x5D88, symBinAddr: 0x10000CED0, symSize: 0xBC }
+  - { offsetInCU: 0x26E0, offset: 0xF417B, size: 0x8, addend: 0x0, symName: '-[RootViewController tapTopLeftButton:]', symObjAddr: 0x5E44, symBinAddr: 0x10000CF8C, symSize: 0x28 }
+  - { offsetInCU: 0x2721, offset: 0xF41BC, size: 0x8, addend: 0x0, symName: '-[RootViewController tapTopRightButton:]', symObjAddr: 0x5E6C, symBinAddr: 0x10000CFB4, symSize: 0x28 }
+  - { offsetInCU: 0x2762, offset: 0xF41FD, size: 0x8, addend: 0x0, symName: '-[RootViewController tapTopCenterButton:]', symObjAddr: 0x5E94, symBinAddr: 0x10000CFDC, symSize: 0xB4 }
+  - { offsetInCU: 0x27C5, offset: 0xF4260, size: 0x8, addend: 0x0, symName: '-[RootViewController tapMainButton:]', symObjAddr: 0x5F48, symBinAddr: 0x10000D090, symSize: 0x270 }
+  - { offsetInCU: 0x2900, offset: 0xF439B, size: 0x8, addend: 0x0, symName: '___36-[RootViewController tapMainButton:]_block_invoke', symObjAddr: 0x61B8, symBinAddr: 0x10000D300, symSize: 0x6C }
+  - { offsetInCU: 0x29A4, offset: 0xF443F, size: 0x8, addend: 0x0, symName: '___36-[RootViewController tapMainButton:]_block_invoke_2', symObjAddr: 0x6224, symBinAddr: 0x10000D36C, symSize: 0x8C }
+  - { offsetInCU: 0x2A58, offset: 0xF44F3, size: 0x8, addend: 0x0, symName: '___36-[RootViewController tapMainButton:]_block_invoke_3', symObjAddr: 0x62B0, symBinAddr: 0x10000D3F8, symSize: 0x58 }
+  - { offsetInCU: 0x2AAB, offset: 0xF4546, size: 0x8, addend: 0x0, symName: '___36-[RootViewController tapMainButton:]_block_invoke_4', symObjAddr: 0x6308, symBinAddr: 0x10000D450, symSize: 0x58 }
+  - { offsetInCU: 0x2AED, offset: 0xF4588, size: 0x8, addend: 0x0, symName: '-[RootViewController tapMainButton2:]', symObjAddr: 0x6360, symBinAddr: 0x10000D4A8, symSize: 0x4 }
+  - { offsetInCU: 0x2B2A, offset: 0xF45C5, size: 0x8, addend: 0x0, symName: '-[RootViewController tapSettingsButton:]', symObjAddr: 0x6364, symBinAddr: 0x10000D4AC, symSize: 0xF0 }
+  - { offsetInCU: 0x2B8D, offset: 0xF4628, size: 0x8, addend: 0x0, symName: '-[RootViewController verticalSizeClassUpdated]', symObjAddr: 0x6454, symBinAddr: 0x10000D59C, symSize: 0x120 }
+  - { offsetInCU: 0x2BDF, offset: 0xF467A, size: 0x8, addend: 0x0, symName: '-[RootViewController traitCollectionDidChange:]', symObjAddr: 0x6574, symBinAddr: 0x10000D6BC, symSize: 0x4 }
+  - { offsetInCU: 0x2C1E, offset: 0xF46B9, size: 0x8, addend: 0x0, symName: '-[RootViewController viewWillTransitionToSize:withTransitionCoordinator:]', symObjAddr: 0x6578, symBinAddr: 0x10000D6C0, symSize: 0xC8 }
+  - { offsetInCU: 0x2C70, offset: 0xF470B, size: 0x8, addend: 0x0, symName: '___73-[RootViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke', symObjAddr: 0x6640, symBinAddr: 0x10000D788, symSize: 0x8 }
+  - { offsetInCU: 0x2CBF, offset: 0xF475A, size: 0x8, addend: 0x0, symName: '+[RootViewController getuuidStr]', symObjAddr: 0x6648, symBinAddr: 0x10000D790, symSize: 0x220 }
+  - { offsetInCU: 0x2DC0, offset: 0xF485B, size: 0x8, addend: 0x0, symName: '-[RootViewController backgroundView]', symObjAddr: 0x6868, symBinAddr: 0x10000D9B0, symSize: 0x10 }
+  - { offsetInCU: 0x2DF7, offset: 0xF4892, size: 0x8, addend: 0x0, symName: '-[RootViewController setBackgroundView:]', symObjAddr: 0x6878, symBinAddr: 0x10000D9C0, symSize: 0x14 }
+  - { offsetInCU: 0x2E38, offset: 0xF48D3, size: 0x8, addend: 0x0, symName: '-[RootViewController .cxx_destruct]', symObjAddr: 0x688C, symBinAddr: 0x10000D9D4, symSize: 0x180 }
+  - { offsetInCU: 0x27, offset: 0xF50A9, size: 0x8, addend: 0x0, symName: __ZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEvent, symObjAddr: 0x0, symBinAddr: 0x10000DB54, symSize: 0x22C }
+  - { offsetInCU: 0x3A, offset: 0xF50BC, size: 0x8, addend: 0x0, symName: __ZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEvent, symObjAddr: 0x0, symBinAddr: 0x10000DB54, symSize: 0x22C }
+  - { offsetInCU: 0x60, offset: 0xF50E2, size: 0x8, addend: 0x0, symName: __ZZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEventE3app, symObjAddr: 0x49C8, symBinAddr: 0x10004B1F8, symSize: 0x0 }
+  - { offsetInCU: 0x76, offset: 0xF50F8, size: 0x8, addend: 0x0, symName: __ZZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEventE7version, symObjAddr: 0x49D8, symBinAddr: 0x10004B208, symSize: 0x0 }
+  - { offsetInCU: 0x8C, offset: 0xF510E, size: 0x8, addend: 0x0, symName: __ZZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEventE24AXEventRepresentationCls, symObjAddr: 0x49F8, symBinAddr: 0x10004B228, symSize: 0x0 }
+  - { offsetInCU: 0xA2, offset: 0xF5124, size: 0x8, addend: 0x0, symName: __ZZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEventE9onceToken, symObjAddr: 0x4A00, symBinAddr: 0x10004B230, symSize: 0x0 }
+  - { offsetInCU: 0x168, offset: 0xF51EA, size: 0x8, addend: 0x0, symName: ____ZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEvent_block_invoke_2, symObjAddr: 0x298, symBinAddr: 0x10000DDEC, symSize: 0x1B8 }
+  - { offsetInCU: 0x18E, offset: 0xF5210, size: 0x8, addend: 0x0, symName: __ZZZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEventEUb_E9keyWindow, symObjAddr: 0x4A08, symBinAddr: 0x10004B238, symSize: 0x0 }
+  - { offsetInCU: 0x1A8, offset: 0xF522A, size: 0x8, addend: 0x0, symName: __ZZZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEventEUb_E9onceToken, symObjAddr: 0x4A10, symBinAddr: 0x10004B240, symSize: 0x0 }
+  - { offsetInCU: 0x257, offset: 0xF52D9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4C8, symBinAddr: 0x10000E00C, symSize: 0x388 }
+  - { offsetInCU: 0x27D, offset: 0xF52FF, size: 0x8, addend: 0x0, symName: __ZZ4mainE11appDelegate, symObjAddr: 0x4A18, symBinAddr: 0x10004B248, symSize: 0x0 }
+  - { offsetInCU: 0x293, offset: 0xF5315, size: 0x8, addend: 0x0, symName: __ZZ4mainE21_springboardBootToken, symObjAddr: 0x4A28, symBinAddr: 0x10004B258, symSize: 0x0 }
+  - { offsetInCU: 0x50B, offset: 0xF558D, size: 0x8, addend: 0x0, symName: ____ZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEvent_block_invoke, symObjAddr: 0x22C, symBinAddr: 0x10000DD80, symSize: 0x6C }
+  - { offsetInCU: 0x558, offset: 0xF55DA, size: 0x8, addend: 0x0, symName: ____ZL17_HUDEventCallbackPvS_P14__IOHIDServiceP12__IOHIDEvent_block_invoke_3, symObjAddr: 0x450, symBinAddr: 0x10000DFA4, symSize: 0x68 }
+  - { offsetInCU: 0x6E0, offset: 0xF5762, size: 0x8, addend: 0x0, symName: ___main_block_invoke, symObjAddr: 0x850, symBinAddr: 0x10000E394, symSize: 0x40 }
+  - { offsetInCU: 0x27, offset: 0xF5A50, size: 0x8, addend: 0x0, symName: _kif_IOHIDEventWithTouches, symObjAddr: 0x0, symBinAddr: 0x10000E3D4, symSize: 0x254 }
+  - { offsetInCU: 0x94, offset: 0xF5ABD, size: 0x8, addend: 0x0, symName: _kif_IOHIDEventWithTouches, symObjAddr: 0x0, symBinAddr: 0x10000E3D4, symSize: 0x254 }
+  - { offsetInCU: 0x27, offset: 0xF5DFE, size: 0x8, addend: 0x0, symName: '-[MainApplicationDelegate init]', symObjAddr: 0x0, symBinAddr: 0x10000E628, symSize: 0x34 }
+  - { offsetInCU: 0x85C, offset: 0xF6633, size: 0x8, addend: 0x0, symName: '-[MainApplicationDelegate init]', symObjAddr: 0x0, symBinAddr: 0x10000E628, symSize: 0x34 }
+  - { offsetInCU: 0x893, offset: 0xF666A, size: 0x8, addend: 0x0, symName: '-[MainApplicationDelegate application:openURL:options:]', symObjAddr: 0x34, symBinAddr: 0x10000E65C, symSize: 0x160 }
+  - { offsetInCU: 0x8F2, offset: 0xF66C9, size: 0x8, addend: 0x0, symName: '-[MainApplicationDelegate application:performActionForShortcutItem:completionHandler:]', symObjAddr: 0x194, symBinAddr: 0x10000E7BC, symSize: 0x90 }
+  - { offsetInCU: 0x94D, offset: 0xF6724, size: 0x8, addend: 0x0, symName: '-[MainApplicationDelegate setupAndNotifyToggleHUDAfterLaunchWithAction:]', symObjAddr: 0x224, symBinAddr: 0x10000E84C, symSize: 0x14C }
+  - { offsetInCU: 0x98C, offset: 0xF6763, size: 0x8, addend: 0x0, symName: '-[MainApplicationDelegate application:didFinishLaunchingWithOptions:]', symObjAddr: 0x370, symBinAddr: 0x10000E998, symSize: 0x110 }
+  - { offsetInCU: 0x9DB, offset: 0xF67B2, size: 0x8, addend: 0x0, symName: '-[MainApplicationDelegate applicationDidBecomeActive:]', symObjAddr: 0x480, symBinAddr: 0x10000EAA8, symSize: 0x8C }
+  - { offsetInCU: 0xA52, offset: 0xF6829, size: 0x8, addend: 0x0, symName: '___54-[MainApplicationDelegate applicationDidBecomeActive:]_block_invoke', symObjAddr: 0x50C, symBinAddr: 0x10000EB34, symSize: 0x4C }
+  - { offsetInCU: 0xAAC, offset: 0xF6883, size: 0x8, addend: 0x0, symName: '-[MainApplicationDelegate window]', symObjAddr: 0x56C, symBinAddr: 0x10000EB80, symSize: 0x10 }
+  - { offsetInCU: 0xAE3, offset: 0xF68BA, size: 0x8, addend: 0x0, symName: '-[MainApplicationDelegate setWindow:]', symObjAddr: 0x57C, symBinAddr: 0x10000EB90, symSize: 0x14 }
+  - { offsetInCU: 0xB24, offset: 0xF68FB, size: 0x8, addend: 0x0, symName: '-[MainApplicationDelegate .cxx_destruct]', symObjAddr: 0x590, symBinAddr: 0x10000EBA4, symSize: 0x40 }
+  - { offsetInCU: 0x77, offset: 0xF6A93, size: 0x8, addend: 0x0, symName: __ZL22attributedUploadPrefix, symObjAddr: 0x1BC68, symBinAddr: 0x10004B260, symSize: 0x0 }
+  - { offsetInCU: 0x97, offset: 0xF6AB3, size: 0x8, addend: 0x0, symName: __ZL24attributedDownloadPrefix, symObjAddr: 0x1BC70, symBinAddr: 0x10004B268, symSize: 0x0 }
+  - { offsetInCU: 0xB2, offset: 0xF6ACE, size: 0x8, addend: 0x0, symName: __ZL25attributedInlineSeparator, symObjAddr: 0x1BC78, symBinAddr: 0x10004B270, symSize: 0x0 }
+  - { offsetInCU: 0xCD, offset: 0xF6AE9, size: 0x8, addend: 0x0, symName: __ZL23attributedLineSeparator, symObjAddr: 0x1BC80, symBinAddr: 0x10004B278, symSize: 0x0 }
+  - { offsetInCU: 0x182, offset: 0xF6B9E, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController panGestureRecognized:]', symObjAddr: 0x49F0, symBinAddr: 0x100013560, symSize: 0x3CC }
+  - { offsetInCU: 0x1AA, offset: 0xF6BC6, size: 0x8, addend: 0x0, symName: '__ZZ46-[HUDRootViewController panGestureRecognized:]E14beginConstantY', symObjAddr: 0x1BCB0, symBinAddr: 0x10004B2A8, symSize: 0x0 }
+  - { offsetInCU: 0x23F, offset: 0xF6C5B, size: 0x8, addend: 0x0, symName: __ZL21HUD_SHOW_UPLOAD_SPEED, symObjAddr: 0x7928, symBinAddr: 0x10004AA30, symSize: 0x0 }
+  - { offsetInCU: 0x260, offset: 0xF6C7C, size: 0x8, addend: 0x0, symName: __ZL13HUD_DATA_UNIT, symObjAddr: 0x1BC88, symBinAddr: 0x10004B280, symSize: 0x0 }
+  - { offsetInCU: 0x27A, offset: 0xF6C96, size: 0x8, addend: 0x0, symName: __ZL17HUD_UPLOAD_PREFIX, symObjAddr: 0x7930, symBinAddr: 0x10004AA38, symSize: 0x0 }
+  - { offsetInCU: 0x299, offset: 0xF6CB5, size: 0x8, addend: 0x0, symName: __ZL19HUD_DOWNLOAD_PREFIX, symObjAddr: 0x7938, symBinAddr: 0x10004AA40, symSize: 0x0 }
+  - { offsetInCU: 0x2B3, offset: 0xF6CCF, size: 0x8, addend: 0x0, symName: __ZL13HUD_FONT_SIZE, symObjAddr: 0x7940, symBinAddr: 0x10004AA48, symSize: 0x0 }
+  - { offsetInCU: 0x2CD, offset: 0xF6CE9, size: 0x8, addend: 0x0, symName: __ZL15HUD_FONT_WEIGHT, symObjAddr: 0x1BC90, symBinAddr: 0x10004B288, symSize: 0x0 }
+  - { offsetInCU: 0x2E7, offset: 0xF6D03, size: 0x8, addend: 0x0, symName: __ZL20HUD_INACTIVE_OPACITY, symObjAddr: 0x7948, symBinAddr: 0x10004AA50, symSize: 0x0 }
+  - { offsetInCU: 0x302, offset: 0xF6D1E, size: 0x8, addend: 0x0, symName: __ZL14prevInputBytes, symObjAddr: 0x1BC98, symBinAddr: 0x10004B290, symSize: 0x0 }
+  - { offsetInCU: 0x324, offset: 0xF6D40, size: 0x8, addend: 0x0, symName: __ZL15prevOutputBytes, symObjAddr: 0x1BCA0, symBinAddr: 0x10004B298, symSize: 0x0 }
+  - { offsetInCU: 0x339, offset: 0xF6D55, size: 0x8, addend: 0x0, symName: __ZL14formattedSpeedyb, symObjAddr: 0x52B0, symBinAddr: 0x100013E20, symSize: 0x4B0 }
+  - { offsetInCU: 0x363, offset: 0xF6D7F, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string, symObjAddr: 0x1BCB8, symBinAddr: 0x10004B2B0, symSize: 0x0 }
+  - { offsetInCU: 0x379, offset: 0xF6D95, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken, symObjAddr: 0x1BCC0, symBinAddr: 0x10004B2B8, symSize: 0x0 }
+  - { offsetInCU: 0x38F, offset: 0xF6DAB, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string_0, symObjAddr: 0x1BCC8, symBinAddr: 0x10004B2C0, symSize: 0x0 }
+  - { offsetInCU: 0x3A5, offset: 0xF6DC1, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken_0, symObjAddr: 0x1BCD0, symBinAddr: 0x10004B2C8, symSize: 0x0 }
+  - { offsetInCU: 0x3BB, offset: 0xF6DD7, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string_1, symObjAddr: 0x1BCD8, symBinAddr: 0x10004B2D0, symSize: 0x0 }
+  - { offsetInCU: 0x3D1, offset: 0xF6DED, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken_1, symObjAddr: 0x1BCE0, symBinAddr: 0x10004B2D8, symSize: 0x0 }
+  - { offsetInCU: 0x3E7, offset: 0xF6E03, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string_2, symObjAddr: 0x1BCE8, symBinAddr: 0x10004B2E0, symSize: 0x0 }
+  - { offsetInCU: 0x3FD, offset: 0xF6E19, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken_2, symObjAddr: 0x1BCF0, symBinAddr: 0x10004B2E8, symSize: 0x0 }
+  - { offsetInCU: 0x413, offset: 0xF6E2F, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string_3, symObjAddr: 0x1BCF8, symBinAddr: 0x10004B2F0, symSize: 0x0 }
+  - { offsetInCU: 0x429, offset: 0xF6E45, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken_3, symObjAddr: 0x1BD00, symBinAddr: 0x10004B2F8, symSize: 0x0 }
+  - { offsetInCU: 0x43F, offset: 0xF6E5B, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string_4, symObjAddr: 0x1BD08, symBinAddr: 0x10004B300, symSize: 0x0 }
+  - { offsetInCU: 0x455, offset: 0xF6E71, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken_4, symObjAddr: 0x1BD10, symBinAddr: 0x10004B308, symSize: 0x0 }
+  - { offsetInCU: 0x46B, offset: 0xF6E87, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string_5, symObjAddr: 0x1BD18, symBinAddr: 0x10004B310, symSize: 0x0 }
+  - { offsetInCU: 0x481, offset: 0xF6E9D, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken_5, symObjAddr: 0x1BD20, symBinAddr: 0x10004B318, symSize: 0x0 }
+  - { offsetInCU: 0x497, offset: 0xF6EB3, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string_6, symObjAddr: 0x1BD28, symBinAddr: 0x10004B320, symSize: 0x0 }
+  - { offsetInCU: 0x4AD, offset: 0xF6EC9, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken_6, symObjAddr: 0x1BD30, symBinAddr: 0x10004B328, symSize: 0x0 }
+  - { offsetInCU: 0x4C3, offset: 0xF6EDF, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string_7, symObjAddr: 0x1BD38, symBinAddr: 0x10004B330, symSize: 0x0 }
+  - { offsetInCU: 0x4D9, offset: 0xF6EF5, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken_7, symObjAddr: 0x1BD40, symBinAddr: 0x10004B338, symSize: 0x0 }
+  - { offsetInCU: 0x4EF, offset: 0xF6F0B, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string_8, symObjAddr: 0x1BD48, symBinAddr: 0x10004B340, symSize: 0x0 }
+  - { offsetInCU: 0x505, offset: 0xF6F21, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken_8, symObjAddr: 0x1BD50, symBinAddr: 0x10004B348, symSize: 0x0 }
+  - { offsetInCU: 0x51B, offset: 0xF6F37, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string_9, symObjAddr: 0x1BD58, symBinAddr: 0x10004B350, symSize: 0x0 }
+  - { offsetInCU: 0x531, offset: 0xF6F4D, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken_9, symObjAddr: 0x1BD60, symBinAddr: 0x10004B358, symSize: 0x0 }
+  - { offsetInCU: 0x547, offset: 0xF6F63, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string__10_, symObjAddr: 0x1BD68, symBinAddr: 0x10004B360, symSize: 0x0 }
+  - { offsetInCU: 0x55D, offset: 0xF6F79, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken__10_, symObjAddr: 0x1BD70, symBinAddr: 0x10004B368, symSize: 0x0 }
+  - { offsetInCU: 0x574, offset: 0xF6F90, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string__11_, symObjAddr: 0x1BD78, symBinAddr: 0x10004B370, symSize: 0x0 }
+  - { offsetInCU: 0x58B, offset: 0xF6FA7, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken__11_, symObjAddr: 0x1BD80, symBinAddr: 0x10004B378, symSize: 0x0 }
+  - { offsetInCU: 0x5A2, offset: 0xF6FBE, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string__12_, symObjAddr: 0x1BD88, symBinAddr: 0x10004B380, symSize: 0x0 }
+  - { offsetInCU: 0x5B9, offset: 0xF6FD5, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken__12_, symObjAddr: 0x1BD90, symBinAddr: 0x10004B388, symSize: 0x0 }
+  - { offsetInCU: 0x5D0, offset: 0xF6FEC, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string__13_, symObjAddr: 0x1BD98, symBinAddr: 0x10004B390, symSize: 0x0 }
+  - { offsetInCU: 0x5E7, offset: 0xF7003, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken__13_, symObjAddr: 0x1BDA0, symBinAddr: 0x10004B398, symSize: 0x0 }
+  - { offsetInCU: 0x5FE, offset: 0xF701A, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE7_string__14_, symObjAddr: 0x1BDA8, symBinAddr: 0x10004B3A0, symSize: 0x0 }
+  - { offsetInCU: 0x615, offset: 0xF7031, size: 0x8, addend: 0x0, symName: __ZZL14formattedSpeedybE9onceToken__14_, symObjAddr: 0x1BDB0, symBinAddr: 0x10004B3A8, symSize: 0x0 }
+  - { offsetInCU: 0x807, offset: 0xF7223, size: 0x8, addend: 0x0, symName: __ZL29HUD_SHOW_DOWNLOAD_SPEED_FIRST, symObjAddr: 0x7950, symBinAddr: 0x10004AA58, symSize: 0x0 }
+  - { offsetInCU: 0x821, offset: 0xF723D, size: 0x8, addend: 0x0, symName: __ZL33HUD_SHOW_SECOND_SPEED_IN_NEW_LINE, symObjAddr: 0x1BCA8, symBinAddr: 0x10004B2A0, symSize: 0x0 }
+  - { offsetInCU: 0x1321, offset: 0xF7D3D, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController registerNotifications]', symObjAddr: 0x0, symBinAddr: 0x10000EBE4, symSize: 0x180 }
+  - { offsetInCU: 0x147E, offset: 0xF7E9A, size: 0x8, addend: 0x0, symName: '___46-[HUDRootViewController registerNotifications]_block_invoke', symObjAddr: 0x180, symBinAddr: 0x10000ED64, symSize: 0x8 }
+  - { offsetInCU: 0x14CD, offset: 0xF7EE9, size: 0x8, addend: 0x0, symName: __ZL37LaunchServicesApplicationStateChangedP22__CFNotificationCenterPvPK10__CFStringPKvPK14__CFDictionary, symObjAddr: 0x198, symBinAddr: 0x10000ED6C, symSize: 0x1AC }
+  - { offsetInCU: 0x158B, offset: 0xF7FA7, size: 0x8, addend: 0x0, symName: __ZL28SpringBoardLockStatusChangedP22__CFNotificationCenterPvPK10__CFStringPKvPK14__CFDictionary, symObjAddr: 0x344, symBinAddr: 0x10000EF18, symSize: 0xF8 }
+  - { offsetInCU: 0x168D, offset: 0xF80A9, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x43C, symBinAddr: 0x10000F010, symSize: 0xA8 }
+  - { offsetInCU: 0x16F9, offset: 0xF8115, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController loadUserDefaults:]', symObjAddr: 0x4E4, symBinAddr: 0x10000F0B8, symSize: 0x114 }
+  - { offsetInCU: 0x173E, offset: 0xF815A, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController saveUserDefaults]', symObjAddr: 0x5F8, symBinAddr: 0x10000F1CC, symSize: 0x198 }
+  - { offsetInCU: 0x17A3, offset: 0xF81BF, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController reloadUserDefaults]', symObjAddr: 0x790, symBinAddr: 0x10000F364, symSize: 0x2CC }
+  - { offsetInCU: 0x18D7, offset: 0xF82F3, size: 0x8, addend: 0x0, symName: '+[HUDRootViewController passthroughMode]', symObjAddr: 0xA5C, symBinAddr: 0x10000F630, symSize: 0x8 }
+  - { offsetInCU: 0x1929, offset: 0xF8345, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController isLandscapeOrientation]', symObjAddr: 0xA64, symBinAddr: 0x10000F638, symSize: 0xC4 }
+  - { offsetInCU: 0x19D3, offset: 0xF83EF, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController selectedModeKeyForCurrentOrientation]', symObjAddr: 0xB28, symBinAddr: 0x10000F6FC, symSize: 0x2C }
+  - { offsetInCU: 0x1A0B, offset: 0xF8427, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController selectedModeForCurrentOrientation]', symObjAddr: 0xB54, symBinAddr: 0x10000F728, symSize: 0xB0 }
+  - { offsetInCU: 0x1A54, offset: 0xF8470, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController singleLineMode]', symObjAddr: 0xC04, symBinAddr: 0x10000F7D8, symSize: 0x80 }
+  - { offsetInCU: 0x1A9D, offset: 0xF84B9, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController usesBitrate]', symObjAddr: 0xC84, symBinAddr: 0x10000F858, symSize: 0x80 }
+  - { offsetInCU: 0x1AE6, offset: 0xF8502, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController usesArrowPrefixes]', symObjAddr: 0xD04, symBinAddr: 0x10000F8D8, symSize: 0x80 }
+  - { offsetInCU: 0x1B2F, offset: 0xF854B, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController usesLargeFont]', symObjAddr: 0xD84, symBinAddr: 0x10000F958, symSize: 0x80 }
+  - { offsetInCU: 0x1B78, offset: 0xF8594, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController usesRotation]', symObjAddr: 0xE04, symBinAddr: 0x10000F9D8, symSize: 0x80 }
+  - { offsetInCU: 0x1BC1, offset: 0xF85DD, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController usesInvertedColor]', symObjAddr: 0xE84, symBinAddr: 0x10000FA58, symSize: 0x80 }
+  - { offsetInCU: 0x1C0A, offset: 0xF8626, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController keepInPlace]', symObjAddr: 0xF04, symBinAddr: 0x10000FAD8, symSize: 0x80 }
+  - { offsetInCU: 0x1C53, offset: 0xF866F, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController hideAtSnapshot]', symObjAddr: 0xF84, symBinAddr: 0x10000FB58, symSize: 0x80 }
+  - { offsetInCU: 0x1C9C, offset: 0xF86B8, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController currentPositionY]', symObjAddr: 0x1004, symBinAddr: 0x10000FBD8, symSize: 0x8C }
+  - { offsetInCU: 0x1CE5, offset: 0xF8701, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController setCurrentPositionY:]', symObjAddr: 0x1090, symBinAddr: 0x10000FC64, symSize: 0x94 }
+  - { offsetInCU: 0x1D2A, offset: 0xF8746, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController currentLandscapePositionY]', symObjAddr: 0x1124, symBinAddr: 0x10000FCF8, symSize: 0x8C }
+  - { offsetInCU: 0x1D73, offset: 0xF878F, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController setCurrentLandscapePositionY:]', symObjAddr: 0x11B0, symBinAddr: 0x10000FD84, symSize: 0x94 }
+  - { offsetInCU: 0x1DB8, offset: 0xF87D4, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController Line]', symObjAddr: 0x1244, symBinAddr: 0x10000FE18, symSize: 0x80 }
+  - { offsetInCU: 0x1E01, offset: 0xF881D, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController Bone]', symObjAddr: 0x12C4, symBinAddr: 0x10000FE98, symSize: 0x80 }
+  - { offsetInCU: 0x1E4A, offset: 0xF8866, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController Info]', symObjAddr: 0x1344, symBinAddr: 0x10000FF18, symSize: 0x80 }
+  - { offsetInCU: 0x1E93, offset: 0xF88AF, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController HP]', symObjAddr: 0x13C4, symBinAddr: 0x10000FF98, symSize: 0x80 }
+  - { offsetInCU: 0x1EDC, offset: 0xF88F8, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController usesCustomFontSize]', symObjAddr: 0x1444, symBinAddr: 0x100010018, symSize: 0x58 }
+  - { offsetInCU: 0x1F1E, offset: 0xF893A, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController realCustomFontSize]', symObjAddr: 0x149C, symBinAddr: 0x100010070, symSize: 0x60 }
+  - { offsetInCU: 0x1F60, offset: 0xF897C, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController usesCustomOffset]', symObjAddr: 0x14FC, symBinAddr: 0x1000100D0, symSize: 0x58 }
+  - { offsetInCU: 0x1FA2, offset: 0xF89BE, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController realCustomOffsetX]', symObjAddr: 0x1554, symBinAddr: 0x100010128, symSize: 0x60 }
+  - { offsetInCU: 0x1FE4, offset: 0xF8A00, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController realCustomOffsetY]', symObjAddr: 0x15B4, symBinAddr: 0x100010188, symSize: 0x60 }
+  - { offsetInCU: 0x2026, offset: 0xF8A42, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController init]', symObjAddr: 0x1614, symBinAddr: 0x1000101E8, symSize: 0x17C }
+  - { offsetInCU: 0x2084, offset: 0xF8AA0, size: 0x8, addend: 0x0, symName: '___29-[HUDRootViewController init]_block_invoke', symObjAddr: 0x1790, symBinAddr: 0x100010364, symSize: 0xB4 }
+  - { offsetInCU: 0x211C, offset: 0xF8B38, size: 0x8, addend: 0x0, symName: '___29-[HUDRootViewController init]_block_invoke_2', symObjAddr: 0x1844, symBinAddr: 0x100010418, symSize: 0x40 }
+  - { offsetInCU: 0x216B, offset: 0xF8B87, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController dealloc]', symObjAddr: 0x18E8, symBinAddr: 0x100010458, symSize: 0x80 }
+  - { offsetInCU: 0x231F, offset: 0xF8D3B, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController updateSpeedLabel]', symObjAddr: 0x1974, symBinAddr: 0x1000104E4, symSize: 0xA40 }
+  - { offsetInCU: 0x249A, offset: 0xF8EB6, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController viewDidLoad]', symObjAddr: 0x23B4, symBinAddr: 0x100010F24, symSize: 0x60C }
+  - { offsetInCU: 0x2523, offset: 0xF8F3F, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController viewDidAppear:]', symObjAddr: 0x29C0, symBinAddr: 0x100011530, symSize: 0x40 }
+  - { offsetInCU: 0x2576, offset: 0xF8F92, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController resetLoopTimer]', symObjAddr: 0x2A00, symBinAddr: 0x100011570, symSize: 0x64 }
+  - { offsetInCU: 0x25AA, offset: 0xF8FC6, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController stopLoopTimer]', symObjAddr: 0x2A64, symBinAddr: 0x1000115D4, symSize: 0x34 }
+  - { offsetInCU: 0x25DE, offset: 0xF8FFA, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController viewSafeAreaInsetsDidChange]', symObjAddr: 0x2A98, symBinAddr: 0x100011608, symSize: 0x58 }
+  - { offsetInCU: 0x2612, offset: 0xF902E, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController updateViewConstraints]', symObjAddr: 0x2AF0, symBinAddr: 0x100011660, symSize: 0x1440 }
+  - { offsetInCU: 0x2811, offset: 0xF922D, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController keepFocus:]', symObjAddr: 0x3F30, symBinAddr: 0x100012AA0, symSize: 0x8 }
+  - { offsetInCU: 0x2852, offset: 0xF926E, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController onFocus:]', symObjAddr: 0x3F38, symBinAddr: 0x100012AA8, symSize: 0xC }
+  - { offsetInCU: 0x2893, offset: 0xF92AF, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController onFocus:duration:]', symObjAddr: 0x3F44, symBinAddr: 0x100012AB4, symSize: 0x18 }
+  - { offsetInCU: 0x28E5, offset: 0xF9301, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController onFocus:scaleFactor:duration:beginFromInitialState:blurWhenDone:]', symObjAddr: 0x3F5C, symBinAddr: 0x100012ACC, symSize: 0x238 }
+  - { offsetInCU: 0x29D4, offset: 0xF93F0, size: 0x8, addend: 0x0, symName: '___89-[HUDRootViewController onFocus:scaleFactor:duration:beginFromInitialState:blurWhenDone:]_block_invoke', symObjAddr: 0x4194, symBinAddr: 0x100012D04, symSize: 0xB4 }
+  - { offsetInCU: 0x2B0A, offset: 0xF9526, size: 0x8, addend: 0x0, symName: '___89-[HUDRootViewController onFocus:scaleFactor:duration:beginFromInitialState:blurWhenDone:]_block_invoke.105', symObjAddr: 0x4248, symBinAddr: 0x100012DB8, symSize: 0x24 }
+  - { offsetInCU: 0x2B7B, offset: 0xF9597, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController onBlur:]', symObjAddr: 0x426C, symBinAddr: 0x100012DDC, symSize: 0xC }
+  - { offsetInCU: 0x2BBC, offset: 0xF95D8, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController onBlur:duration:]', symObjAddr: 0x4278, symBinAddr: 0x100012DE8, symSize: 0x134 }
+  - { offsetInCU: 0x2C12, offset: 0xF962E, size: 0x8, addend: 0x0, symName: '___41-[HUDRootViewController onBlur:duration:]_block_invoke', symObjAddr: 0x43AC, symBinAddr: 0x100012F1C, symSize: 0x58 }
+  - { offsetInCU: 0x2C50, offset: 0xF966C, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController removeAllAnimations]', symObjAddr: 0x4404, symBinAddr: 0x100012F74, symSize: 0x50 }
+  - { offsetInCU: 0x2C84, offset: 0xF96A0, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController resetGestureRecognizers]', symObjAddr: 0x4454, symBinAddr: 0x100012FC4, symSize: 0x12C }
+  - { offsetInCU: 0x2CD0, offset: 0xF96EC, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController tapGestureRecognized:]', symObjAddr: 0x4580, symBinAddr: 0x1000130F0, symSize: 0xB8 }
+  - { offsetInCU: 0x2D15, offset: 0xF9731, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController cancelPreviousPerformRequestsWithTarget:]', symObjAddr: 0x4638, symBinAddr: 0x1000131A8, symSize: 0x7C }
+  - { offsetInCU: 0x2D5A, offset: 0xF9776, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController flashLockedViewWithDuration:]', symObjAddr: 0x46B4, symBinAddr: 0x100013224, symSize: 0x33C }
+  - { offsetInCU: 0x2DC1, offset: 0xF97DD, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController .cxx_destruct]', symObjAddr: 0x4DBC, symBinAddr: 0x10001392C, symSize: 0x194 }
+  - { offsetInCU: 0x2E22, offset: 0xF983E, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController(Troll) updateOrientation:animateWithDuration:]', symObjAddr: 0x4F50, symBinAddr: 0x100013AC0, symSize: 0x234 }
+  - { offsetInCU: 0x2EF1, offset: 0xF990D, size: 0x8, addend: 0x0, symName: '___70-[HUDRootViewController(Troll) updateOrientation:animateWithDuration:]_block_invoke_2', symObjAddr: 0x5184, symBinAddr: 0x100013CF4, symSize: 0xB0 }
+  - { offsetInCU: 0x2F89, offset: 0xF99A5, size: 0x8, addend: 0x0, symName: '___70-[HUDRootViewController(Troll) updateOrientation:animateWithDuration:]_block_invoke.207', symObjAddr: 0x5234, symBinAddr: 0x100013DA4, symSize: 0x74 }
+  - { offsetInCU: 0x2FD4, offset: 0xF99F0, size: 0x8, addend: 0x0, symName: '-[HUDRootViewController(Troll) supportedInterfaceOrientations]', symObjAddr: 0x52A8, symBinAddr: 0x100013E18, symSize: 0x8 }
+  - { offsetInCU: 0x3046, offset: 0xF9A62, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke, symObjAddr: 0x5760, symBinAddr: 0x1000142D0, symSize: 0x7C }
+  - { offsetInCU: 0x306D, offset: 0xF9A89, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_2, symObjAddr: 0x57DC, symBinAddr: 0x10001434C, symSize: 0x7C }
+  - { offsetInCU: 0x3094, offset: 0xF9AB0, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_3, symObjAddr: 0x5858, symBinAddr: 0x1000143C8, symSize: 0x7C }
+  - { offsetInCU: 0x30BB, offset: 0xF9AD7, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_4, symObjAddr: 0x58D4, symBinAddr: 0x100014444, symSize: 0x7C }
+  - { offsetInCU: 0x30E2, offset: 0xF9AFE, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_5, symObjAddr: 0x5950, symBinAddr: 0x1000144C0, symSize: 0x7C }
+  - { offsetInCU: 0x3109, offset: 0xF9B25, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_6, symObjAddr: 0x59CC, symBinAddr: 0x10001453C, symSize: 0x7C }
+  - { offsetInCU: 0x3130, offset: 0xF9B4C, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_7, symObjAddr: 0x5A48, symBinAddr: 0x1000145B8, symSize: 0x7C }
+  - { offsetInCU: 0x3157, offset: 0xF9B73, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_8, symObjAddr: 0x5AC4, symBinAddr: 0x100014634, symSize: 0x7C }
+  - { offsetInCU: 0x317E, offset: 0xF9B9A, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_9, symObjAddr: 0x5B40, symBinAddr: 0x1000146B0, symSize: 0x7C }
+  - { offsetInCU: 0x31A5, offset: 0xF9BC1, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_10, symObjAddr: 0x5BBC, symBinAddr: 0x10001472C, symSize: 0x7C }
+  - { offsetInCU: 0x31CC, offset: 0xF9BE8, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_11, symObjAddr: 0x5C38, symBinAddr: 0x1000147A8, symSize: 0x7C }
+  - { offsetInCU: 0x31F3, offset: 0xF9C0F, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_12, symObjAddr: 0x5CB4, symBinAddr: 0x100014824, symSize: 0x7C }
+  - { offsetInCU: 0x321A, offset: 0xF9C36, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_13, symObjAddr: 0x5D30, symBinAddr: 0x1000148A0, symSize: 0x7C }
+  - { offsetInCU: 0x3243, offset: 0xF9C5F, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_14, symObjAddr: 0x5DAC, symBinAddr: 0x10001491C, symSize: 0x7C }
+  - { offsetInCU: 0x326C, offset: 0xF9C88, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_15, symObjAddr: 0x5E28, symBinAddr: 0x100014998, symSize: 0x7C }
+  - { offsetInCU: 0x3295, offset: 0xF9CB1, size: 0x8, addend: 0x0, symName: ____ZL14formattedSpeedyb_block_invoke_16, symObjAddr: 0x5EA4, symBinAddr: 0x100014A14, symSize: 0x7C }
+  - { offsetInCU: 0x27, offset: 0xFA66E, size: 0x8, addend: 0x0, symName: __Z8ToScreen7Vector2S_PS_, symObjAddr: 0x0, symBinAddr: 0x100014AA8, symSize: 0x98 }
+  - { offsetInCU: 0x113, offset: 0xFA75A, size: 0x8, addend: 0x0, symName: _Imageaddress, symObjAddr: 0x2AA48, symBinAddr: 0x10004BD18, symSize: 0x0 }
+  - { offsetInCU: 0x130, offset: 0xFA777, size: 0x8, addend: 0x0, symName: _Game_Data, symObjAddr: 0x2AA50, symBinAddr: 0x10004BD20, symSize: 0x0 }
+  - { offsetInCU: 0x146, offset: 0xFA78D, size: 0x8, addend: 0x0, symName: _Game_Viewport, symObjAddr: 0x2AA58, symBinAddr: 0x10004BD28, symSize: 0x0 }
+  - { offsetInCU: 0x15C, offset: 0xFA7A3, size: 0x8, addend: 0x0, symName: _ViewMatrix, symObjAddr: 0x2AA60, symBinAddr: 0x10004BD30, symSize: 0x0 }
+  - { offsetInCU: 0x24A, offset: 0xFA891, size: 0x8, addend: 0x0, symName: __ZL7MemPosx, symObjAddr: 0x2AAAC, symBinAddr: 0x10004B3B0, symSize: 0x0 }
+  - { offsetInCU: 0x264, offset: 0xFA8AB, size: 0x8, addend: 0x0, symName: __ZL7MemPosy, symObjAddr: 0x2AAB0, symBinAddr: 0x10004B3B4, symSize: 0x0 }
+  - { offsetInCU: 0x291, offset: 0xFA8D8, size: 0x8, addend: 0x0, symName: __ZL4task, symObjAddr: 0x2AAB4, symBinAddr: 0x10004B3B8, symSize: 0x0 }
+  - { offsetInCU: 0x2B51, offset: 0xFD198, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI13SmobaHeroDataEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m, symObjAddr: 0x15CC, symBinAddr: 0x1000158A4, symSize: 0x44 }
+  - { offsetInCU: 0x2BF9, offset: 0xFD240, size: 0x8, addend: 0x0, symName: __ZSt28__throw_bad_array_new_lengthB7v160006v, symObjAddr: 0x1610, symBinAddr: 0x1000158E8, symSize: 0x28 }
+  - { offsetInCU: 0x2D61, offset: 0xFD3A8, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB7v160006EPKc, symObjAddr: 0x1558, symBinAddr: 0x100015830, symSize: 0x50 }
+  - { offsetInCU: 0x2FA1, offset: 0xFD5E8, size: 0x8, addend: 0x0, symName: __ZSt28__throw_bad_array_new_lengthB7v160006v, symObjAddr: 0x1610, symBinAddr: 0x1000158E8, symSize: 0x28 }
+  - { offsetInCU: 0x4906, offset: 0xFEF4D, size: 0x8, addend: 0x0, symName: __Z8ToScreen7Vector2S_PS_, symObjAddr: 0x0, symBinAddr: 0x100014AA8, symSize: 0x98 }
+  - { offsetInCU: 0x496A, offset: 0xFEFB1, size: 0x8, addend: 0x0, symName: __Z9ToMiniMap7Vector2S_, symObjAddr: 0x98, symBinAddr: 0x100014B40, symSize: 0x44 }
+  - { offsetInCU: 0x506E, offset: 0xFF6B5, size: 0x8, addend: 0x0, symName: __Z10GetPlayersPNSt3__16vectorI13SmobaHeroDataNS_9allocatorIS1_EEEE, symObjAddr: 0x344, symBinAddr: 0x100014B84, symSize: 0x5EC }
+  - { offsetInCU: 0x63A1, offset: 0x1009E8, size: 0x8, addend: 0x0, symName: __ZL12GetPlayerPosl, symObjAddr: 0x930, symBinAddr: 0x100015170, symSize: 0x1A0 }
+  - { offsetInCU: 0x63BD, offset: 0x100A04, size: 0x8, addend: 0x0, symName: __ZL12GetPlayerPosl, symObjAddr: 0x930, symBinAddr: 0x100015170, symSize: 0x1A0 }
+  - { offsetInCU: 0x68DD, offset: 0x100F24, size: 0x8, addend: 0x0, symName: __ZL15GetKillActivatel, symObjAddr: 0x14C0, symBinAddr: 0x100015798, symSize: 0x84 }
+  - { offsetInCU: 0x6A25, offset: 0x10106C, size: 0x8, addend: 0x0, symName: __ZNKSt3__16vectorI13SmobaHeroDataNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev, symObjAddr: 0x1544, symBinAddr: 0x10001581C, symSize: 0x14 }
+  - { offsetInCU: 0x6A4E, offset: 0x101095, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB7v160006EPKc, symObjAddr: 0x1558, symBinAddr: 0x100015830, symSize: 0x50 }
+  - { offsetInCU: 0x6AC7, offset: 0x10110E, size: 0x8, addend: 0x0, symName: __Z13RefreshMatrixv, symObjAddr: 0xEBC, symBinAddr: 0x100015310, symSize: 0xAC }
+  - { offsetInCU: 0x7017, offset: 0x10165E, size: 0x8, addend: 0x0, symName: __Z18Gameinitializationv, symObjAddr: 0x10E4, symBinAddr: 0x1000153BC, symSize: 0x3DC }
+  - { offsetInCU: 0x74ED, offset: 0x101B34, size: 0x8, addend: 0x0, symName: __ZNSt12length_errorC1B7v160006EPKc, symObjAddr: 0x15A8, symBinAddr: 0x100015880, symSize: 0x24 }
+  - { offsetInCU: 0x89, offset: 0x101C6F, size: 0x8, addend: 0x0, symName: _userDefaults, symObjAddr: 0x1DFA8, symBinAddr: 0x10004BD70, symSize: 0x0 }
+  - { offsetInCU: 0xA4, offset: 0x101C8A, size: 0x8, addend: 0x0, symName: _GameCanvas, symObjAddr: 0x1DFB8, symBinAddr: 0x10004BD78, symSize: 0x0 }
+  - { offsetInCU: 0xC1, offset: 0x101CA7, size: 0x8, addend: 0x0, symName: _MiniMap, symObjAddr: 0x1DFC0, symBinAddr: 0x10004BD80, symSize: 0x0 }
+  - { offsetInCU: 0xD7, offset: 0x101CBD, size: 0x8, addend: 0x0, symName: _NetImage, symObjAddr: 0x1DFC8, symBinAddr: 0x10004BD88, symSize: 0x0 }
+  - { offsetInCU: 0x2E0A, offset: 0x1049F0, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI9SaveImageEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m, symObjAddr: 0x2D88, symBinAddr: 0x100018618, symSize: 0x34 }
+  - { offsetInCU: 0x3166, offset: 0x104D4C, size: 0x8, addend: 0x0, symName: _NetImage1, symObjAddr: 0x1DFE0, symBinAddr: 0x10004BDA0, symSize: 0x0 }
+  - { offsetInCU: 0x317C, offset: 0x104D62, size: 0x8, addend: 0x0, symName: _NetImage2, symObjAddr: 0x1DFF8, symBinAddr: 0x10004BDB8, symSize: 0x0 }
+  - { offsetInCU: 0x3192, offset: 0x104D78, size: 0x8, addend: 0x0, symName: _NetImage3, symObjAddr: 0x1E010, symBinAddr: 0x10004BDD0, symSize: 0x0 }
+  - { offsetInCU: 0x31A8, offset: 0x104D8E, size: 0x8, addend: 0x0, symName: _NetImage4, symObjAddr: 0x1E028, symBinAddr: 0x10004BDE8, symSize: 0x0 }
+  - { offsetInCU: 0x31BE, offset: 0x104DA4, size: 0x8, addend: 0x0, symName: "_绘制技能", symObjAddr: 0x1E041, symBinAddr: 0x10004BE01, symSize: 0x0 }
+  - { offsetInCU: 0x31D4, offset: 0x104DBA, size: 0x8, addend: 0x0, symName: "_绘制野怪", symObjAddr: 0x1E042, symBinAddr: 0x10004BE02, symSize: 0x0 }
+  - { offsetInCU: 0x31EA, offset: 0x104DD0, size: 0x8, addend: 0x0, symName: "_绘制头像", symObjAddr: 0x1E043, symBinAddr: 0x10004BE03, symSize: 0x0 }
+  - { offsetInCU: 0x3200, offset: 0x104DE6, size: 0x8, addend: 0x0, symName: "_绘制射线", symObjAddr: 0x1E044, symBinAddr: 0x10004BE04, symSize: 0x0 }
+  - { offsetInCU: 0x3216, offset: 0x104DFC, size: 0x8, addend: 0x0, symName: _SkillTable, symObjAddr: 0x1E048, symBinAddr: 0x10004BE08, symSize: 0x0 }
+  - { offsetInCU: 0x32C2, offset: 0x104EA8, size: 0x8, addend: 0x0, symName: _HeroImage, symObjAddr: 0x1E098, symBinAddr: 0x10004BE58, symSize: 0x0 }
+  - { offsetInCU: 0x32EE, offset: 0x104ED4, size: 0x8, addend: 0x0, symName: "_Path_方框", symObjAddr: 0x1E0F0, symBinAddr: 0x10004BEA8, symSize: 0x0 }
+  - { offsetInCU: 0x3309, offset: 0x104EEF, size: 0x8, addend: 0x0, symName: _Path_xueRect, symObjAddr: 0x1E118, symBinAddr: 0x10004BEB0, symSize: 0x0 }
+  - { offsetInCU: 0x331F, offset: 0x104F05, size: 0x8, addend: 0x0, symName: _Path_xuebeijingRect, symObjAddr: 0x1E120, symBinAddr: 0x10004BEB8, symSize: 0x0 }
+  - { offsetInCU: 0x3335, offset: 0x104F1B, size: 0x8, addend: 0x0, symName: _warningLabels, symObjAddr: 0x1E130, symBinAddr: 0x10004BEC0, symSize: 0x0 }
+  - { offsetInCU: 0x335C, offset: 0x104F42, size: 0x8, addend: 0x0, symName: _Draw_Rect, symObjAddr: 0x1E180, symBinAddr: 0x10004BF10, symSize: 0x0 }
+  - { offsetInCU: 0x3372, offset: 0x104F58, size: 0x8, addend: 0x0, symName: _Path_Rect, symObjAddr: 0x1E198, symBinAddr: 0x10004BF18, symSize: 0x0 }
+  - { offsetInCU: 0x3388, offset: 0x104F6E, size: 0x8, addend: 0x0, symName: _HeroBloodRing, symObjAddr: 0x1E1B0, symBinAddr: 0x10004BF20, symSize: 0x0 }
+  - { offsetInCU: 0x33AA, offset: 0x104F90, size: 0x8, addend: 0x0, symName: _hpTable, symObjAddr: 0x1E200, symBinAddr: 0x10004BF70, symSize: 0x0 }
+  - { offsetInCU: 0x4517, offset: 0x1060FD, size: 0x8, addend: 0x0, symName: '-[SkillView Skill1]', symObjAddr: 0x0, symBinAddr: 0x100015910, symSize: 0x10 }
+  - { offsetInCU: 0x454E, offset: 0x106134, size: 0x8, addend: 0x0, symName: '-[SkillView setSkill1:]', symObjAddr: 0x10, symBinAddr: 0x100015920, symSize: 0xC }
+  - { offsetInCU: 0x458D, offset: 0x106173, size: 0x8, addend: 0x0, symName: '-[SkillView Skill2]', symObjAddr: 0x1C, symBinAddr: 0x10001592C, symSize: 0x10 }
+  - { offsetInCU: 0x45C4, offset: 0x1061AA, size: 0x8, addend: 0x0, symName: '-[SkillView setSkill2:]', symObjAddr: 0x2C, symBinAddr: 0x10001593C, symSize: 0xC }
+  - { offsetInCU: 0x4603, offset: 0x1061E9, size: 0x8, addend: 0x0, symName: '-[SkillView Skill3]', symObjAddr: 0x38, symBinAddr: 0x100015948, symSize: 0x10 }
+  - { offsetInCU: 0x463A, offset: 0x106220, size: 0x8, addend: 0x0, symName: '-[SkillView setSkill3:]', symObjAddr: 0x48, symBinAddr: 0x100015958, symSize: 0xC }
+  - { offsetInCU: 0x4679, offset: 0x10625F, size: 0x8, addend: 0x0, symName: '-[SkillView Skill4]', symObjAddr: 0x54, symBinAddr: 0x100015964, symSize: 0x10 }
+  - { offsetInCU: 0x46B0, offset: 0x106296, size: 0x8, addend: 0x0, symName: '-[SkillView setSkill4:]', symObjAddr: 0x64, symBinAddr: 0x100015974, symSize: 0xC }
+  - { offsetInCU: 0x46F0, offset: 0x1062D6, size: 0x8, addend: 0x0, symName: '-[SkillView .cxx_destruct]', symObjAddr: 0x70, symBinAddr: 0x100015980, symSize: 0x68 }
+  - { offsetInCU: 0x4723, offset: 0x106309, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorI9SaveImageNS_9allocatorIS1_EEED1B7v160006Ev, symObjAddr: 0xD8, symBinAddr: 0x1000159E8, symSize: 0x4 }
+  - { offsetInCU: 0x474F, offset: 0x106335, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorI9SaveImageNS_9allocatorIS1_EEED1B7v160006Ev, symObjAddr: 0xD8, symBinAddr: 0x1000159E8, symSize: 0x4 }
+  - { offsetInCU: 0x4763, offset: 0x106349, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorI9SaveImageNS_9allocatorIS1_EEED2B7v160006Ev, symObjAddr: 0x2B20, symBinAddr: 0x100018430, symSize: 0x38 }
+  - { offsetInCU: 0x47F6, offset: 0x1063DC, size: 0x8, addend: 0x0, symName: "+[绘图吧 cjDrawView]", symObjAddr: 0xDC, symBinAddr: 0x1000159EC, symSize: 0x70 }
+  - { offsetInCU: 0x4829, offset: 0x10640F, size: 0x8, addend: 0x0, symName: "-[绘图吧 initWithFrame:]", symObjAddr: 0x14C, symBinAddr: 0x100015A5C, symSize: 0xE00 }
+  - { offsetInCU: 0x48D7, offset: 0x1064BD, size: 0x8, addend: 0x0, symName: "-[绘图吧 layoutSubviews]", symObjAddr: 0xF4C, symBinAddr: 0x10001685C, symSize: 0x58 }
+  - { offsetInCU: 0x4D58, offset: 0x10693E, size: 0x8, addend: 0x0, symName: "-[绘图吧 huizhia]", symObjAddr: 0xFA4, symBinAddr: 0x1000168B4, symSize: 0x194C }
+  - { offsetInCU: 0x5B65, offset: 0x10774B, size: 0x8, addend: 0x0, symName: __ZL13GetHeroImage1ii, symObjAddr: 0x28F0, symBinAddr: 0x100018200, symSize: 0x1F8 }
+  - { offsetInCU: 0x5D42, offset: 0x107928, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorI9SaveImageNS_9allocatorIS1_EEE9push_backB7v160006ERKS1_, symObjAddr: 0x2BD0, symBinAddr: 0x1000184D4, symSize: 0x130 }
+  - { offsetInCU: 0x624F, offset: 0x107E35, size: 0x8, addend: 0x0, symName: __ZNKSt3__16vectorI9SaveImageNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev, symObjAddr: 0x2D00, symBinAddr: 0x100018604, symSize: 0x14 }
+  - { offsetInCU: 0x62DD, offset: 0x107EC3, size: 0x8, addend: 0x0, symName: "-[绘图吧 MonstersCircles]", symObjAddr: 0x2AE8, symBinAddr: 0x1000183F8, symSize: 0x10 }
+  - { offsetInCU: 0x6314, offset: 0x107EFA, size: 0x8, addend: 0x0, symName: "-[绘图吧 setMonstersCircles:]", symObjAddr: 0x2AF8, symBinAddr: 0x100018408, symSize: 0x14 }
+  - { offsetInCU: 0x6355, offset: 0x107F3B, size: 0x8, addend: 0x0, symName: "-[绘图吧 .cxx_destruct]", symObjAddr: 0x2B0C, symBinAddr: 0x10001841C, symSize: 0x14 }
+  - { offsetInCU: 0x63DC, offset: 0x107FC2, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorI9SaveImageNS_9allocatorIS1_EEE16__destroy_vectorclB7v160006Ev, symObjAddr: 0x2B64, symBinAddr: 0x100018468, symSize: 0x6C }
+  - { offsetInCU: 0x6A4F, offset: 0x108635, size: 0x8, addend: 0x0, symName: __ZNSt3__114__split_bufferI9SaveImageRNS_9allocatorIS1_EEED2Ev, symObjAddr: 0x2DE4, symBinAddr: 0x10001864C, symSize: 0x50 }
+  - { offsetInCU: 0x6C0F, offset: 0x1087F5, size: 0x8, addend: 0x0, symName: __ZNKSt3__16vectorI9SaveImageNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev, symObjAddr: 0x2D00, symBinAddr: 0x100018604, symSize: 0x14 }
+  - { offsetInCU: 0x27, offset: 0x10895F, size: 0x8, addend: 0x0, symName: '-[HUDMainApplicationDelegate init]', symObjAddr: 0x0, symBinAddr: 0x10001873C, symSize: 0x34 }
+  - { offsetInCU: 0xB1, offset: 0x1089E9, size: 0x8, addend: 0x0, symName: '-[HUDMainApplicationDelegate init]', symObjAddr: 0x0, symBinAddr: 0x10001873C, symSize: 0x34 }
+  - { offsetInCU: 0xE8, offset: 0x108A20, size: 0x8, addend: 0x0, symName: '-[HUDMainApplicationDelegate application:didFinishLaunchingWithOptions:]', symObjAddr: 0x34, symBinAddr: 0x100018770, symSize: 0x2A0 }
+  - { offsetInCU: 0x1BE, offset: 0x108AF6, size: 0x8, addend: 0x0, symName: '-[HUDMainApplicationDelegate window]', symObjAddr: 0x2D4, symBinAddr: 0x100018A10, symSize: 0x10 }
+  - { offsetInCU: 0x1F5, offset: 0x108B2D, size: 0x8, addend: 0x0, symName: '-[HUDMainApplicationDelegate setWindow:]', symObjAddr: 0x2E4, symBinAddr: 0x100018A20, symSize: 0x14 }
+  - { offsetInCU: 0x236, offset: 0x108B6E, size: 0x8, addend: 0x0, symName: '-[HUDMainApplicationDelegate .cxx_destruct]', symObjAddr: 0x2F8, symBinAddr: 0x100018A34, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x108BFB, size: 0x8, addend: 0x0, symName: '+[HUDMainWindow _isSystemWindow]', symObjAddr: 0x0, symBinAddr: 0x100018A88, symSize: 0x8 }
+  - { offsetInCU: 0x46, offset: 0x108C1A, size: 0x8, addend: 0x0, symName: '+[HUDMainWindow _isSystemWindow]', symObjAddr: 0x0, symBinAddr: 0x100018A88, symSize: 0x8 }
+  - { offsetInCU: 0x79, offset: 0x108C4D, size: 0x8, addend: 0x0, symName: '-[HUDMainWindow _isWindowServerHostingManaged]', symObjAddr: 0x8, symBinAddr: 0x100018A90, symSize: 0x8 }
+  - { offsetInCU: 0xAC, offset: 0x108C80, size: 0x8, addend: 0x0, symName: '-[HUDMainWindow _ignoresHitTest]', symObjAddr: 0x10, symBinAddr: 0x100018A98, symSize: 0xC }
+  - { offsetInCU: 0xDF, offset: 0x108CB3, size: 0x8, addend: 0x0, symName: '-[HUDMainWindow _isSecure]', symObjAddr: 0x1C, symBinAddr: 0x100018AA4, symSize: 0x8 }
+  - { offsetInCU: 0x112, offset: 0x108CE6, size: 0x8, addend: 0x0, symName: '-[HUDMainWindow _shouldCreateContextAsSecure]', symObjAddr: 0x24, symBinAddr: 0x100018AAC, symSize: 0x8 }
+  - { offsetInCU: 0x4B, offset: 0x108D7A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV5title10Foundation23LocalizedStringResourceVvpZ', symObjAddr: 0x5740, symBinAddr: 0x10004BFC0, symSize: 0x0 }
+  - { offsetInCU: 0x59, offset: 0x108D88, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV5title_WZ', symObjAddr: 0x0, symBinAddr: 0x100018AB4, symSize: 0x5C }
+  - { offsetInCU: 0x9A, offset: 0x108DC9, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAadEP5title10Foundation23LocalizedStringResourceVvgZTW', symObjAddr: 0x5C, symBinAddr: 0x100018B10, symSize: 0x70 }
+  - { offsetInCU: 0xF1, offset: 0x108E20, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAadEP7perform13PerformResultQzyYaKFTW', symObjAddr: 0x138, symBinAddr: 0x100018BEC, symSize: 0x18 }
+  - { offsetInCU: 0x111, offset: 0x108E40, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAadEP7perform13PerformResultQzyYaKFTW', symObjAddr: 0x138, symBinAddr: 0x100018BEC, symSize: 0x18 }
+  - { offsetInCU: 0x13F, offset: 0x108E6E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAadEP7perform13PerformResultQzyYaKFTWTY0_', symObjAddr: 0x150, symBinAddr: 0x100018C04, symSize: 0x90 }
+  - { offsetInCU: 0x18B, offset: 0x108EBA, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAadEPxycfCTW', symObjAddr: 0x1E0, symBinAddr: 0x100018C94, symSize: 0x4 }
+  - { offsetInCU: 0x1B6, offset: 0x108EE5, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC5colorSo7UIColorCvpfi', symObjAddr: 0x224, symBinAddr: 0x100018CD8, symSize: 0x2C }
+  - { offsetInCU: 0x1CE, offset: 0x108EFD, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC8delegateAA0cD8Delegate_pSgvpfi', symObjAddr: 0x250, symBinAddr: 0x100018D04, symSize: 0x8 }
+  - { offsetInCU: 0x1E6, offset: 0x108F15, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC15alreadyLaunchedSbvpfi', symObjAddr: 0x258, symBinAddr: 0x100018D0C, symSize: 0x8 }
+  - { offsetInCU: 0x1FE, offset: 0x108F2D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC15restartRequiredSbvpfi', symObjAddr: 0x260, symBinAddr: 0x100018D14, symSize: 0x8 }
+  - { offsetInCU: 0x216, offset: 0x108F45, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC06hiddenE10Recognizer33_B354DCF0DCFA023FB04FC5B731C7ADDFLLAA06HiddeneG0Vvpfi', symObjAddr: 0x268, symBinAddr: 0x100018D1C, symSize: 0x4 }
+  - { offsetInCU: 0x22E, offset: 0x108F5D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC17cellIdentificatorSSvpfi', symObjAddr: 0x280, symBinAddr: 0x100018D34, symSize: 0x1C }
+  - { offsetInCU: 0x246, offset: 0x108F75, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC8cellSizeSo6CGSizeVvpfi', symObjAddr: 0x29C, symBinAddr: 0x100018D50, symSize: 0x18 }
+  - { offsetInCU: 0x25E, offset: 0x108F8D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC9sideInset12CoreGraphics7CGFloatVvpfi', symObjAddr: 0x2B4, symBinAddr: 0x100018D68, symSize: 0x8 }
+  - { offsetInCU: 0x276, offset: 0x108FA5, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC12customHeight12CoreGraphics7CGFloatVvpfi', symObjAddr: 0x330, symBinAddr: 0x100018DE4, symSize: 0x8 }
+  - { offsetInCU: 0x28E, offset: 0x108FBD, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC21swipeToDismissEnabledSbvpfi', symObjAddr: 0x338, symBinAddr: 0x100018DEC, symSize: 0x8 }
+  - { offsetInCU: 0x2A6, offset: 0x108FD5, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC19translateForDismiss12CoreGraphics7CGFloatVvpfi', symObjAddr: 0x340, symBinAddr: 0x100018DF4, symSize: 0xC }
+  - { offsetInCU: 0x2BE, offset: 0x108FED, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAaD24PersistentlyIdentifiablePWb', symObjAddr: 0x37C, symBinAddr: 0x100018E30, symSize: 0x4 }
+  - { offsetInCU: 0x2D2, offset: 0x109001, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentVAC10AppIntents24PersistentlyIdentifiableAAWl', symObjAddr: 0x380, symBinAddr: 0x100018E34, symSize: 0x44 }
+  - { offsetInCU: 0x2E6, offset: 0x109015, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAaD09_SupportsE12DependenciesPWb', symObjAddr: 0x3C4, symBinAddr: 0x100018E78, symSize: 0x4 }
+  - { offsetInCU: 0x2FA, offset: 0x109029, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentVAC10AppIntents09_SupportsE12DependenciesAAWl', symObjAddr: 0x3C8, symBinAddr: 0x100018E7C, symSize: 0x44 }
+  - { offsetInCU: 0x30E, offset: 0x10903D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAA13PerformResultAdEP_AD0gI0PWT', symObjAddr: 0x40C, symBinAddr: 0x100018EC0, symSize: 0x10 }
+  - { offsetInCU: 0x322, offset: 0x109051, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAA14SummaryContentAdEP_AD09ParameterH0PWT', symObjAddr: 0x41C, symBinAddr: 0x100018ED0, symSize: 0x40 }
+  - { offsetInCU: 0x336, offset: 0x109065, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentVAC10AppIntents0E6IntentAAWl', symObjAddr: 0x45C, symBinAddr: 0x100018F10, symSize: 0x44 }
+  - { offsetInCU: 0x34A, offset: 0x109079, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0x4A0, symBinAddr: 0x100018F54, symSize: 0xC }
+  - { offsetInCU: 0x35E, offset: 0x10908D, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x4AC, symBinAddr: 0x100018F60, symSize: 0x4 }
+  - { offsetInCU: 0x372, offset: 0x1090A1, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwet', symObjAddr: 0x4B0, symBinAddr: 0x100018F64, symSize: 0x20 }
+  - { offsetInCU: 0x386, offset: 0x1090B5, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwst', symObjAddr: 0x4D0, symBinAddr: 0x100018F84, symSize: 0x28 }
+  - { offsetInCU: 0x39A, offset: 0x1090C9, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentVMa', symObjAddr: 0x50C, symBinAddr: 0x100018FC0, symSize: 0x10 }
+  - { offsetInCU: 0x3AE, offset: 0x1090DD, size: 0x8, addend: 0x0, symName: '_$s10AppIntents21IntentResultContainerVySbs5NeverOA2EGACyxq_q0_q1_GAA0cD0AAWl', symObjAddr: 0x520, symBinAddr: 0x100018FD4, symSize: 0x4C }
+  - { offsetInCU: 0x3C2, offset: 0x1090F1, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x56C, symBinAddr: 0x100019020, symSize: 0x44 }
+  - { offsetInCU: 0x3D6, offset: 0x109105, size: 0x8, addend: 0x0, symName: '_$sS2b10AppIntents12_IntentValueAAWl', symObjAddr: 0x5B0, symBinAddr: 0x100019064, symSize: 0x44 }
+  - { offsetInCU: 0x3EA, offset: 0x109119, size: 0x8, addend: 0x0, symName: ___swift_project_value_buffer, symObjAddr: 0x5F4, symBinAddr: 0x1000190A8, symSize: 0x18 }
+  - { offsetInCU: 0x3FE, offset: 0x10912D, size: 0x8, addend: 0x0, symName: ___swift_allocate_value_buffer, symObjAddr: 0x60C, symBinAddr: 0x1000190C0, symSize: 0x40 }
+  - { offsetInCU: 0x4AC, offset: 0x1091DB, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAadEP04openE7WhenRunSbvgZTW', symObjAddr: 0xCC, symBinAddr: 0x100018B80, symSize: 0x18 }
+  - { offsetInCU: 0x4C8, offset: 0x1091F7, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAadEP20authenticationPolicyAD0g14AuthenticationI0OvgZTW', symObjAddr: 0xE4, symBinAddr: 0x100018B98, symSize: 0x14 }
+  - { offsetInCU: 0x4E4, offset: 0x109213, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAadEP14isDiscoverableSbvgZTW', symObjAddr: 0xF8, symBinAddr: 0x100018BAC, symSize: 0x18 }
+  - { offsetInCU: 0x500, offset: 0x10922F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAadEP16parameterSummary0I7ContentQzvgZTW', symObjAddr: 0x110, symBinAddr: 0x100018BC4, symSize: 0x14 }
+  - { offsetInCU: 0x51C, offset: 0x10924B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents0E6IntentAadEP11descriptionAD0G11DescriptionVSgvgZTW', symObjAddr: 0x124, symBinAddr: 0x100018BD8, symSize: 0x14 }
+  - { offsetInCU: 0x538, offset: 0x109267, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed17ActivateHUDIntentV10AppIntents24PersistentlyIdentifiableAadEP20persistentIdentifierSSvgZTW', symObjAddr: 0x1E4, symBinAddr: 0x100018C98, symSize: 0x2C }
+  - { offsetInCU: 0x27, offset: 0x1093E7, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x0, symBinAddr: 0x100019160, symSize: 0xC }
+  - { offsetInCU: 0x3F, offset: 0x1093FF, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x0, symBinAddr: 0x100019160, symSize: 0xC }
+  - { offsetInCU: 0x53, offset: 0x109413, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOwet', symObjAddr: 0x10, symBinAddr: 0x10001916C, symSize: 0x90 }
+  - { offsetInCU: 0x67, offset: 0x109427, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOwst', symObjAddr: 0xA0, symBinAddr: 0x1000191FC, symSize: 0xBC }
+  - { offsetInCU: 0x7B, offset: 0x10943B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOwug', symObjAddr: 0x15C, symBinAddr: 0x1000192B8, symSize: 0x8 }
+  - { offsetInCU: 0x8F, offset: 0x10944F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOwup', symObjAddr: 0x164, symBinAddr: 0x1000192C0, symSize: 0x4 }
+  - { offsetInCU: 0xA3, offset: 0x109463, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOwui', symObjAddr: 0x168, symBinAddr: 0x1000192C4, symSize: 0x8 }
+  - { offsetInCU: 0xB7, offset: 0x109477, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOMa', symObjAddr: 0x170, symBinAddr: 0x1000192CC, symSize: 0x10 }
+  - { offsetInCU: 0xCB, offset: 0x10948B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOs12CaseIterableAA8AllCasessADP_SlWT', symObjAddr: 0x180, symBinAddr: 0x1000192DC, symSize: 0x4 }
+  - { offsetInCU: 0xDF, offset: 0x10949F, size: 0x8, addend: 0x0, symName: '_$sSay10TrollSpeed15TSSettingsIndexOGSayxGSlsWl', symObjAddr: 0x184, symBinAddr: 0x1000192E0, symSize: 0x4C }
+  - { offsetInCU: 0xFF, offset: 0x1094BF, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexO3keySSvg', symObjAddr: 0x214, symBinAddr: 0x10001932C, symSize: 0x58 }
+  - { offsetInCU: 0x13D, offset: 0x1094FD, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x32C, symBinAddr: 0x100019444, symSize: 0x18 }
+  - { offsetInCU: 0x16E, offset: 0x10952E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x344, symBinAddr: 0x10001945C, symSize: 0xC }
+  - { offsetInCU: 0x199, offset: 0x109559, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOs12CaseIterableAAsADP8allCases03AllH0QzvgZTW', symObjAddr: 0x350, symBinAddr: 0x100019468, symSize: 0x58 }
+  - { offsetInCU: 0x21E, offset: 0x1095DE, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexO8subtitle11highlighted15restartRequiredSSSb_SbtFTf4ndn_n', symObjAddr: 0x430, symBinAddr: 0x100019548, symSize: 0x28 }
+  - { offsetInCU: 0x2A0, offset: 0x109660, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOSHAASQWb', symObjAddr: 0x3A8, symBinAddr: 0x1000194C0, symSize: 0x4 }
+  - { offsetInCU: 0x2B4, offset: 0x109674, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOACSQAAWl', symObjAddr: 0x3AC, symBinAddr: 0x1000194C4, symSize: 0x44 }
+  - { offsetInCU: 0x2C8, offset: 0x109688, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x3F0, symBinAddr: 0x100019508, symSize: 0x40 }
+  - { offsetInCU: 0x30B, offset: 0x1096CB, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x26C, symBinAddr: 0x100019384, symSize: 0x14 }
+  - { offsetInCU: 0x3A2, offset: 0x109762, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOSHAASH9hashValueSivgTW', symObjAddr: 0x280, symBinAddr: 0x100019398, symSize: 0x44 }
+  - { offsetInCU: 0x451, offset: 0x109811, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x2C4, symBinAddr: 0x1000193DC, symSize: 0x28 }
+  - { offsetInCU: 0x4A4, offset: 0x109864, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15TSSettingsIndexOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x2EC, symBinAddr: 0x100019404, symSize: 0x40 }
+  - { offsetInCU: 0x27, offset: 0x109A34, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tF', symObjAddr: 0x0, symBinAddr: 0x100019570, symSize: 0x4 }
+  - { offsetInCU: 0x4B, offset: 0x109A58, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tF', symObjAddr: 0x0, symBinAddr: 0x100019570, symSize: 0x4 }
+  - { offsetInCU: 0x5F, offset: 0x109A6C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tFyycfU0_', symObjAddr: 0x10, symBinAddr: 0x100019580, symSize: 0x4 }
+  - { offsetInCU: 0xC0, offset: 0x109ACD, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerC18transitionDuration5usingSdSo06UIViewF20ContextTransitioning_pSg_tF', symObjAddr: 0x4, symBinAddr: 0x100019574, symSize: 0xC }
+  - { offsetInCU: 0x106, offset: 0x109B13, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tFTo', symObjAddr: 0x14, symBinAddr: 0x100019584, symSize: 0x3C }
+  - { offsetInCU: 0x138, offset: 0x109B45, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerC18transitionDuration5usingSdSo06UIViewF20ContextTransitioning_pSg_tFTo', symObjAddr: 0x50, symBinAddr: 0x1000195C0, symSize: 0xC }
+  - { offsetInCU: 0x154, offset: 0x109B61, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerCACycfC', symObjAddr: 0x5C, symBinAddr: 0x1000195CC, symSize: 0x20 }
+  - { offsetInCU: 0x172, offset: 0x109B7F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerCACycfc', symObjAddr: 0x7C, symBinAddr: 0x1000195EC, symSize: 0x34 }
+  - { offsetInCU: 0x1AF, offset: 0x109BBC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerCACycfcTo', symObjAddr: 0xB0, symBinAddr: 0x100019620, symSize: 0x3C }
+  - { offsetInCU: 0x1EA, offset: 0x109BF7, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerCfD', symObjAddr: 0xEC, symBinAddr: 0x10001965C, symSize: 0x34 }
+  - { offsetInCU: 0x217, offset: 0x109C24, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tFTf4nd_n', symObjAddr: 0x120, symBinAddr: 0x100019690, symSize: 0x37C }
+  - { offsetInCU: 0x4BA, offset: 0x109EC7, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerCMa', symObjAddr: 0x49C, symBinAddr: 0x100019A0C, symSize: 0x20 }
+  - { offsetInCU: 0x4CE, offset: 0x109EDB, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x4BC, symBinAddr: 0x100019A2C, symSize: 0x10 }
+  - { offsetInCU: 0x4E2, offset: 0x109EEF, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x4CC, symBinAddr: 0x100019A3C, symSize: 0x8 }
+  - { offsetInCU: 0x4F6, offset: 0x109F03, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkPresentingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tFySbcfU1_TA', symObjAddr: 0x4F8, symBinAddr: 0x100019A68, symSize: 0x18 }
+  - { offsetInCU: 0x52A, offset: 0x109F37, size: 0x8, addend: 0x0, symName: '_$sSo6UIViewCMa', symObjAddr: 0x510, symBinAddr: 0x100019A80, symSize: 0x3C }
+  - { offsetInCU: 0x27, offset: 0x10A16B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tF', symObjAddr: 0x0, symBinAddr: 0x100019AC4, symSize: 0x4 }
+  - { offsetInCU: 0x4B, offset: 0x10A18F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tF', symObjAddr: 0x0, symBinAddr: 0x100019AC4, symSize: 0x4 }
+  - { offsetInCU: 0x5F, offset: 0x10A1A3, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tFyycfU_', symObjAddr: 0x10, symBinAddr: 0x100019AD4, symSize: 0x4 }
+  - { offsetInCU: 0x99, offset: 0x10A1DD, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tFySbcfU0_', symObjAddr: 0x14, symBinAddr: 0x100019AD8, symSize: 0x160 }
+  - { offsetInCU: 0x22D, offset: 0x10A371, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerC18transitionDuration5usingSdSo06UIViewF20ContextTransitioning_pSg_tF', symObjAddr: 0x4, symBinAddr: 0x100019AC8, symSize: 0xC }
+  - { offsetInCU: 0x273, offset: 0x10A3B7, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tFTo', symObjAddr: 0x174, symBinAddr: 0x100019C38, symSize: 0x3C }
+  - { offsetInCU: 0x2A5, offset: 0x10A3E9, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerC18transitionDuration5usingSdSo06UIViewF20ContextTransitioning_pSg_tFTo', symObjAddr: 0x1B0, symBinAddr: 0x100019C74, symSize: 0xC }
+  - { offsetInCU: 0x2C1, offset: 0x10A405, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerCACycfC', symObjAddr: 0x1BC, symBinAddr: 0x100019C80, symSize: 0x20 }
+  - { offsetInCU: 0x2DF, offset: 0x10A423, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerCACycfc', symObjAddr: 0x1DC, symBinAddr: 0x100019CA0, symSize: 0x34 }
+  - { offsetInCU: 0x31C, offset: 0x10A460, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerCACycfcTo', symObjAddr: 0x210, symBinAddr: 0x100019CD4, symSize: 0x3C }
+  - { offsetInCU: 0x357, offset: 0x10A49B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerCfD', symObjAddr: 0x24C, symBinAddr: 0x100019D10, symSize: 0x34 }
+  - { offsetInCU: 0x384, offset: 0x10A4C8, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tFTf4nd_n', symObjAddr: 0x280, symBinAddr: 0x100019D44, symSize: 0x16C }
+  - { offsetInCU: 0x470, offset: 0x10A5B4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerCMa', symObjAddr: 0x3EC, symBinAddr: 0x100019EB0, symSize: 0x20 }
+  - { offsetInCU: 0x484, offset: 0x10A5C8, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x40C, symBinAddr: 0x100019ED0, symSize: 0x10 }
+  - { offsetInCU: 0x498, offset: 0x10A5DC, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x41C, symBinAddr: 0x100019EE0, symSize: 0x8 }
+  - { offsetInCU: 0x4AC, offset: 0x10A5F0, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed35SPLarkDismissingAnimationControllerC17animateTransition5usingySo06UIViewF20ContextTransitioning_p_tFySbcfU0_TA', symObjAddr: 0x450, symBinAddr: 0x100019F14, symSize: 0x8 }
+  - { offsetInCU: 0x2B, offset: 0x10A7FE, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerVMa', symObjAddr: 0x0, symBinAddr: 0x100019F24, symSize: 0x10 }
+  - { offsetInCU: 0x43, offset: 0x10A816, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerVMa', symObjAddr: 0x0, symBinAddr: 0x100019F24, symSize: 0x10 }
+  - { offsetInCU: 0x57, offset: 0x10A82A, size: 0x8, addend: 0x0, symName: '_$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSo6UIViewC_Tg5', symObjAddr: 0x20, symBinAddr: 0x100019F44, symSize: 0x1C }
+  - { offsetInCU: 0xDD, offset: 0x10A8B0, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo6UIViewC_Tg5', symObjAddr: 0x3C, symBinAddr: 0x100019F60, symSize: 0x130 }
+  - { offsetInCU: 0x2C0, offset: 0x10AA93, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV03getcD04fromSo6UIViewCAG_tKFTf4nd_n', symObjAddr: 0x370, symBinAddr: 0x10001A294, symSize: 0x1A0 }
+  - { offsetInCU: 0x50E, offset: 0x10ACE1, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOAFsAdAWl', symObjAddr: 0x54C, symBinAddr: 0x10001A434, symSize: 0x44 }
+  - { offsetInCU: 0x522, offset: 0x10ACF5, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOwCP', symObjAddr: 0x590, symBinAddr: 0x10001A478, symSize: 0x48 }
+  - { offsetInCU: 0x536, offset: 0x10AD09, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOWOy', symObjAddr: 0x5D8, symBinAddr: 0x10001A4C0, symSize: 0x10 }
+  - { offsetInCU: 0x54A, offset: 0x10AD1D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOwxx', symObjAddr: 0x5E8, symBinAddr: 0x10001A4D0, symSize: 0x10 }
+  - { offsetInCU: 0x55E, offset: 0x10AD31, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOWOe', symObjAddr: 0x5F8, symBinAddr: 0x10001A4E0, symSize: 0x10 }
+  - { offsetInCU: 0x572, offset: 0x10AD45, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOwcp', symObjAddr: 0x608, symBinAddr: 0x10001A4F0, symSize: 0x48 }
+  - { offsetInCU: 0x586, offset: 0x10AD59, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOwca', symObjAddr: 0x650, symBinAddr: 0x10001A538, symSize: 0x54 }
+  - { offsetInCU: 0x59A, offset: 0x10AD6D, size: 0x8, addend: 0x0, symName: ___swift_memcpy17_8, symObjAddr: 0x6A4, symBinAddr: 0x10001A58C, symSize: 0x14 }
+  - { offsetInCU: 0x5AE, offset: 0x10AD81, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOwta', symObjAddr: 0x6B8, symBinAddr: 0x10001A5A0, symSize: 0x44 }
+  - { offsetInCU: 0x5C2, offset: 0x10AD95, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOwet', symObjAddr: 0x6FC, symBinAddr: 0x10001A5E4, symSize: 0x48 }
+  - { offsetInCU: 0x5D6, offset: 0x10ADA9, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOwst', symObjAddr: 0x744, symBinAddr: 0x10001A62C, symSize: 0x44 }
+  - { offsetInCU: 0x5EA, offset: 0x10ADBD, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOwug', symObjAddr: 0x788, symBinAddr: 0x10001A670, symSize: 0x8 }
+  - { offsetInCU: 0x5FE, offset: 0x10ADD1, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOwup', symObjAddr: 0x790, symBinAddr: 0x10001A678, symSize: 0x4 }
+  - { offsetInCU: 0x612, offset: 0x10ADE5, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOwui', symObjAddr: 0x794, symBinAddr: 0x10001A67C, symSize: 0xC }
+  - { offsetInCU: 0x626, offset: 0x10ADF9, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOMa', symObjAddr: 0x7A0, symBinAddr: 0x10001A688, symSize: 0x10 }
+  - { offsetInCU: 0x64E, offset: 0x10AE21, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOsAdAsADP7_domainSSvgTW', symObjAddr: 0x10, symBinAddr: 0x100019F34, symSize: 0x4 }
+  - { offsetInCU: 0x66A, offset: 0x10AE3D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOsAdAsADP5_codeSivgTW', symObjAddr: 0x14, symBinAddr: 0x100019F38, symSize: 0x4 }
+  - { offsetInCU: 0x686, offset: 0x10AE59, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOsAdAsADP9_userInfoyXlSgvgTW', symObjAddr: 0x18, symBinAddr: 0x100019F3C, symSize: 0x4 }
+  - { offsetInCU: 0x6A2, offset: 0x10AE75, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25HiddenContainerRecognizerV5Error33_35B7FC22EA72E8C446F4113B9D78C8E5LLOsAdAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x1C, symBinAddr: 0x100019F40, symSize: 0x4 }
+  - { offsetInCU: 0x70C, offset: 0x10AEDF, size: 0x8, addend: 0x0, symName: '_$ss14_ArrayProtocolPsE6filterySay7ElementQzGSbAEKXEKFSaySo6UIViewCG_Tg5058$s10TrollSpeed25HiddenContainerRecognizerV03getcD04fromSo6E16CAG_tKFSbAGXEfU_SSTf1cn_nTf4gg_n', symObjAddr: 0x16C, symBinAddr: 0x10001A090, symSize: 0x204 }
+  - { offsetInCU: 0x4F, offset: 0x10B2EC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC5Cache33_60B91B33C1A6CDFD6168CFB72EF5C187LLV8gradientSo13CGGradientRefavpZ', symObjAddr: 0x18A8, symBinAddr: 0x10004AB50, symSize: 0x0 }
+  - { offsetInCU: 0x87, offset: 0x10B324, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC13isHighlightedSbvgTo', symObjAddr: 0x0, symBinAddr: 0x10001A698, symSize: 0x3C }
+  - { offsetInCU: 0xC2, offset: 0x10B35F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC13isHighlightedSbvg', symObjAddr: 0x3C, symBinAddr: 0x10001A6D4, symSize: 0x30 }
+  - { offsetInCU: 0x109, offset: 0x10B3A6, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC13isHighlightedSbvsTo', symObjAddr: 0x8C, symBinAddr: 0x10001A724, symSize: 0x68 }
+  - { offsetInCU: 0x13C, offset: 0x10B3D9, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC13isHighlightedSbvs', symObjAddr: 0xF4, symBinAddr: 0x10001A78C, symSize: 0x44 }
+  - { offsetInCU: 0x165, offset: 0x10B402, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC13isHighlightedSbvW', symObjAddr: 0x138, symBinAddr: 0x10001A7D0, symSize: 0xB4 }
+  - { offsetInCU: 0x194, offset: 0x10B431, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonCACycfc', symObjAddr: 0x1EC, symBinAddr: 0x10001A884, symSize: 0x1D4 }
+  - { offsetInCU: 0x1E0, offset: 0x10B47D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonCACycfcTo', symObjAddr: 0x3C0, symBinAddr: 0x10001AA58, symSize: 0x20 }
+  - { offsetInCU: 0x226, offset: 0x10B4C3, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x3E0, symBinAddr: 0x10001AA78, symSize: 0xE0 }
+  - { offsetInCU: 0x272, offset: 0x10B50F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC9sizeToFityyF', symObjAddr: 0x4C0, symBinAddr: 0x10001AB58, symSize: 0x7C }
+  - { offsetInCU: 0x2AF, offset: 0x10B54C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC9sizeToFityyFTo', symObjAddr: 0x53C, symBinAddr: 0x10001ABD4, symSize: 0x98 }
+  - { offsetInCU: 0x2E4, offset: 0x10B581, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC14layoutSubviewsyyF', symObjAddr: 0x5D4, symBinAddr: 0x10001AC6C, symSize: 0x138 }
+  - { offsetInCU: 0x37C, offset: 0x10B619, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC14layoutSubviewsyyFTo', symObjAddr: 0x70C, symBinAddr: 0x10001ADA4, symSize: 0x2C }
+  - { offsetInCU: 0x398, offset: 0x10B635, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC5frameACSo6CGRectV_tcfC', symObjAddr: 0x738, symBinAddr: 0x10001ADD0, symSize: 0x50 }
+  - { offsetInCU: 0x3B6, offset: 0x10B653, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonC5frameACSo6CGRectV_tcfc', symObjAddr: 0x788, symBinAddr: 0x10001AE20, symSize: 0x2C }
+  - { offsetInCU: 0x416, offset: 0x10B6B3, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonCMa', symObjAddr: 0x6C, symBinAddr: 0x10001A704, symSize: 0x20 }
+  - { offsetInCU: 0x471, offset: 0x10B70E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed29SPLarkSettingsCloseIconButtonCACycfcTo', symObjAddr: 0x808, symBinAddr: 0x10001AEA0, symSize: 0xF4 }
+  - { offsetInCU: 0x4DA, offset: 0x10B777, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed29SPLarkSettingsCloseIconButtonC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x8FC, symBinAddr: 0x10001AF94, symSize: 0xC0 }
+  - { offsetInCU: 0x55F, offset: 0x10B7FC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed29SPLarkSettingsCloseIconButtonC4drawyySo6CGRectVFTo', symObjAddr: 0x9BC, symBinAddr: 0x10001B054, symSize: 0xB4 }
+  - { offsetInCU: 0x5C0, offset: 0x10B85D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed25SPLarkSettingsCloseButtonCfETo', symObjAddr: 0x7D0, symBinAddr: 0x10001AE68, symSize: 0x38 }
+  - { offsetInCU: 0x5EF, offset: 0x10B88C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed29SPLarkSettingsCloseIconButtonCfETo', symObjAddr: 0xAB4, symBinAddr: 0x10001B14C, symSize: 0x10 }
+  - { offsetInCU: 0x61E, offset: 0x10B8BB, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed29SPLarkSettingsCloseIconButtonCMa', symObjAddr: 0xAC4, symBinAddr: 0x10001B15C, symSize: 0x20 }
+  - { offsetInCU: 0x692, offset: 0x10B92F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC5Cache33_60B91B33C1A6CDFD6168CFB72EF5C187LLV8gradient_WZ', symObjAddr: 0xAE4, symBinAddr: 0x10001B17C, symSize: 0x168 }
+  - { offsetInCU: 0x7A0, offset: 0x10BA3D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC8gradientSo13CGGradientRefavgZTo', symObjAddr: 0xC4C, symBinAddr: 0x10001B2E4, symSize: 0x40 }
+  - { offsetInCU: 0x7EC, offset: 0x10BA89, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC16ResizingBehaviorO5apply4rect6targetSo6CGRectVAL_ALtF', symObjAddr: 0xC8C, symBinAddr: 0x10001B324, symSize: 0x25C }
+  - { offsetInCU: 0x985, offset: 0x10BC22, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC16ResizingBehaviorOSYAASY8rawValuexSg03RawM0Qz_tcfCTW', symObjAddr: 0x101C, symBinAddr: 0x10001B6B4, symSize: 0x20 }
+  - { offsetInCU: 0x9B6, offset: 0x10BC53, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC16ResizingBehaviorOSYAASY8rawValue03RawM0QzvgTW', symObjAddr: 0x103C, symBinAddr: 0x10001B6D4, symSize: 0xC }
+  - { offsetInCU: 0x9E2, offset: 0x10BC7F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC9drawClose5frame8resizing5colorySo6CGRectV_AE16ResizingBehaviorOSo7UIColorCtFZTo', symObjAddr: 0xEE8, symBinAddr: 0x10001B580, symSize: 0x74 }
+  - { offsetInCU: 0xA32, offset: 0x10BCCF, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackCAEyc33_60B91B33C1A6CDFD6168CFB72EF5C187LlfcTo', symObjAddr: 0x1048, symBinAddr: 0x10001B6E0, symSize: 0x3C }
+  - { offsetInCU: 0xA6D, offset: 0x10BD0A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC9drawClose5frame8resizing5colorySo6CGRectV_AE16ResizingBehaviorOSo7UIColorCtFZTf4nnnd_n', symObjAddr: 0x10E0, symBinAddr: 0x10001B778, symSize: 0x498 }
+  - { offsetInCU: 0xBD6, offset: 0x10BE73, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackCMa', symObjAddr: 0x10C0, symBinAddr: 0x10001B758, symSize: 0x20 }
+  - { offsetInCU: 0xBEA, offset: 0x10BE87, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC16ResizingBehaviorOMa', symObjAddr: 0x15B8, symBinAddr: 0x10001BC10, symSize: 0x10 }
+  - { offsetInCU: 0xBFE, offset: 0x10BE9B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC16ResizingBehaviorOSHAASQWb', symObjAddr: 0x15C8, symBinAddr: 0x10001BC20, symSize: 0x4 }
+  - { offsetInCU: 0xC12, offset: 0x10BEAF, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC16ResizingBehaviorOAGSQAAWl', symObjAddr: 0x15CC, symBinAddr: 0x10001BC24, symSize: 0x44 }
+  - { offsetInCU: 0xCDD, offset: 0x10BF7A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC16ResizingBehaviorOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xF5C, symBinAddr: 0x10001B5F4, symSize: 0x14 }
+  - { offsetInCU: 0xD74, offset: 0x10C011, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC16ResizingBehaviorOSHAASH9hashValueSivgTW', symObjAddr: 0xF70, symBinAddr: 0x10001B608, symSize: 0x44 }
+  - { offsetInCU: 0xE23, offset: 0x10C0C0, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC16ResizingBehaviorOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0xFB4, symBinAddr: 0x10001B64C, symSize: 0x28 }
+  - { offsetInCU: 0xE76, offset: 0x10C113, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed22SPLarkSettingsCodeDrawV14SystemIconPackC16ResizingBehaviorOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xFDC, symBinAddr: 0x10001B674, symSize: 0x40 }
+  - { offsetInCU: 0x2B, offset: 0x10C3EF, size: 0x8, addend: 0x0, symName: '_$sSbIegy_SbIeyBy_TR', symObjAddr: 0x0, symBinAddr: 0x10001BC68, symSize: 0x3C }
+  - { offsetInCU: 0x43, offset: 0x10C407, size: 0x8, addend: 0x0, symName: '_$sSbIegy_SbIeyBy_TR', symObjAddr: 0x0, symBinAddr: 0x10001BC68, symSize: 0x3C }
+  - { offsetInCU: 0x67, offset: 0x10C42B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC031frameOfPresentedViewInContainerI0So6CGRectVvgTo', symObjAddr: 0x3C, symBinAddr: 0x10001BCA4, symSize: 0x5C }
+  - { offsetInCU: 0xCE, offset: 0x10C492, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC031frameOfPresentedViewInContainerI0So6CGRectVvg', symObjAddr: 0x98, symBinAddr: 0x10001BD00, symSize: 0x100 }
+  - { offsetInCU: 0x251, offset: 0x10C615, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC31presentationTransitionWillBeginyyF', symObjAddr: 0x198, symBinAddr: 0x10001BE00, symSize: 0x448 }
+  - { offsetInCU: 0x45C, offset: 0x10C820, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC31presentationTransitionWillBeginyyFySo06UIVieweG18CoordinatorContext_pcfU_', symObjAddr: 0x928, symBinAddr: 0x10001C590, symSize: 0xFC }
+  - { offsetInCU: 0x51C, offset: 0x10C8E0, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC31presentationTransitionWillBeginyyFySo06UIVieweG18CoordinatorContext_pcfU0_', symObjAddr: 0xA6C, symBinAddr: 0x10001C6D4, symSize: 0x4 }
+  - { offsetInCU: 0x58E, offset: 0x10C952, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC31presentationTransitionWillBeginyyFTo', symObjAddr: 0xA70, symBinAddr: 0x10001C6D8, symSize: 0x2C }
+  - { offsetInCU: 0x5F2, offset: 0x10C9B6, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC28presentationTransitionDidEndyySbF', symObjAddr: 0xA9C, symBinAddr: 0x10001C704, symSize: 0xF8 }
+  - { offsetInCU: 0x74D, offset: 0x10CB11, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC28presentationTransitionDidEndyySbFTo', symObjAddr: 0xB94, symBinAddr: 0x10001C7FC, symSize: 0x3C }
+  - { offsetInCU: 0x793, offset: 0x10CB57, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC28dismissalTransitionWillBeginyyF', symObjAddr: 0xBD0, symBinAddr: 0x10001C838, symSize: 0x1EC }
+  - { offsetInCU: 0x86A, offset: 0x10CC2E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC28dismissalTransitionWillBeginyyFySo06UIVieweG18CoordinatorContext_pcfU_', symObjAddr: 0xDBC, symBinAddr: 0x10001CA24, symSize: 0x7C }
+  - { offsetInCU: 0x8BC, offset: 0x10CC80, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC28dismissalTransitionWillBeginyyFySo06UIVieweG18CoordinatorContext_pcfU0_', symObjAddr: 0xE38, symBinAddr: 0x10001CAA0, symSize: 0x4 }
+  - { offsetInCU: 0x8E6, offset: 0x10CCAA, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC28dismissalTransitionWillBeginyyFTo', symObjAddr: 0xE3C, symBinAddr: 0x10001CAA4, symSize: 0x2C }
+  - { offsetInCU: 0x92C, offset: 0x10CCF0, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC25dismissalTransitionDidEndyySbFTo', symObjAddr: 0xE68, symBinAddr: 0x10001CAD0, symSize: 0xA4 }
+  - { offsetInCU: 0x99A, offset: 0x10CD5E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC013presentedViewE010presentingACSo06UIViewE0C_AGSgtcfcTo', symObjAddr: 0xF0C, symBinAddr: 0x10001CB74, symSize: 0x74 }
+  - { offsetInCU: 0x9CC, offset: 0x10CD90, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerCfD', symObjAddr: 0xF80, symBinAddr: 0x10001CBE8, symSize: 0x30 }
+  - { offsetInCU: 0xAC5, offset: 0x10CE89, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC8safeArea33_0C3DC05BA5D8375412C2594B7A4914E4LLSo12UIEdgeInsetsVvgTf4d_n', symObjAddr: 0x19CC, symBinAddr: 0x10001D634, symSize: 0x174 }
+  - { offsetInCU: 0xBF4, offset: 0x10CFB8, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC013presentedViewE010presentingACSo06UIViewE0C_AGSgtcfcTf4ggn_n', symObjAddr: 0x2030, symBinAddr: 0x10001DC98, symSize: 0x174 }
+  - { offsetInCU: 0xCCC, offset: 0x10D090, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC14updateSnapshot33_0C3DC05BA5D8375412C2594B7A4914E4LL8animated10completionySb_ySbcSgtF', symObjAddr: 0x5E0, symBinAddr: 0x10001C248, symSize: 0x348 }
+  - { offsetInCU: 0xE0A, offset: 0x10D1CE, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC14updateSnapshot33_0C3DC05BA5D8375412C2594B7A4914E4LL8animated10completionySb_ySbcSgtFySbcfU0_', symObjAddr: 0x184C, symBinAddr: 0x10001D4B4, symSize: 0x84 }
+  - { offsetInCU: 0xED5, offset: 0x10D299, size: 0x8, addend: 0x0, symName: '_$sSo44UIViewControllerTransitionCoordinatorContext_pIegg_SoAA_pIeyBy_TR', symObjAddr: 0xA24, symBinAddr: 0x10001C68C, symSize: 0x48 }
+  - { offsetInCU: 0xEED, offset: 0x10D2B1, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerCfETo', symObjAddr: 0xFB0, symBinAddr: 0x10001CC18, symSize: 0x88 }
+  - { offsetInCU: 0xF1C, offset: 0x10D2E0, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerCMa', symObjAddr: 0x1038, symBinAddr: 0x10001CCA0, symSize: 0x20 }
+  - { offsetInCU: 0xF30, offset: 0x10D2F4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC9handlePan17gestureRecognizerySo012UIPanGestureI0C_tF', symObjAddr: 0x1058, symBinAddr: 0x10001CCC0, symSize: 0x3EC }
+  - { offsetInCU: 0x10A9, offset: 0x10D46D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC9handlePan17gestureRecognizerySo012UIPanGestureI0C_tFyycfU_', symObjAddr: 0x161C, symBinAddr: 0x10001D284, symSize: 0xA4 }
+  - { offsetInCU: 0x1157, offset: 0x10D51B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC20updateForTranslation33_0C3DC05BA5D8375412C2594B7A4914E4LL19inVerticalDirectiony12CoreGraphics7CGFloatV_tF', symObjAddr: 0x1444, symBinAddr: 0x10001D0AC, symSize: 0x1D8 }
+  - { offsetInCU: 0x13AA, offset: 0x10D76E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC9handlePan17gestureRecognizerySo012UIPanGestureI0C_tFTo', symObjAddr: 0x16C0, symBinAddr: 0x10001D328, symSize: 0x50 }
+  - { offsetInCU: 0x13C6, offset: 0x10D78A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC13dismissActionyyF', symObjAddr: 0x1710, symBinAddr: 0x10001D378, symSize: 0x110 }
+  - { offsetInCU: 0x141F, offset: 0x10D7E3, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC13dismissActionyyFTo', symObjAddr: 0x1820, symBinAddr: 0x10001D488, symSize: 0x2C }
+  - { offsetInCU: 0x143B, offset: 0x10D7FF, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC9handlePan17gestureRecognizerySo012UIPanGestureI0C_tFyycfU_TA', symObjAddr: 0x18F4, symBinAddr: 0x10001D55C, symSize: 0x8 }
+  - { offsetInCU: 0x144F, offset: 0x10D813, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x18FC, symBinAddr: 0x10001D564, symSize: 0x10 }
+  - { offsetInCU: 0x1463, offset: 0x10D827, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x190C, symBinAddr: 0x10001D574, symSize: 0x8 }
+  - { offsetInCU: 0x1482, offset: 0x10D846, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo6UIViewC_Tg5Tf4d_n', symObjAddr: 0x1914, symBinAddr: 0x10001D57C, symSize: 0x64 }
+  - { offsetInCU: 0x14AF, offset: 0x10D873, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo10CGColorRefa_Tg5Tf4d_n', symObjAddr: 0x1978, symBinAddr: 0x10001D5E0, symSize: 0x54 }
+  - { offsetInCU: 0x156B, offset: 0x10D92F, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo18NSLayoutConstraintC_Tg5Tf4d_n', symObjAddr: 0x1B40, symBinAddr: 0x10001D7A8, symSize: 0x64 }
+  - { offsetInCU: 0x15C4, offset: 0x10D988, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC11constraints33_0C3DC05BA5D8375412C2594B7A4914E4LL4view2toySo6UIViewC_AItFTf4nnd_n', symObjAddr: 0x1BA4, symBinAddr: 0x10001D80C, symSize: 0x26C }
+  - { offsetInCU: 0x166F, offset: 0x10DA33, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC24addCornerRadiusAnimation33_0C3DC05BA5D8375412C2594B7A4914E4LL3for06cornerH08durationySo6UIViewCSg_12CoreGraphics7CGFloatVSdtFTf4nnnd_n', symObjAddr: 0x1E10, symBinAddr: 0x10001DA78, symSize: 0x220 }
+  - { offsetInCU: 0x171A, offset: 0x10DADE, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC28dismissalTransitionWillBeginyyFySo06UIVieweG18CoordinatorContext_pcfU_TA', symObjAddr: 0x21C8, symBinAddr: 0x10001DE30, symSize: 0x8 }
+  - { offsetInCU: 0x172E, offset: 0x10DAF2, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC31presentationTransitionWillBeginyyFySo06UIVieweG18CoordinatorContext_pcfU_TA', symObjAddr: 0x21D0, symBinAddr: 0x10001DE38, symSize: 0x8 }
+  - { offsetInCU: 0x1742, offset: 0x10DB06, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC14updateSnapshot33_0C3DC05BA5D8375412C2594B7A4914E4LL8animated10completionySb_ySbcSgtFyycfU_TA', symObjAddr: 0x2244, symBinAddr: 0x10001DE6C, symSize: 0x48 }
+  - { offsetInCU: 0x1782, offset: 0x10DB46, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkPresentationControllerC14updateSnapshot33_0C3DC05BA5D8375412C2594B7A4914E4LL8animated10completionySb_ySbcSgtFySbcfU0_TA', symObjAddr: 0x22C8, symBinAddr: 0x10001DEF0, symSize: 0xC }
+  - { offsetInCU: 0x1796, offset: 0x10DB5A, size: 0x8, addend: 0x0, symName: '_$sSbIegy_SgWOy', symObjAddr: 0x22D4, symBinAddr: 0x10001DEFC, symSize: 0x10 }
+  - { offsetInCU: 0x2B, offset: 0x10E01C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC8delegateAA0cD8Delegate_pSgvgTo', symObjAddr: 0x0, symBinAddr: 0x10001DF74, symSize: 0x48 }
+  - { offsetInCU: 0x6D, offset: 0x10E05E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC8delegateAA0cD8Delegate_pSgvgTo', symObjAddr: 0x0, symBinAddr: 0x10001DF74, symSize: 0x48 }
+  - { offsetInCU: 0xAA, offset: 0x10E09B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC8delegateAA0cD8Delegate_pSgvg', symObjAddr: 0x48, symBinAddr: 0x10001DFBC, symSize: 0x48 }
+  - { offsetInCU: 0xF3, offset: 0x10E0E4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC8delegateAA0cD8Delegate_pSgvsTo', symObjAddr: 0x90, symBinAddr: 0x10001E004, symSize: 0x50 }
+  - { offsetInCU: 0x138, offset: 0x10E129, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC8delegateAA0cD8Delegate_pSgvs', symObjAddr: 0xE0, symBinAddr: 0x10001E054, symSize: 0x58 }
+  - { offsetInCU: 0x161, offset: 0x10E152, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC8delegateAA0cD8Delegate_pSgvM', symObjAddr: 0x138, symBinAddr: 0x10001E0AC, symSize: 0x70 }
+  - { offsetInCU: 0x190, offset: 0x10E181, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC8delegateAA0cD8Delegate_pSgvM.resume.0', symObjAddr: 0x1A8, symBinAddr: 0x10001E11C, symSize: 0x6C }
+  - { offsetInCU: 0x1D9, offset: 0x10E1CA, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC15alreadyLaunchedSbvgTo', symObjAddr: 0x214, symBinAddr: 0x10001E188, symSize: 0x44 }
+  - { offsetInCU: 0x216, offset: 0x10E207, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC15alreadyLaunchedSbvg', symObjAddr: 0x258, symBinAddr: 0x10001E1CC, symSize: 0x44 }
+  - { offsetInCU: 0x25F, offset: 0x10E250, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC15alreadyLaunchedSbvsTo', symObjAddr: 0x29C, symBinAddr: 0x10001E210, symSize: 0x48 }
+  - { offsetInCU: 0x29C, offset: 0x10E28D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC15alreadyLaunchedSbvs', symObjAddr: 0x2E4, symBinAddr: 0x10001E258, symSize: 0x48 }
+  - { offsetInCU: 0x2C1, offset: 0x10E2B2, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC15alreadyLaunchedSbvM', symObjAddr: 0x32C, symBinAddr: 0x10001E2A0, symSize: 0x44 }
+  - { offsetInCU: 0x2F0, offset: 0x10E2E1, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC15alreadyLaunchedSbvM.resume.0', symObjAddr: 0x370, symBinAddr: 0x10001E2E4, symSize: 0x4 }
+  - { offsetInCU: 0x31B, offset: 0x10E30C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC13settingsCountSiyF', symObjAddr: 0x374, symBinAddr: 0x10001E2E8, symSize: 0x8 }
+  - { offsetInCU: 0x346, offset: 0x10E337, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC12settingTitle5index11highlightedSSSi_SbtF', symObjAddr: 0x37C, symBinAddr: 0x10001E2F0, symSize: 0x8C }
+  - { offsetInCU: 0x44E, offset: 0x10E43F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC15settingSubtitle5index11highlightedSSSgSi_SbtF', symObjAddr: 0x448, symBinAddr: 0x10001E37C, symSize: 0x80 }
+  - { offsetInCU: 0x54D, offset: 0x10E53E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC18settingHighlighted5indexSbSi_tF', symObjAddr: 0x4C8, symBinAddr: 0x10001E3FC, symSize: 0x98 }
+  - { offsetInCU: 0x5A1, offset: 0x10E592, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC23settingColorHighlighted5indexSo7UIColorCSi_tF', symObjAddr: 0x560, symBinAddr: 0x10001E494, symSize: 0xA0 }
+  - { offsetInCU: 0x601, offset: 0x10E5F2, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC23settingColorHighlighted5indexSo7UIColorCSi_tFAGSo17UITraitCollectionCcfU_', symObjAddr: 0x600, symBinAddr: 0x10001E534, symSize: 0x80 }
+  - { offsetInCU: 0x657, offset: 0x10E648, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC16settingDidSelect5index10completionySi_yyctF', symObjAddr: 0x680, symBinAddr: 0x10001E5B4, symSize: 0xCC }
+  - { offsetInCU: 0x6E9, offset: 0x10E6DA, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvgTo', symObjAddr: 0x74C, symBinAddr: 0x10001E680, symSize: 0x38 }
+  - { offsetInCU: 0x705, offset: 0x10E6F6, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg', symObjAddr: 0x784, symBinAddr: 0x10001E6B8, symSize: 0xC4 }
+  - { offsetInCU: 0x768, offset: 0x10E759, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC16shouldAutorotateSbvgTo', symObjAddr: 0x848, symBinAddr: 0x10001E77C, symSize: 0x8 }
+  - { offsetInCU: 0x784, offset: 0x10E775, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC16shouldAutorotateSbvg', symObjAddr: 0x850, symBinAddr: 0x10001E784, symSize: 0x8 }
+  - { offsetInCU: 0x7AF, offset: 0x10E7A0, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC24traitCollectionDidChangeyySo07UITraitF0CSgF', symObjAddr: 0x858, symBinAddr: 0x10001E78C, symSize: 0xC4 }
+  - { offsetInCU: 0x7EE, offset: 0x10E7DF, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC24traitCollectionDidChangeyySo07UITraitF0CSgFTo', symObjAddr: 0x91C, symBinAddr: 0x10001E850, symSize: 0x50 }
+  - { offsetInCU: 0x80A, offset: 0x10E7FB, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfC', symObjAddr: 0x96C, symBinAddr: 0x10001E8A0, symSize: 0x7C }
+  - { offsetInCU: 0x828, offset: 0x10E819, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x9E8, symBinAddr: 0x10001E91C, symSize: 0xBC }
+  - { offsetInCU: 0x88D, offset: 0x10E87E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0xAA4, symBinAddr: 0x10001E9D8, symSize: 0xE4 }
+  - { offsetInCU: 0x8D6, offset: 0x10E8C7, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC5coderACSgSo7NSCoderC_tcfC', symObjAddr: 0xB88, symBinAddr: 0x10001EABC, symSize: 0x44 }
+  - { offsetInCU: 0x8F4, offset: 0x10E8E5, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0xBCC, symBinAddr: 0x10001EB00, symSize: 0x7C }
+  - { offsetInCU: 0x945, offset: 0x10E936, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0xC48, symBinAddr: 0x10001EB7C, symSize: 0x70 }
+  - { offsetInCU: 0x988, offset: 0x10E979, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerCfD', symObjAddr: 0xCC8, symBinAddr: 0x10001EBFC, symSize: 0x30 }
+  - { offsetInCU: 0x9B5, offset: 0x10E9A6, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerC10settingKey33_1367B54D99B2C855F02CBA5A89AC7A9BLL5indexSSSi_tFTf4nd_n', symObjAddr: 0xD64, symBinAddr: 0x10001EC98, symSize: 0x78 }
+  - { offsetInCU: 0xB03, offset: 0x10EAF4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerCfE', symObjAddr: 0xCB8, symBinAddr: 0x10001EBEC, symSize: 0x10 }
+  - { offsetInCU: 0xB30, offset: 0x10EB21, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerCfETo', symObjAddr: 0xCF8, symBinAddr: 0x10001EC2C, symSize: 0x10 }
+  - { offsetInCU: 0xB5F, offset: 0x10EB50, size: 0x8, addend: 0x0, symName: '_$sSo17UITraitCollectionCSo7UIColorCIeggo_AbDIeyBya_TR', symObjAddr: 0xD08, symBinAddr: 0x10001EC3C, symSize: 0x5C }
+  - { offsetInCU: 0xB77, offset: 0x10EB68, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0xDDC, symBinAddr: 0x10001ED10, symSize: 0x10 }
+  - { offsetInCU: 0xB8B, offset: 0x10EB7C, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xDEC, symBinAddr: 0x10001ED20, symSize: 0x8 }
+  - { offsetInCU: 0xB9F, offset: 0x10EB90, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed20TSSettingsControllerCMa', symObjAddr: 0xDF4, symBinAddr: 0x10001ED28, symSize: 0x20 }
+  - { offsetInCU: 0xBB3, offset: 0x10EBA4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28TSSettingsControllerDelegate_pSgXwWOh', symObjAddr: 0xE14, symBinAddr: 0x10001ED48, symSize: 0x24 }
+  - { offsetInCU: 0x27, offset: 0x10EE73, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAaD24PersistentlyIdentifiablePWb', symObjAddr: 0x0, symBinAddr: 0x10001ED6C, symSize: 0x4 }
+  - { offsetInCU: 0x4B, offset: 0x10EE97, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV5title10Foundation23LocalizedStringResourceVvpZ', symObjAddr: 0x3358, symBinAddr: 0x10004BFD8, symSize: 0x0 }
+  - { offsetInCU: 0x59, offset: 0x10EEA5, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAaD24PersistentlyIdentifiablePWb', symObjAddr: 0x0, symBinAddr: 0x10001ED6C, symSize: 0x4 }
+  - { offsetInCU: 0x6D, offset: 0x10EEB9, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentVAC10AppIntents24PersistentlyIdentifiableAAWl', symObjAddr: 0x4, symBinAddr: 0x10001ED70, symSize: 0x44 }
+  - { offsetInCU: 0x81, offset: 0x10EECD, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAaD09_SupportsE12DependenciesPWb', symObjAddr: 0x48, symBinAddr: 0x10001EDB4, symSize: 0x4 }
+  - { offsetInCU: 0x95, offset: 0x10EEE1, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentVAC10AppIntents09_SupportsE12DependenciesAAWl', symObjAddr: 0x4C, symBinAddr: 0x10001EDB8, symSize: 0x44 }
+  - { offsetInCU: 0xA9, offset: 0x10EEF5, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAA13PerformResultAdEP_AD0gI0PWT', symObjAddr: 0x90, symBinAddr: 0x10001EDFC, symSize: 0x10 }
+  - { offsetInCU: 0xBD, offset: 0x10EF09, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAA14SummaryContentAdEP_AD09ParameterH0PWT', symObjAddr: 0xA0, symBinAddr: 0x10001EE0C, symSize: 0x40 }
+  - { offsetInCU: 0xD1, offset: 0x10EF1D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentVAC10AppIntents0E6IntentAAWl', symObjAddr: 0xE0, symBinAddr: 0x10001EE4C, symSize: 0x44 }
+  - { offsetInCU: 0xE5, offset: 0x10EF31, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV5title_WZ', symObjAddr: 0x124, symBinAddr: 0x10001EE90, symSize: 0x60 }
+  - { offsetInCU: 0x126, offset: 0x10EF72, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAadEP5title10Foundation23LocalizedStringResourceVvgZTW', symObjAddr: 0x184, symBinAddr: 0x10001EEF0, symSize: 0x70 }
+  - { offsetInCU: 0x17D, offset: 0x10EFC9, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAadEP7perform13PerformResultQzyYaKFTW', symObjAddr: 0x260, symBinAddr: 0x10001EFCC, symSize: 0x18 }
+  - { offsetInCU: 0x19D, offset: 0x10EFE9, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAadEP7perform13PerformResultQzyYaKFTW', symObjAddr: 0x260, symBinAddr: 0x10001EFCC, symSize: 0x18 }
+  - { offsetInCU: 0x1CB, offset: 0x10F017, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAadEP7perform13PerformResultQzyYaKFTWTY0_', symObjAddr: 0x278, symBinAddr: 0x10001EFE4, symSize: 0x68 }
+  - { offsetInCU: 0x217, offset: 0x10F063, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAadEPxycfCTW', symObjAddr: 0x2E0, symBinAddr: 0x10001F04C, symSize: 0x4 }
+  - { offsetInCU: 0x242, offset: 0x10F08E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentVMa', symObjAddr: 0x310, symBinAddr: 0x10001F07C, symSize: 0x10 }
+  - { offsetInCU: 0x2CC, offset: 0x10F118, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAadEP04openE7WhenRunSbvgZTW', symObjAddr: 0x1F4, symBinAddr: 0x10001EF60, symSize: 0x18 }
+  - { offsetInCU: 0x2E8, offset: 0x10F134, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAadEP20authenticationPolicyAD0g14AuthenticationI0OvgZTW', symObjAddr: 0x20C, symBinAddr: 0x10001EF78, symSize: 0x14 }
+  - { offsetInCU: 0x304, offset: 0x10F150, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAadEP14isDiscoverableSbvgZTW', symObjAddr: 0x220, symBinAddr: 0x10001EF8C, symSize: 0x18 }
+  - { offsetInCU: 0x320, offset: 0x10F16C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAadEP16parameterSummary0I7ContentQzvgZTW', symObjAddr: 0x238, symBinAddr: 0x10001EFA4, symSize: 0x14 }
+  - { offsetInCU: 0x33C, offset: 0x10F188, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents0E6IntentAadEP11descriptionAD0G11DescriptionVSgvgZTW', symObjAddr: 0x24C, symBinAddr: 0x10001EFB8, symSize: 0x14 }
+  - { offsetInCU: 0x358, offset: 0x10F1A4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed15ToggleHUDIntentV10AppIntents24PersistentlyIdentifiableAadEP20persistentIdentifierSSvgZTW', symObjAddr: 0x2E4, symBinAddr: 0x10001F050, symSize: 0x2C }
+  - { offsetInCU: 0x2B, offset: 0x10F2BC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC06hiddenE0So6UIViewCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x10001F090, symSize: 0x6C }
+  - { offsetInCU: 0x8B, offset: 0x10F31C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC06hiddenE0So6UIViewCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x10001F090, symSize: 0x6C }
+  - { offsetInCU: 0xDB, offset: 0x10F36C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC06hiddenE0So6UIViewCSgvg', symObjAddr: 0x6C, symBinAddr: 0x10001F0FC, symSize: 0x3C }
+  - { offsetInCU: 0x145, offset: 0x10F3D6, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC7contentACSo6UIViewC_tcfC', symObjAddr: 0xA8, symBinAddr: 0x10001F138, symSize: 0x98 }
+  - { offsetInCU: 0x198, offset: 0x10F429, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC7contentACSo6UIViewC_tcfc', symObjAddr: 0x140, symBinAddr: 0x10001F1D0, symSize: 0x94 }
+  - { offsetInCU: 0x1CB, offset: 0x10F45C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC7contentACSo6UIViewC_tcfcTo', symObjAddr: 0x1D4, symBinAddr: 0x10001F264, symSize: 0x9C }
+  - { offsetInCU: 0x214, offset: 0x10F4A5, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC5coderACSgSo7NSCoderC_tcfC', symObjAddr: 0x270, symBinAddr: 0x10001F300, symSize: 0x44 }
+  - { offsetInCU: 0x232, offset: 0x10F4C3, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x2B4, symBinAddr: 0x10001F344, symSize: 0x30 }
+  - { offsetInCU: 0x255, offset: 0x10F4E6, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x2E4, symBinAddr: 0x10001F374, symSize: 0x4C }
+  - { offsetInCU: 0x287, offset: 0x10F518, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC16canBecomeFocusedSbvgTo', symObjAddr: 0x330, symBinAddr: 0x10001F3C0, symSize: 0x8 }
+  - { offsetInCU: 0x2A3, offset: 0x10F534, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC16canBecomeFocusedSbvg', symObjAddr: 0x338, symBinAddr: 0x10001F3C8, symSize: 0x8 }
+  - { offsetInCU: 0x2CE, offset: 0x10F55F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC23canBecomeFirstResponderSbvgTo', symObjAddr: 0x340, symBinAddr: 0x10001F3D0, symSize: 0x8 }
+  - { offsetInCU: 0x2EA, offset: 0x10F57B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC23canBecomeFirstResponderSbvg', symObjAddr: 0x348, symBinAddr: 0x10001F3D8, symSize: 0x8 }
+  - { offsetInCU: 0x315, offset: 0x10F5A6, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC7hitTest_4withSo6UIViewCSgSo7CGPointV_So7UIEventCSgtF', symObjAddr: 0x350, symBinAddr: 0x10001F3E0, symSize: 0x94 }
+  - { offsetInCU: 0x3AB, offset: 0x10F63C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC7hitTest_4withSo6UIViewCSgSo7CGPointV_So7UIEventCSgtFTo', symObjAddr: 0x3E4, symBinAddr: 0x10001F474, symSize: 0xBC }
+  - { offsetInCU: 0x42B, offset: 0x10F6BC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC14layoutSubviewsyyF', symObjAddr: 0x4A0, symBinAddr: 0x10001F530, symSize: 0x5C }
+  - { offsetInCU: 0x484, offset: 0x10F715, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC14layoutSubviewsyyFTo', symObjAddr: 0x4FC, symBinAddr: 0x10001F58C, symSize: 0x80 }
+  - { offsetInCU: 0x50A, offset: 0x10F79B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC17setupInitialState33_B354DCF0DCFA023FB04FC5B731C7ADDFLLyyF', symObjAddr: 0x57C, symBinAddr: 0x10001F60C, symSize: 0x100 }
+  - { offsetInCU: 0x5FB, offset: 0x10F88C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC34activateLayoutConstraintsOfContent33_B354DCF0DCFA023FB04FC5B731C7ADDFLL2toySo6UIViewC_tF', symObjAddr: 0x67C, symBinAddr: 0x10001F70C, symSize: 0x228 }
+  - { offsetInCU: 0x705, offset: 0x10F996, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC5frameACSo6CGRectV_tcfC', symObjAddr: 0x8A4, symBinAddr: 0x10001F934, symSize: 0x50 }
+  - { offsetInCU: 0x723, offset: 0x10F9B4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC5frameACSo6CGRectV_tcfc', symObjAddr: 0x8F4, symBinAddr: 0x10001F984, symSize: 0x2C }
+  - { offsetInCU: 0x796, offset: 0x10FA27, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC5frameACSo6CGRectV_tcfcTo', symObjAddr: 0x920, symBinAddr: 0x10001F9B0, symSize: 0x2C }
+  - { offsetInCU: 0x7FD, offset: 0x10FA8E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerCfD', symObjAddr: 0x94C, symBinAddr: 0x10001F9DC, symSize: 0x30 }
+  - { offsetInCU: 0x854, offset: 0x10FAE5, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC5coderACSgSo7NSCoderC_tcfcTf4gn_n', symObjAddr: 0xB44, symBinAddr: 0x10001FBD4, symSize: 0xB4 }
+  - { offsetInCU: 0x8D4, offset: 0x10FB65, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerCfETo', symObjAddr: 0x97C, symBinAddr: 0x10001FA0C, symSize: 0x10 }
+  - { offsetInCU: 0x903, offset: 0x10FB94, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC24eraseOldAndAddNewContentyySo6UIViewCF', symObjAddr: 0x98C, symBinAddr: 0x10001FA1C, symSize: 0xCC }
+  - { offsetInCU: 0xA2A, offset: 0x10FCBB, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC24eraseOldAndAddNewContentyySo6UIViewCFTo', symObjAddr: 0xA58, symBinAddr: 0x10001FAE8, symSize: 0x50 }
+  - { offsetInCU: 0xA46, offset: 0x10FCD7, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC05setupE26AsHideContentInScreenshotsyyF', symObjAddr: 0xAA8, symBinAddr: 0x10001FB38, symSize: 0x14 }
+  - { offsetInCU: 0xA83, offset: 0x10FD14, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC05setupE26AsHideContentInScreenshotsyyFTo', symObjAddr: 0xABC, symBinAddr: 0x10001FB4C, symSize: 0x10 }
+  - { offsetInCU: 0xAA3, offset: 0x10FD34, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC05setupE26AsHideContentInScreenshotsyyFTo', symObjAddr: 0xABC, symBinAddr: 0x10001FB4C, symSize: 0x10 }
+  - { offsetInCU: 0xABE, offset: 0x10FD4F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC05setupE29AsDisplayContentInScreenshotsyyF', symObjAddr: 0xACC, symBinAddr: 0x10001FB5C, symSize: 0x14 }
+  - { offsetInCU: 0xAFB, offset: 0x10FD8C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC05setupE29AsDisplayContentInScreenshotsyyFTo', symObjAddr: 0xAE0, symBinAddr: 0x10001FB70, symSize: 0x10 }
+  - { offsetInCU: 0xB1B, offset: 0x10FDAC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerC05setupE29AsDisplayContentInScreenshotsyyFTo', symObjAddr: 0xAE0, symBinAddr: 0x10001FB70, symSize: 0x10 }
+  - { offsetInCU: 0xB45, offset: 0x10FDD6, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerCAA0cdE8ProtocolA2aDP24eraseOldAndAddNewContentyySo6UIViewCFTW', symObjAddr: 0xAF0, symBinAddr: 0x10001FB80, symSize: 0x14 }
+  - { offsetInCU: 0xB86, offset: 0x10FE17, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerCAA0cdE8ProtocolA2aDP05setupE26AsHideContentInScreenshotsyyFTW', symObjAddr: 0xB04, symBinAddr: 0x10001FB94, symSize: 0x10 }
+  - { offsetInCU: 0xBC7, offset: 0x10FE58, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerCAA0cdE8ProtocolA2aDP05setupE29AsDisplayContentInScreenshotsyyFTW', symObjAddr: 0xB14, symBinAddr: 0x10001FBA4, symSize: 0x10 }
+  - { offsetInCU: 0xBF9, offset: 0x10FE8A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28ScreenshotInvisibleContainerCMa', symObjAddr: 0xB24, symBinAddr: 0x10001FBB4, symSize: 0x20 }
+  - { offsetInCU: 0x2B, offset: 0x11007C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed16SPLarkControllerV016updatePresentingD06parent8animated10completionySo06UIViewD0C_SbySbcSgtFZ', symObjAddr: 0x0, symBinAddr: 0x10001FC88, symSize: 0xCC }
+  - { offsetInCU: 0xAB, offset: 0x1100FC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed16SPLarkControllerV016updatePresentingD06parent8animated10completionySo06UIViewD0C_SbySbcSgtFZ', symObjAddr: 0x0, symBinAddr: 0x10001FC88, symSize: 0xCC }
+  - { offsetInCU: 0x16C, offset: 0x1101BD, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed16SPLarkControllerV016updatePresentingD05modal8animated10completionySo06UIViewD0C_SbySbcSgtFZ', symObjAddr: 0xCC, symBinAddr: 0x10001FD54, symSize: 0x9C }
+  - { offsetInCU: 0x22E, offset: 0x11027F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed16SPLarkControllerVMa', symObjAddr: 0x168, symBinAddr: 0x10001FDF0, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x11041A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAaD24PersistentlyIdentifiablePWb', symObjAddr: 0x0, symBinAddr: 0x10001FE00, symSize: 0x4 }
+  - { offsetInCU: 0x4B, offset: 0x11043E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV5title10Foundation23LocalizedStringResourceVvpZ', symObjAddr: 0x33F8, symBinAddr: 0x10004BFF0, symSize: 0x0 }
+  - { offsetInCU: 0x59, offset: 0x11044C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAaD24PersistentlyIdentifiablePWb', symObjAddr: 0x0, symBinAddr: 0x10001FE00, symSize: 0x4 }
+  - { offsetInCU: 0x6D, offset: 0x110460, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentVAC10AppIntents24PersistentlyIdentifiableAAWl', symObjAddr: 0x4, symBinAddr: 0x10001FE04, symSize: 0x44 }
+  - { offsetInCU: 0x81, offset: 0x110474, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAaD09_SupportsE12DependenciesPWb', symObjAddr: 0x48, symBinAddr: 0x10001FE48, symSize: 0x4 }
+  - { offsetInCU: 0x95, offset: 0x110488, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentVAC10AppIntents09_SupportsE12DependenciesAAWl', symObjAddr: 0x4C, symBinAddr: 0x10001FE4C, symSize: 0x44 }
+  - { offsetInCU: 0xA9, offset: 0x11049C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAA13PerformResultAdEP_AD0gI0PWT', symObjAddr: 0x90, symBinAddr: 0x10001FE90, symSize: 0x10 }
+  - { offsetInCU: 0xBD, offset: 0x1104B0, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAA14SummaryContentAdEP_AD09ParameterH0PWT', symObjAddr: 0xA0, symBinAddr: 0x10001FEA0, symSize: 0x40 }
+  - { offsetInCU: 0xD1, offset: 0x1104C4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentVAC10AppIntents0E6IntentAAWl', symObjAddr: 0xE0, symBinAddr: 0x10001FEE0, symSize: 0x44 }
+  - { offsetInCU: 0xE5, offset: 0x1104D8, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV5title_WZ', symObjAddr: 0x124, symBinAddr: 0x10001FF24, symSize: 0x5C }
+  - { offsetInCU: 0x126, offset: 0x110519, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAadEP5title10Foundation23LocalizedStringResourceVvgZTW', symObjAddr: 0x180, symBinAddr: 0x10001FF80, symSize: 0x70 }
+  - { offsetInCU: 0x17D, offset: 0x110570, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAadEP7perform13PerformResultQzyYaKFTW', symObjAddr: 0x25C, symBinAddr: 0x10002005C, symSize: 0x18 }
+  - { offsetInCU: 0x19D, offset: 0x110590, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAadEP7perform13PerformResultQzyYaKFTW', symObjAddr: 0x25C, symBinAddr: 0x10002005C, symSize: 0x18 }
+  - { offsetInCU: 0x1CB, offset: 0x1105BE, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAadEP7perform13PerformResultQzyYaKFTWTY0_', symObjAddr: 0x274, symBinAddr: 0x100020074, symSize: 0x88 }
+  - { offsetInCU: 0x217, offset: 0x11060A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAadEPxycfCTW', symObjAddr: 0x2FC, symBinAddr: 0x1000200FC, symSize: 0x4 }
+  - { offsetInCU: 0x242, offset: 0x110635, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentVMa', symObjAddr: 0x32C, symBinAddr: 0x10002012C, symSize: 0x10 }
+  - { offsetInCU: 0x2CC, offset: 0x1106BF, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAadEP04openE7WhenRunSbvgZTW', symObjAddr: 0x1F0, symBinAddr: 0x10001FFF0, symSize: 0x18 }
+  - { offsetInCU: 0x2E8, offset: 0x1106DB, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAadEP20authenticationPolicyAD0g14AuthenticationI0OvgZTW', symObjAddr: 0x208, symBinAddr: 0x100020008, symSize: 0x14 }
+  - { offsetInCU: 0x304, offset: 0x1106F7, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAadEP14isDiscoverableSbvgZTW', symObjAddr: 0x21C, symBinAddr: 0x10002001C, symSize: 0x18 }
+  - { offsetInCU: 0x320, offset: 0x110713, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAadEP16parameterSummary0I7ContentQzvgZTW', symObjAddr: 0x234, symBinAddr: 0x100020034, symSize: 0x14 }
+  - { offsetInCU: 0x33C, offset: 0x11072F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents0E6IntentAadEP11descriptionAD0G11DescriptionVSgvgZTW', symObjAddr: 0x248, symBinAddr: 0x100020048, symSize: 0x14 }
+  - { offsetInCU: 0x358, offset: 0x11074B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19DeactivateHUDIntentV10AppIntents24PersistentlyIdentifiableAadEP20persistentIdentifierSSvgZTW', symObjAddr: 0x300, symBinAddr: 0x100020100, symSize: 0x2C }
+  - { offsetInCU: 0x27, offset: 0x11085F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC5coderACSgSo7NSCoderC_tcfC', symObjAddr: 0x0, symBinAddr: 0x10002013C, symSize: 0x44 }
+  - { offsetInCU: 0x4B, offset: 0x110883, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC5coderACSgSo7NSCoderC_tcfC', symObjAddr: 0x0, symBinAddr: 0x10002013C, symSize: 0x44 }
+  - { offsetInCU: 0x69, offset: 0x1108A1, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x44, symBinAddr: 0x100020180, symSize: 0x30 }
+  - { offsetInCU: 0x8C, offset: 0x1108C4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x74, symBinAddr: 0x1000201B0, symSize: 0x4C }
+  - { offsetInCU: 0xBE, offset: 0x1108F6, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewCACycfc', symObjAddr: 0xC0, symBinAddr: 0x1000201FC, symSize: 0x10C }
+  - { offsetInCU: 0x117, offset: 0x11094F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewCACycfcTo', symObjAddr: 0x1CC, symBinAddr: 0x100020308, symSize: 0x20 }
+  - { offsetInCU: 0x133, offset: 0x11096B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC5frame010collectionF6LayoutACSo6CGRectV_So012UICollectionfI0CtcfC', symObjAddr: 0x1EC, symBinAddr: 0x100020328, symSize: 0x74 }
+  - { offsetInCU: 0x151, offset: 0x110989, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC5frame010collectionF6LayoutACSo6CGRectV_So012UICollectionfI0Ctcfc', symObjAddr: 0x260, symBinAddr: 0x10002039C, symSize: 0x30 }
+  - { offsetInCU: 0x174, offset: 0x1109AC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC5frame010collectionF6LayoutACSo6CGRectV_So012UICollectionfI0CtcfcTo', symObjAddr: 0x290, symBinAddr: 0x1000203CC, symSize: 0x20 }
+  - { offsetInCU: 0x1C4, offset: 0x1109FC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC10commonInityyF', symObjAddr: 0x2B0, symBinAddr: 0x1000203EC, symSize: 0x17C }
+  - { offsetInCU: 0x211, offset: 0x110A49, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewCfD', symObjAddr: 0x42C, symBinAddr: 0x100020568, symSize: 0x30 }
+  - { offsetInCU: 0x23E, offset: 0x110A76, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC5coderACSgSo7NSCoderC_tcfcTf4gn_n', symObjAddr: 0x498, symBinAddr: 0x1000205D4, symSize: 0x108 }
+  - { offsetInCU: 0x2A7, offset: 0x110ADF, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewC5frame010collectionF6LayoutACSo6CGRectV_So012UICollectionfI0CtcfcTf4ndn_n', symObjAddr: 0x5A0, symBinAddr: 0x1000206DC, symSize: 0x12C }
+  - { offsetInCU: 0x311, offset: 0x110B49, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewCfETo', symObjAddr: 0x45C, symBinAddr: 0x100020598, symSize: 0x3C }
+  - { offsetInCU: 0x340, offset: 0x110B78, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed28SPLarkSettingsCollectionViewCMa', symObjAddr: 0x6CC, symBinAddr: 0x100020808, symSize: 0x20 }
+  - { offsetInCU: 0x27, offset: 0x110D11, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC6reload5indexySi_tF', symObjAddr: 0x0, symBinAddr: 0x100020828, symSize: 0xC8 }
+  - { offsetInCU: 0x77, offset: 0x110D61, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC6reload5indexySi_tF', symObjAddr: 0x0, symBinAddr: 0x100020828, symSize: 0xC8 }
+  - { offsetInCU: 0x11E, offset: 0x110E08, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC10titleLabelSo7UILabelCvg', symObjAddr: 0x108, symBinAddr: 0x1000208F0, symSize: 0x10 }
+  - { offsetInCU: 0x14B, offset: 0x110E35, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC33preferredStatusBarUpdateAnimationSo08UIStatushJ0VvgTo', symObjAddr: 0x118, symBinAddr: 0x100020900, symSize: 0x8 }
+  - { offsetInCU: 0x167, offset: 0x110E51, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC33preferredStatusBarUpdateAnimationSo08UIStatushJ0Vvg', symObjAddr: 0x120, symBinAddr: 0x100020908, symSize: 0x8 }
+  - { offsetInCU: 0x192, offset: 0x110E7C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC13settingsCountSiyF', symObjAddr: 0x128, symBinAddr: 0x100020910, symSize: 0x58 }
+  - { offsetInCU: 0x1BD, offset: 0x110EA7, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC12settingTitle5index11highlightedSSSi_SbtF', symObjAddr: 0x180, symBinAddr: 0x100020968, symSize: 0x58 }
+  - { offsetInCU: 0x200, offset: 0x110EEA, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC15settingSubtitle5index11highlightedSSSgSi_SbtF', symObjAddr: 0x1D8, symBinAddr: 0x1000209C0, symSize: 0x58 }
+  - { offsetInCU: 0x243, offset: 0x110F2D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC18settingHighlighted5indexSbSi_tF', symObjAddr: 0x230, symBinAddr: 0x100020A18, symSize: 0x58 }
+  - { offsetInCU: 0x27A, offset: 0x110F64, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC23settingColorHighlighted5indexSo7UIColorCSi_tF', symObjAddr: 0x288, symBinAddr: 0x100020A70, symSize: 0x58 }
+  - { offsetInCU: 0x2B1, offset: 0x110F9B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC16settingDidSelect5index10completionySi_yyctF', symObjAddr: 0x2E0, symBinAddr: 0x100020AC8, symSize: 0x58 }
+  - { offsetInCU: 0x2F4, offset: 0x110FDE, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC11viewDidLoadyyF', symObjAddr: 0x338, symBinAddr: 0x100020B20, symSize: 0x2C0 }
+  - { offsetInCU: 0x377, offset: 0x111061, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC11viewDidLoadyyFTo', symObjAddr: 0x618, symBinAddr: 0x100020E00, symSize: 0x2C }
+  - { offsetInCU: 0x393, offset: 0x11107D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC21viewDidLayoutSubviewsyyF', symObjAddr: 0x644, symBinAddr: 0x100020E2C, symSize: 0x340 }
+  - { offsetInCU: 0x50D, offset: 0x1111F7, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC21viewDidLayoutSubviewsyyFTo', symObjAddr: 0x984, symBinAddr: 0x10002116C, symSize: 0x2C }
+  - { offsetInCU: 0x547, offset: 0x111231, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC14tapCloseButtonyyFTo', symObjAddr: 0x9B0, symBinAddr: 0x100021198, symSize: 0x14 }
+  - { offsetInCU: 0x567, offset: 0x111251, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC14tapCloseButtonyyFTo', symObjAddr: 0x9B0, symBinAddr: 0x100021198, symSize: 0x14 }
+  - { offsetInCU: 0x582, offset: 0x11126C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfC', symObjAddr: 0x9C4, symBinAddr: 0x1000211AC, symSize: 0x7C }
+  - { offsetInCU: 0x5A0, offset: 0x11128A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0xA40, symBinAddr: 0x100021228, symSize: 0x140 }
+  - { offsetInCU: 0x62F, offset: 0x111319, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0xB80, symBinAddr: 0x100021368, symSize: 0x60 }
+  - { offsetInCU: 0x64B, offset: 0x111335, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC5coderACSgSo7NSCoderC_tcfC', symObjAddr: 0xBE0, symBinAddr: 0x1000213C8, symSize: 0x44 }
+  - { offsetInCU: 0x669, offset: 0x111353, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0xC24, symBinAddr: 0x10002140C, symSize: 0xEC }
+  - { offsetInCU: 0x6EA, offset: 0x1113D4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0xD10, symBinAddr: 0x1000214F8, symSize: 0x30 }
+  - { offsetInCU: 0x706, offset: 0x1113F0, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerCfD', symObjAddr: 0xD40, symBinAddr: 0x100021528, symSize: 0x30 }
+  - { offsetInCU: 0x734, offset: 0x11141E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerCMa', symObjAddr: 0x5F8, symBinAddr: 0x100020DE0, symSize: 0x20 }
+  - { offsetInCU: 0x820, offset: 0x11150A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerCfETo', symObjAddr: 0xD70, symBinAddr: 0x100021558, symSize: 0x48 }
+  - { offsetInCU: 0x84F, offset: 0x111539, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC14collectionView_22numberOfItemsInSectionSiSo012UICollectionG0C_SitF', symObjAddr: 0xDB8, symBinAddr: 0x1000215A0, symSize: 0xA4 }
+  - { offsetInCU: 0x87E, offset: 0x111568, size: 0x8, addend: 0x0, symName: '_$sSo16UICollectionViewCMa', symObjAddr: 0xE5C, symBinAddr: 0x100021644, symSize: 0x3C }
+  - { offsetInCU: 0x8C8, offset: 0x1115B2, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC14collectionView_22numberOfItemsInSectionSiSo012UICollectionG0C_SitFTo', symObjAddr: 0xE98, symBinAddr: 0x100021680, symSize: 0xC8 }
+  - { offsetInCU: 0x954, offset: 0x11163E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC14collectionView_13cellForItemAtSo012UICollectionG4CellCSo0lG0C_10Foundation9IndexPathVtF', symObjAddr: 0xF60, symBinAddr: 0x100021748, symSize: 0x2D4 }
+  - { offsetInCU: 0xA42, offset: 0x11172C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC14collectionView_13cellForItemAtSo012UICollectionG4CellCSo0lG0C_10Foundation9IndexPathVtFTo', symObjAddr: 0x1234, symBinAddr: 0x100021A1C, symSize: 0xD4 }
+  - { offsetInCU: 0xA5E, offset: 0x111748, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC14collectionView_15didSelectItemAtySo012UICollectionG0C_10Foundation9IndexPathVtF', symObjAddr: 0x1308, symBinAddr: 0x100021AF0, symSize: 0x1B0 }
+  - { offsetInCU: 0xAC3, offset: 0x1117AD, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC14collectionView_15didSelectItemAtySo012UICollectionG0C_10Foundation9IndexPathVtFyycfU_', symObjAddr: 0x14B8, symBinAddr: 0x100021CA0, symSize: 0x1D4 }
+  - { offsetInCU: 0xB4C, offset: 0x111836, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC14collectionView_15didSelectItemAtySo012UICollectionG0C_10Foundation9IndexPathVtFyycfU_TA', symObjAddr: 0x171C, symBinAddr: 0x100021F04, symSize: 0x44 }
+  - { offsetInCU: 0xB60, offset: 0x11184A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed24SPLarkSettingsControllerC14collectionView_15didSelectItemAtySo012UICollectionG0C_10Foundation9IndexPathVtFTo', symObjAddr: 0x1760, symBinAddr: 0x100021F48, symSize: 0xCC }
+  - { offsetInCU: 0x27, offset: 0x111B49, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x0, symBinAddr: 0x100022014, symSize: 0x2C }
+  - { offsetInCU: 0x3F, offset: 0x111B61, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x0, symBinAddr: 0x100022014, symSize: 0x2C }
+  - { offsetInCU: 0x57, offset: 0x111B79, size: 0x8, addend: 0x0, symName: '_$sSo16UIViewControllerC10TrollSpeedE17isPresentedAsLarkSbvg', symObjAddr: 0x2C, symBinAddr: 0x100022040, symSize: 0xA8 }
+  - { offsetInCU: 0xB2, offset: 0x111BD4, size: 0x8, addend: 0x0, symName: '_$sSo16UIViewControllerC10TrollSpeedE13presentAsLark_6height10completionyAB_12CoreGraphics7CGFloatVSgyycSgtF', symObjAddr: 0xD4, symBinAddr: 0x1000220E8, symSize: 0x1FC }
+  - { offsetInCU: 0x1E2, offset: 0x111D04, size: 0x8, addend: 0x0, symName: '_$sSo16UIViewControllerC10TrollSpeedE11presentLark8settingsyAC014SPLarkSettingsB0C_tF', symObjAddr: 0x2D0, symBinAddr: 0x1000222E4, symSize: 0x2C0 }
+  - { offsetInCU: 0x373, offset: 0x111E95, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x590, symBinAddr: 0x1000225A4, symSize: 0x10 }
+  - { offsetInCU: 0x387, offset: 0x111EA9, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x5A0, symBinAddr: 0x1000225B4, symSize: 0x8 }
+  - { offsetInCU: 0x4B, offset: 0x1120C3, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateCACycfC', symObjAddr: 0x0, symBinAddr: 0x10002282C, symSize: 0x20 }
+  - { offsetInCU: 0x69, offset: 0x1120E1, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC12customHeight12CoreGraphics7CGFloatVvM', symObjAddr: 0x50, symBinAddr: 0x10002287C, symSize: 0x44 }
+  - { offsetInCU: 0x98, offset: 0x112110, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC12customHeight12CoreGraphics7CGFloatVvM.resume.0', symObjAddr: 0x94, symBinAddr: 0x1000228C0, symSize: 0x4 }
+  - { offsetInCU: 0xE1, offset: 0x112159, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC21swipeToDismissEnabledSbvgTo', symObjAddr: 0x98, symBinAddr: 0x1000228C4, symSize: 0x44 }
+  - { offsetInCU: 0x11E, offset: 0x112196, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC21swipeToDismissEnabledSbvg', symObjAddr: 0xDC, symBinAddr: 0x100022908, symSize: 0x44 }
+  - { offsetInCU: 0x167, offset: 0x1121DF, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC21swipeToDismissEnabledSbvsTo', symObjAddr: 0x120, symBinAddr: 0x10002294C, symSize: 0x48 }
+  - { offsetInCU: 0x1A4, offset: 0x11221C, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC21swipeToDismissEnabledSbvs', symObjAddr: 0x168, symBinAddr: 0x100022994, symSize: 0x48 }
+  - { offsetInCU: 0x1C9, offset: 0x112241, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC21swipeToDismissEnabledSbvM', symObjAddr: 0x1B0, symBinAddr: 0x1000229DC, symSize: 0x44 }
+  - { offsetInCU: 0x1F8, offset: 0x112270, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC19translateForDismiss12CoreGraphics7CGFloatVvM', symObjAddr: 0x33C, symBinAddr: 0x100022B68, symSize: 0x44 }
+  - { offsetInCU: 0x227, offset: 0x11229F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC22presentationController12forPresented10presenting6sourceSo014UIPresentationG0CSgSo06UIViewG0C_ALSgALtF', symObjAddr: 0x380, symBinAddr: 0x100022BAC, symSize: 0x4 }
+  - { offsetInCU: 0x24A, offset: 0x1122C2, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC22presentationController12forPresented10presenting6sourceSo014UIPresentationG0CSgSo06UIViewG0C_ALSgALtFTo', symObjAddr: 0x384, symBinAddr: 0x100022BB0, symSize: 0xA4 }
+  - { offsetInCU: 0x27C, offset: 0x1122F4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC19animationController12forPresented10presenting6sourceSo06UIViewg8AnimatedD0_pSgSo0lG0C_A2KtF', symObjAddr: 0x428, symBinAddr: 0x100022C54, symSize: 0x24 }
+  - { offsetInCU: 0x300, offset: 0x112378, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC19animationController12forPresented10presenting6sourceSo06UIViewg8AnimatedD0_pSgSo0lG0C_A2KtFTo', symObjAddr: 0x44C, symBinAddr: 0x100022C78, symSize: 0xB4 }
+  - { offsetInCU: 0x360, offset: 0x1123D8, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC19animationController12forDismissedSo06UIViewg8AnimatedD0_pSgSo0jG0C_tF', symObjAddr: 0x500, symBinAddr: 0x100022D2C, symSize: 0x24 }
+  - { offsetInCU: 0x3C0, offset: 0x112438, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC19animationController12forDismissedSo06UIViewg8AnimatedD0_pSgSo0jG0C_tFTo', symObjAddr: 0x524, symBinAddr: 0x100022D50, symSize: 0x7C }
+  - { offsetInCU: 0x40C, offset: 0x112484, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateCACycfc', symObjAddr: 0x5A0, symBinAddr: 0x100022DCC, symSize: 0x60 }
+  - { offsetInCU: 0x449, offset: 0x1124C1, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateCACycfcTo', symObjAddr: 0x600, symBinAddr: 0x100022E2C, symSize: 0x68 }
+  - { offsetInCU: 0x484, offset: 0x1124FC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateCfD', symObjAddr: 0x668, symBinAddr: 0x100022E94, symSize: 0x34 }
+  - { offsetInCU: 0x4B1, offset: 0x112529, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateC22presentationController12forPresented10presenting6sourceSo014UIPresentationG0CSgSo06UIViewG0C_ALSgALtFTf4nndn_n', symObjAddr: 0x69C, symBinAddr: 0x100022EC8, symSize: 0x134 }
+  - { offsetInCU: 0x67E, offset: 0x1126F6, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed27SPLarkTransitioningDelegateCMa', symObjAddr: 0x7D0, symBinAddr: 0x100022FFC, symSize: 0x20 }
+  - { offsetInCU: 0x6D, offset: 0x112929, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC13isHighlightedSbvgTo', symObjAddr: 0x0, symBinAddr: 0x100023024, symSize: 0x3C }
+  - { offsetInCU: 0xA8, offset: 0x112964, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC13isHighlightedSbvg', symObjAddr: 0x3C, symBinAddr: 0x100023060, symSize: 0x30 }
+  - { offsetInCU: 0xEF, offset: 0x1129AB, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC13isHighlightedSbvsTo', symObjAddr: 0x8C, symBinAddr: 0x1000230B0, symSize: 0x68 }
+  - { offsetInCU: 0x140, offset: 0x1129FC, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC13isHighlightedSbvs', symObjAddr: 0xF4, symBinAddr: 0x100023118, symSize: 0x16C }
+  - { offsetInCU: 0x17E, offset: 0x112A3A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC13isHighlightedSbvW', symObjAddr: 0x260, symBinAddr: 0x100023284, symSize: 0x14C }
+  - { offsetInCU: 0x19C, offset: 0x112A58, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC13isHighlightedSbvWyycfU_', symObjAddr: 0x3AC, symBinAddr: 0x1000233D0, symSize: 0x80 }
+  - { offsetInCU: 0x213, offset: 0x112ACF, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC5frameACSo6CGRectV_tcfcTo', symObjAddr: 0x42C, symBinAddr: 0x100023450, symSize: 0x100 }
+  - { offsetInCU: 0x2A5, offset: 0x112B61, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x52C, symBinAddr: 0x100023550, symSize: 0x4C }
+  - { offsetInCU: 0x2D7, offset: 0x112B93, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC10commonInityyF', symObjAddr: 0x578, symBinAddr: 0x10002359C, symSize: 0x2BC }
+  - { offsetInCU: 0x306, offset: 0x112BC2, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC15prepareForReuseyyF', symObjAddr: 0x834, symBinAddr: 0x100023858, symSize: 0xD0 }
+  - { offsetInCU: 0x335, offset: 0x112BF1, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC15prepareForReuseyyFTo', symObjAddr: 0x904, symBinAddr: 0x100023928, symSize: 0x2C }
+  - { offsetInCU: 0x351, offset: 0x112C0D, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC14layoutSubviewsyyF', symObjAddr: 0x930, symBinAddr: 0x100023954, symSize: 0x2E8 }
+  - { offsetInCU: 0x472, offset: 0x112D2E, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC14layoutSubviewsyyFTo', symObjAddr: 0xC18, symBinAddr: 0x100023C3C, symSize: 0x2C }
+  - { offsetInCU: 0x48E, offset: 0x112D4A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellCfD', symObjAddr: 0xC44, symBinAddr: 0x100023C68, symSize: 0x30 }
+  - { offsetInCU: 0x4BB, offset: 0x112D77, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC5coderACSgSo7NSCoderC_tcfcTf4gn_n', symObjAddr: 0xCF4, symBinAddr: 0x100023D18, symSize: 0xE0 }
+  - { offsetInCU: 0x54F, offset: 0x112E0B, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellCMa', symObjAddr: 0x6C, symBinAddr: 0x100023090, symSize: 0x20 }
+  - { offsetInCU: 0x563, offset: 0x112E1F, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellCfETo', symObjAddr: 0xC74, symBinAddr: 0x100023C98, symSize: 0x38 }
+  - { offsetInCU: 0x592, offset: 0x112E4E, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0xCD4, symBinAddr: 0x100023CF8, symSize: 0x10 }
+  - { offsetInCU: 0x5A6, offset: 0x112E62, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xCE4, symBinAddr: 0x100023D08, symSize: 0x8 }
+  - { offsetInCU: 0x5BA, offset: 0x112E76, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed32SPLarkSettingsCollectionViewCellC13isHighlightedSbvWyycfU_TA', symObjAddr: 0xCEC, symBinAddr: 0x100023D10, symSize: 0x8 }
+  - { offsetInCU: 0x2B, offset: 0x11308A, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19ResourceBundleClass33_9137E878DA4F6BE7B93B79028D6B2EA0LLCfD', symObjAddr: 0x0, symBinAddr: 0x100023E60, symSize: 0x10 }
+  - { offsetInCU: 0x54, offset: 0x1130B3, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19ResourceBundleClass33_9137E878DA4F6BE7B93B79028D6B2EA0LLCfD', symObjAddr: 0x0, symBinAddr: 0x100023E60, symSize: 0x10 }
+  - { offsetInCU: 0x85, offset: 0x1130E4, size: 0x8, addend: 0x0, symName: '_$s10TrollSpeed19ResourceBundleClass33_9137E878DA4F6BE7B93B79028D6B2EA0LLCMa', symObjAddr: 0x10, symBinAddr: 0x100023E70, symSize: 0x20 }
+...

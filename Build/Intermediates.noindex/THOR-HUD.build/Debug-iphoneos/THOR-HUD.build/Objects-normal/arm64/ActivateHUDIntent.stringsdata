@@ -1,0 +1,32 @@
+{
+  "source": "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/ActivateHUDIntent.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Open HUD"
+      },
+      {
+        "comment": "",
+        "key": "Activate the network speed HUD."
+      },
+      {
+        "comment": "",
+        "key": "Utility"
+      },
+      {
+        "comment": "",
+        "key": "activate"
+      },
+      {
+        "comment": "",
+        "key": "open"
+      },
+      {
+        "comment": "",
+        "key": "hud"
+      }
+    ]
+  },
+  "version": 1
+}

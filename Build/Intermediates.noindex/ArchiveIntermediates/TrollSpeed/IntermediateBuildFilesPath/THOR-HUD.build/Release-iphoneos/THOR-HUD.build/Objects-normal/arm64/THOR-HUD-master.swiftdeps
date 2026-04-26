@@ -1,0 +1,25 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "28e42a91d7df2fc3558011812f4f4830881b919b73f992bb3b9e91378599fa89"
+build_start_time: [1723781805, 635609000]
+build_end_time: [1723781810, 9057000]
+inputs:
+  ? "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1723781805, 513161421]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/ActivateHUDIntent.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/DeactivateHUDIntent.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/ToggleHUDIntent.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkController.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkControllerExtension.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkDismissingAnimationController.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkPresentationController.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkPresentingAnimationController.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkSettingsCloseButton.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkSettingsCollectionView.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkSettingsCollectionViewCell.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkSettingsController.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkTransitioningDelegate.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SnapshotSafeView/HiddenContainerRecognizer.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SnapshotSafeView/ScreenshotInvincibleContainerProtocol.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SnapshotSafeView/ScreenshotInvisibleContainer.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/TSSettingsController.swift": [1706765645, 0]
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/TSSettingsIndex.swift": [1707224813, 0]

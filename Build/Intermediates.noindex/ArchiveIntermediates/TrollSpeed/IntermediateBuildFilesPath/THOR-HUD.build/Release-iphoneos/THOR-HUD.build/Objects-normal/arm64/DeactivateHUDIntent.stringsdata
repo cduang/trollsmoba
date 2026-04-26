@@ -1,0 +1,32 @@
+{
+  "source": "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/DeactivateHUDIntent.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Exit HUD"
+      },
+      {
+        "comment": "",
+        "key": "Deactivate the network speed HUD."
+      },
+      {
+        "comment": "",
+        "key": "Utility"
+      },
+      {
+        "comment": "",
+        "key": "deactivate"
+      },
+      {
+        "comment": "",
+        "key": "exit"
+      },
+      {
+        "comment": "",
+        "key": "hud"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "typeName": "TrollSpeed.DeactivateHUDIntent",
+    "mangledTypeName": "10TrollSpeed19DeactivateHUDIntentV",
+    "kind": "struct",
+    "file": "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/DeactivateHUDIntent.swift",
+    "line": 12,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable"
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.IntentResult",
+        "substitutedMangledTypeName": "10TrollSpeed19DeactivateHUDIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.IntentResult"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy10TrollSpeed19DeactivateHUDIntentV_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "10Foundation23LocalizedStringResourceV",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/DeactivateHUDIntent.swift",
+        "line": 13,
+        "valueKind": "RawLiteral",
+        "value": "Exit HUD"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "10AppIntents17IntentDescriptionV",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/DeactivateHUDIntent.swift",
+        "line": 15,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentDescription",
+          "arguments": [
+            {
+              "label": "",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Deactivate the network speed HUD."
+            },
+            {
+              "label": "categoryName",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "Utility"
+            },
+            {
+              "label": "searchKeywords",
+              "type": "Swift.Array<Foundation.LocalizedStringResource>",
+              "valueKind": "Array",
+              "value": [
+                {
+                  "valueKind": "RawLiteral",
+                  "value": "deactivate"
+                },
+                {
+                  "valueKind": "RawLiteral",
+                  "value": "exit"
+                },
+                {
+                  "valueKind": "RawLiteral",
+                  "value": "hud"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "availabilityAttributes": [
+      {
+        "platform": "iOS",
+        "introducedVersion": "16",
+        "isUnavailable": false,
+        "isDeprecated": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "a60f487d0bd53278fd2b0ba02fc7b241978ec02ba9de6e265e3235467c6626fb"
+    }
+  ],
+  "containerPath" : "/Users/momo/Desktop/TrollSmoba_8.15/THOR-HUD.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos17.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Products",
+      "derivedDataPath" : "/Users/momo/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/momo/Library/Developer/Xcode/DerivedData/THOR-HUD-cnutugzqtkcufxglwizdupnfhwie/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/momo/Library/Developer/Xcode/DerivedData/THOR-HUD-cnutugzqtkcufxglwizdupnfhwie/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGNING_ALLOWED" : "NO",
+          "SDKROOT" : "iphoneos17.0"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/InstallationBuildProductsLocation/OnDemandResources",
+          "ASSETCATALOG_COMPILER_FLATTENED_APP_ICON_PATH" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/BuildProductsPath/ProductIcon.png",
+          "BITCODE_GENERATION_MODE" : "bitcode",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "DSTROOT" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_SIGNATURE_AGGREGATION" : "YES",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath",
+          "SHARED_PRECOMPS_DIR" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/PrecompiledHeaders",
+          "SIGNATURE_METADATA_FOLDER_PATH" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/BuildProductsPath/Signatures",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/BuildProductsPath/WatchKitSupport2"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "archive",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

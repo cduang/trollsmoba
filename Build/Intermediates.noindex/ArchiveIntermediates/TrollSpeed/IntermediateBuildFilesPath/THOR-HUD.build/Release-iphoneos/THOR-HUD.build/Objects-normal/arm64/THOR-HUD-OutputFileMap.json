@@ -1,0 +1,105 @@
+{
+  "" : {
+    "const-values" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/THOR-HUD-master.swiftconstvalues",
+    "dependencies" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/THOR-HUD-master.d",
+    "diagnostics" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/THOR-HUD-master.dia",
+    "emit-module-dependencies" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/THOR-HUD-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/THOR-HUD-master-emit-module.dia",
+    "swift-dependencies" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/THOR-HUD-master.swiftdeps"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/ActivateHUDIntent.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ActivateHUDIntent.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ActivateHUDIntent.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ActivateHUDIntent.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/DeactivateHUDIntent.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/DeactivateHUDIntent.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/DeactivateHUDIntent.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/DeactivateHUDIntent.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/Intents/ToggleHUDIntent.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ToggleHUDIntent.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ToggleHUDIntent.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ToggleHUDIntent.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SnapshotSafeView/HiddenContainerRecognizer.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/HiddenContainerRecognizer.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/HiddenContainerRecognizer.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/HiddenContainerRecognizer.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SnapshotSafeView/ScreenshotInvincibleContainerProtocol.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ScreenshotInvincibleContainerProtocol.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ScreenshotInvincibleContainerProtocol.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ScreenshotInvincibleContainerProtocol.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SnapshotSafeView/ScreenshotInvisibleContainer.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ScreenshotInvisibleContainer.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ScreenshotInvisibleContainer.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/ScreenshotInvisibleContainer.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkController.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkController.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkController.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkController.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkControllerExtension.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkControllerExtension.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkControllerExtension.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkControllerExtension.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkDismissingAnimationController.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkDismissingAnimationController.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkDismissingAnimationController.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkDismissingAnimationController.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkPresentationController.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkPresentationController.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkPresentationController.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkPresentationController.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkPresentingAnimationController.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkPresentingAnimationController.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkPresentingAnimationController.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkPresentingAnimationController.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkSettingsCloseButton.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsCloseButton.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsCloseButton.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsCloseButton.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkSettingsCollectionView.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsCollectionView.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsCollectionView.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsCollectionView.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkSettingsCollectionViewCell.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsCollectionViewCell.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsCollectionViewCell.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsCollectionViewCell.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkSettingsController.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsController.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsController.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkSettingsController.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/SPLarkController/SPLarkTransitioningDelegate.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkTransitioningDelegate.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkTransitioningDelegate.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/SPLarkTransitioningDelegate.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/TSSettingsController.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/TSSettingsController.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/TSSettingsController.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/TSSettingsController.o"
+  },
+  "/Users/momo/Desktop/TrollSmoba_8.15/sources/TSSettingsIndex.swift" : {
+    "index-unit-output-path" : "/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/TSSettingsIndex.o",
+    "llvm-bc" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/TSSettingsIndex.bc",
+    "object" : "/Users/momo/Desktop/TrollSmoba_8.15/Build/Intermediates.noindex/ArchiveIntermediates/TrollSpeed/IntermediateBuildFilesPath/THOR-HUD.build/Release-iphoneos/THOR-HUD.build/Objects-normal/arm64/TSSettingsIndex.o"
+  }
+}
