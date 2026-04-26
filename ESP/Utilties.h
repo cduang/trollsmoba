@@ -161,3 +161,7 @@ Vector2 ToMiniMap(Vector2 MiniMap,Vector2 HeroPos);
 void GetPlayers(std::vector<SmobaHeroData> *Players);
 void GetMonster(std::vector<SmobaMonsterData> *野怪数据);
 void GetMonsterTime(std::vector<SmobaMonsterTime> *野怪倒计时数据);
+
+// 调试日志浮层
+void SMOBAAppendDebugLog(NSString *message);
+void SMOBAInstallDebugLogOverlay(UIView *hostView);

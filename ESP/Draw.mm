@@ -38,6 +38,72 @@
 
 #define KImGuiWindowFlags   ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoScrollWithMouse | ImGuiWindowFlags_NoBackground
 
+static NSMutableArray<NSString *> *gSMOBARecentLogs;
+static UILabel *gSMOBAOverlayLabel;
+static UIScrollView *gSMOBAOverlayScrollView;
+static UIView *gSMOBAOverlayContainer;
+
+static void SMOBAAppendDebugLog(NSString *message)
+{
+    if (!message.length) return;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        gSMOBARecentLogs = [NSMutableArray array];
+    });
+
+    NSString *line = [NSString stringWithFormat:@"[%@] %@", [NSDate date], message];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [gSMOBARecentLogs addObject:line];
+        if (gSMOBARecentLogs.count > 80) {
+            [gSMOBARecentLogs removeObjectAtIndex:0];
+        }
+        if (gSMOBAOverlayLabel) {
+            gSMOBAOverlayLabel.text = [gSMOBARecentLogs componentsJoinedByString:@"\n"];
+            [gSMOBAOverlayLabel sizeToFit];
+            CGFloat contentHeight = MAX(gSMOBAOverlayLabel.bounds.size.height + 16.0, 120.0);
+            gSMOBAOverlayScrollView.contentSize = CGSizeMake(gSMOBAOverlayScrollView.bounds.size.width, contentHeight);
+        }
+    });
+}
+
+static void SMOBAInstallDebugLogOverlay(UIView *hostView)
+{
+    if (!hostView || gSMOBAOverlayContainer) return;
+
+    CGFloat width = MIN(280.0, CGRectGetWidth(hostView.bounds) - 20.0);
+    if (width < 160.0) width = 160.0;
+    CGRect frame = CGRectMake(8.0, 40.0, width, 180.0);
+
+    UIView *container = [[UIView alloc] initWithFrame:frame];
+    container.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.35];
+    container.layer.cornerRadius = 8.0;
+    container.layer.masksToBounds = YES;
+    container.userInteractionEnabled = YES;
+
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:container.bounds];
+    scrollView.backgroundColor = UIColor.clearColor;
+    scrollView.showsVerticalScrollIndicator = YES;
+    scrollView.showsHorizontalScrollIndicator = NO;
+    scrollView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(8.0, 8.0, scrollView.bounds.size.width - 16.0, 0)];
+    label.backgroundColor = UIColor.clearColor;
+    label.textColor = [UIColor colorWithRed:0.85 green:1.0 blue:0.85 alpha:1.0];
+    label.font = [UIFont monospacedSystemFontOfSize:10.0 weight:UIFontWeightRegular];
+    label.numberOfLines = 0;
+    label.lineBreakMode = NSLineBreakByWordWrapping;
+    label.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+
+    [scrollView addSubview:label];
+    [container addSubview:scrollView];
+    [hostView addSubview:container];
+
+    gSMOBAOverlayContainer = container;
+    gSMOBAOverlayScrollView = scrollView;
+    gSMOBAOverlayLabel = label;
+
+    SMOBAAppendDebugLog(@"日志浮层已启动");
+}
 
 @interface SkillView : UIView
 @property UIView* Skill1;
@@ -238,6 +304,7 @@ SkillView* 玩家技能[10];
         CADisplayLink* Link = [CADisplayLink displayLinkWithTarget:self selector:@selector(huizhia)];
         Link.preferredFramesPerSecond = 60;
         [Link addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+        SMOBAAppendDebugLog(@"绘制初始化完成");
         SMOBA_NSLog(@"绘制初始化完成");
     }
     
@@ -261,6 +328,7 @@ SkillView* 玩家技能[10];
 //    MiniMap.x =  [[NSUserDefaults standardUserDefaults] floatForKey:@"FGmapx"];
 //    MiniMap.y =  [[NSUserDefaults standardUserDefaults] floatForKey:@"FGmapy"];
     userDefaults = [[NSDictionary dictionaryWithContentsOfFile:USER_DEFAULTS_PATH] mutableCopy] ?: [NSMutableDictionary dictionary];
+    SMOBAInstallDebugLogOverlay(self);
     NSNumber *野怪 = [userDefaults objectForKey: @"FGmon"];
     NSNumber *方框 = [userDefaults objectForKey: @"FGbox"];
     NSNumber *技能 = [userDefaults objectForKey: @"FGhp"];
@@ -277,6 +345,8 @@ SkillView* 玩家技能[10];
     绘制技能 =[技能 boolValue];
     绘制射线 =[射线 boolValue];
 //    过直播开关 =[直播 boolValue];
+
+    SMOBAAppendDebugLog([NSString stringWithFormat:@"开关 野怪=%@ 方框=%@ 技能=%@ 头像=%@ 射线=%@", 野怪, 方框, 技能, 头像, 射线]);
     
     MiniMap.x =[位置 floatValue];
     MiniMap.y =[大小 floatValue];
@@ -307,6 +377,7 @@ SkillView* 玩家技能[10];
     [Path_方框 appendPath:[UIBezierPath bezierPathWithRect:CGRectMake(MiniMap.x, 0, MiniMap.y, MiniMap.y)]];
     
         if(Gameinitialization()){//启动游戏
+            SMOBAAppendDebugLog(@"进入 Gameinitialization");
             SMOBA_NSLog(@"SMOBA-Apibug 启动游戏");
             //小地图地图切割弧度
             UIBezierPath* path = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(MiniMap.x, 0, MiniMap.y, MiniMap.y)
@@ -316,13 +387,18 @@ SkillView* 玩家技能[10];
             [Path_Rect appendPath:path];
             
             if(RefreshMatrix()){//进入对局
+                SMOBAAppendDebugLog(@"刷新矩阵成功");
                 SMOBA_NSLog(@"SMOBA-Apibug 刷新矩阵");
                 
                 std::vector<SmobaHeroData> heroData;
                 GetPlayers(&heroData);
+                SMOBAAppendDebugLog([NSString stringWithFormat:@"玩家数量=%lu", (unsigned long)heroData.size()]);
                 if (heroData.size() > 0)
                 {
                     for (int i=0; i<heroData.size(); i++) {
+                        if (i == 0) {
+                            SMOBAAppendDebugLog([NSString stringWithFormat:@"首个目标 id=%d 血量=%.2f", heroData[i].HeroID, heroData[i].HeroHP]);
+                        }
                         Vector2 BoxPos;
                         if (!heroData[i].Dead)
                         {
