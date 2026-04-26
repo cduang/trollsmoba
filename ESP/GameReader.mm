@@ -54,6 +54,81 @@ static long Read_Long(long src){ long v=0; Read_Data(src,8,&v); return v; }
 static int Read_Int(long src){ int v=0; Read_Data(src,4,&v); return v; }
 static float Read_Float(long src){ float v=0; Read_Data(src,4,&v); return v; }
 
+// ===================== 进程 & 模块 =====================
+static int get_processes_pid()
+{
+    static int PID;
+    size_t length = 0;
+    int mib[] = {CTL_KERN, KERN_PROC, KERN_PROC_ALL, 0};
+
+    sysctl(mib, 4, NULL, &length, NULL, 0);
+    struct kinfo_proc *procBuffer = (struct kinfo_proc *)malloc(length);
+    if (!procBuffer) return 0;
+
+    sysctl(mib, 4, procBuffer, &length, NULL, 0);
+    int count = (int)(length / sizeof(struct kinfo_proc));
+
+    for (int i = 0; i < count; i++) {
+        NSString *name = [NSString stringWithUTF8String:procBuffer[i].kp_proc.p_comm];
+        if ([name containsString:@"smoba"]) {
+            task_for_pid(mach_task_self(), procBuffer[i].kp_proc.p_pid, &task);
+            PID = procBuffer[i].kp_proc.p_pid;
+            break;
+        }
+    }
+
+    free(procBuffer);
+    return PID;
+}
+
+static long get_module_base()
+{
+    get_processes_pid();
+
+    task_dyld_info_data_t info = {};
+    mach_msg_type_number_t count = TASK_DYLD_INFO_COUNT;
+    if (task_info(task, TASK_DYLD_INFO, (task_info_t)&info, &count) != KERN_SUCCESS) {
+        return 0;
+    }
+
+    dyld_all_image_infos aii = {};
+    mach_vm_size_t size = sizeof(aii);
+    if (mach_vm_read_overwrite(task, (mach_vm_address_t)info.all_image_info_addr, size, (mach_vm_address_t)&aii, &size) != KERN_SUCCESS) {
+        return 0;
+    }
+
+    if (aii.infoArrayCount <= 0 || aii.infoArray == 0) {
+        return 0;
+    }
+
+    auto *list = (dyld_image_info *)calloc((size_t)aii.infoArrayCount, sizeof(dyld_image_info));
+    if (!list) return 0;
+
+    mach_vm_size_t arraySize = (mach_vm_size_t)(aii.infoArrayCount * sizeof(dyld_image_info));
+    if (mach_vm_read_overwrite(task, (mach_vm_address_t)aii.infoArray, arraySize, (mach_vm_address_t)list, &arraySize) != KERN_SUCCESS) {
+        free(list);
+        return 0;
+    }
+
+    for (int i = 0; i < aii.infoArrayCount; i++) {
+        char path[1024] = {0};
+        mach_vm_size_t out = 0;
+        if (list[i].imageFilePath) {
+            mach_vm_read_overwrite(task, (mach_vm_address_t)list[i].imageFilePath, sizeof(path) - 1, (mach_vm_address_t)path, &out);
+        }
+
+        NSString *name = [NSString stringWithUTF8String:path];
+        if ([name containsString:@"UnityFramework"]) {
+            long base = (long)list[i].imageLoadAddress;
+            free(list);
+            return base;
+        }
+    }
+
+    free(list);
+    return 0;
+}
+
 // ===================== 坐标 =====================
 static float MemPosx,MemPosy;
 
